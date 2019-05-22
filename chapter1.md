@@ -710,7 +710,7 @@ average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```yaml
 type: NormalExercise
 key: b49123677e
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -740,4 +740,46 @@ success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!
 
 #ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 #success_msg("Ja, genau!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 18ef5dab58
+xp: 50
+```
+
+`@instructions`
+- Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat.
+
+- 2. Lassen Sie sich die Matrix report.weeksales ausgeben und korrigieren Sie bitte den Report.
+
+`@hint`
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
+
+`@sample_code`
+```{r}
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
+#2.Ausgabe + Änderung vornehmen
+
+```
+
+`@solution`
+```{r}
+# Ausgabe
+print(report.weeksales)
+# Änderung vornehmen
+report.weeksales[1,2] <- 8
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt! Haben Sie die richtige Indizierung zur Korrektur des Wertes ausgewählt?") 
+success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
+
+#Wirft bei Check object die Lösung aus
+#ex() %>% check_object("report.weeksales[1,2]") %>% check_equal(8, fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
+#success_msg("Ja, genau - da war wohl jemand unaufmerksam. Gut, dass Sie es geändert haben, sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
