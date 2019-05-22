@@ -546,7 +546,7 @@ revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
 ```yaml
 type: NormalExercise
 key: 22b76c6200
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -573,4 +573,36 @@ open.vec <- c(1:6)
 ```{r}
 ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d34d6e1231
+xp: 50
+```
+
+`@instructions`
+- 2. In dem Vektor **sell.time** ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich längste ist.
+
+`@hint`
+Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
+`@sample_code`
+```{r}
+#Verkaufszeit
+
+```
+
+`@solution`
+```{r}
+
+str(sell.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Es ist nützlich, den Befehl immer im Hinterkopf zu behalten!")
 ```
