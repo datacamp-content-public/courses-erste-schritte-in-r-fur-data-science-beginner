@@ -675,131 +675,69 @@ success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h
 
 ---
 
-## Datentypen in R
+## Insert exercise title here
 
 ```yaml
 type: TabExercise
-key: 62dc83f477
+key: b0d2909445
 xp: 100
 ```
 
-R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
+Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix speichern (de Vries/Meys 2018).
 
-![Datentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
+Vektoren in eine Matrix zusammenführen: 
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können. *Matrix <- rbind(Vektor, Vektor)
+- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
 
-**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+Werte einer Matrix ersetzen:
+- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix zu 5 zu ändern: my.matrix[3,2] <- 5
 
-Von einer kleinen Tochtergesellschaft hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien. Deswegen müssen Sie sich damit beschäftigen, um dies zu überprüfen.
+Zeilen- und Spaltennamen verändern: 
+- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Bsp. **colnames(Matrix)** <- c("Januar", "Februar")
 
 `@pre_exercise_code`
 ```{r}
-Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+report.weeksales <- matrix(1:18, ncol=6)
+report.final <- matrix(1:18, ncol=6)
+sell.time <- c(8,88,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```
 
 ***
 
 ```yaml
 type: NormalExercise
-key: 8a0539fb5b
-xp: 35
+key: b49123677e
+xp: 100
 ```
 
 `@instructions`
-- 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte.
+Herr Müller bittet Sie einen Report mit dem Namen **report.weeksales** für die Tochterfirma zu erstellen.
+
+- 1. Ihre Aufgabe ist es eine Matrix (Tabelle) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variable vom Typ Matrix **report.weeksales** zuzuordnen. Schauen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
-Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
+Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen und verweisen (<-) Sie diese auf report.weeksales.
 
 `@sample_code`
 ```{r}
-#1.Überprüfung Datentyp Variable Anzahl_Mitarbeiter:
-
-```
-
-`@solution`
-```{r}
-#1.Überprüfung Variable Anzahl_Mitarbeiter:
-is.numeric(Anzahl_Mitarbeiter)
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
-success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: b1c42cae49
-xp: 35
-```
-
-`@instructions`
-- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. Klicken Sie zur Zwischenausgabe auf 'Run Code'.
-
-`@hint`
-Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
-
-`@sample_code`
-```{r}
-#1.numerische Variable?
-is.numeric(Anzahl_Mitarbeiter)
-#class(Anzahl_Mitarbeiter) funktioniert auch, gibt direkt den Basisdatentyp aus. Dies können Sie an anderer Stelle verwenden.
-#2.Ausgabe + Zuweisung
-
-
-
-```
-
-`@solution`
-```{r}
-#2.1 Ausgabe und ggf. neue Zuweisung
-print(Anzahl_Mitarbeiter)
-
-Anzahl_Mitarbeiter <- 17
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
-success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 016ae2e13a
-xp: 30
-```
-
-`@instructions`
-- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
-
-`@hint`
-Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine Zeichenkette/String ist.
-
-`@sample_code`
-```{r}
-#1.numerische Variable?
-is.numeric(Anzahl_Mitarbeiter)
-#2.Ausgabe + Zuweisung
-print(Anzahl_Mitarbeiter)
-Anzahl_Mitarbeiter <- 17
-#3.Umbenennung Büro
+# report.weeksales
 
 ```
 
 `@solution`
 ```{r}
 
-Office_33 <- "Nordwand"
+report.weeksales <- rbind(sell.time, revenue.day)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
-success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
+ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Da stimmt etwas bei dem Erstellen der Matrix nicht. Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
+
+#ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+#success_msg("Ja, genau!")
 ```
