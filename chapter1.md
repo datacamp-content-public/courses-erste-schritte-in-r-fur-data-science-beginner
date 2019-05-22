@@ -244,7 +244,7 @@ success_msg("Richtig und die nächste Aufgabe!")
 
 ---
 
-## Rechnen Assessment
+## Assessment Rechnen
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -479,3 +479,35 @@ Office_33 <- "Nordwand"
 ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
 success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
+
+---
+
+## Assessment Datentypen
+
+```yaml
+type: PureMultipleChoiceExercise
+key: dbbb20e7e4
+xp: 50
+```
+
+Was ist "53.Stock" für ein Basisdatentyp?
+
+`@hint`
+Beachten Sie die Anführungszeichen.
+
+zu 1: Boolesche Werte: TRUE, FALSE
+zu 2: Ganzzahlen: 1; 1.5
+zu 3: Zeichenkette: "Hallo Herr Müller"
+zu 4: Kategorie: A
+
+`@possible_answers`
+- 1: Es ist ein boolescher Wert - logical.
+- 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
+- 3: Es ist eine Zeichenkette - character.
+- 4: Es ist eine Kategorie - factor.
+
+`@feedback`
+- Leider nicht richtig, überlegen Sie noch einmal!
+- Leider nicht richtig, überlegen Sie noch einmal!
+- Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist
+- Leider nicht richtig, überlegen Sie noch einmal!
