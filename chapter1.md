@@ -261,9 +261,15 @@ xp: 50
 Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
 
 `@possible_answers`
+- 4
 - [5]
 - 6
 - 7
 - 18
 
 `@feedback`
+- Da liegen Sie nicht richtig
+- Richtig. Genau, der Modulooperator von 131%%7 ergibt einen Rest von 5 Tagen. Es ist also der 5 Tag in der Woche.
+- Da liegen Sie nicht richtig
+- Da liegen Sie nicht richtig
+- Da liegen Sie nicht richtig
