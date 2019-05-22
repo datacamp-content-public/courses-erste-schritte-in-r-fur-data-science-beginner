@@ -672,3 +672,58 @@ success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
 ```
+
+---
+
+## Datentypen in R
+
+```yaml
+type: TabExercise
+key: 62dc83f477
+xp: 100
+```
+
+R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
+
+![Datentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
+
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+
+Von einer kleinen Tochtergesellschaft hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien. Deswegen müssen Sie sich damit beschäftigen, um dies zu überprüfen.
+
+`@pre_exercise_code`
+```{r}
+Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 8a0539fb5b
+xp: 100
+```
+
+`@instructions`
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte.
+
+`@hint`
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
+
+`@sample_code`
+```{r}
+#1.Überprüfung Datentyp Variable Anzahl_Mitarbeiter:
+
+```
+
+`@solution`
+```{r}
+#1.Überprüfung Variable Anzahl_Mitarbeiter:
+is.numeric(Anzahl_Mitarbeiter)
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+```
