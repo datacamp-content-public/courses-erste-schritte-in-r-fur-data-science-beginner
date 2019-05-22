@@ -372,3 +372,35 @@ Von einer kleinen Tochtergesellschaft hat Ihr Chef Herr Müller einen Kundendate
 ```{r}
 Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 ```
+
+***
+
+```yaml
+type: NormalExercise
+key: 0d1ead9f62
+xp: 100
+```
+
+`@instructions`
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte.
+
+`@hint`
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
+
+`@sample_code`
+```{r}
+#1.Überprüfung Datentyp Variable Anzahl_Mitarbeiter:
+
+```
+
+`@solution`
+```{r}
+#1.Überprüfung Variable Anzahl_Mitarbeiter:
+is.numeric(Anzahl_Mitarbeiter)
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+```
