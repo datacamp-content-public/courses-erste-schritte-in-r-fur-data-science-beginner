@@ -913,7 +913,7 @@ Nützliche Funkionen:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/58ada985750c9f6b3f513fd344d7610dfca58a5c/Kundendaten1.csv")
 ```
 
 ***
@@ -1086,23 +1086,3 @@ report.final <- report.wochenverkaeufe
 ```{r}
 
 ```
-
----
-
-## Wrap Up
-
-```yaml
-type: PureMultipleChoiceExercise
-key: 6b86170b0d
-xp: 50
-```
-
-
-
-`@hint`
-
-
-`@possible_answers`
-
-
-`@feedback`
