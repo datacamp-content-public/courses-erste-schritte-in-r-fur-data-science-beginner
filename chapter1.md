@@ -503,7 +503,7 @@ zu 4: Kategorie: A
 `@possible_answers`
 - 1: Es ist ein boolescher Wert - logical.
 - 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
-- 3: Es ist eine Zeichenkette - character.
+- [3]: Es ist eine Zeichenkette - character.
 - 4: Es ist eine Kategorie - factor.
 
 `@feedback`
@@ -675,7 +675,7 @@ success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h
 
 ---
 
-## Insert exercise title here
+## Matrizen
 
 ```yaml
 type: TabExercise
