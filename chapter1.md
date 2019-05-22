@@ -710,7 +710,7 @@ average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```yaml
 type: NormalExercise
 key: b49123677e
-xp: 50
+xp: 25
 ```
 
 `@instructions`
@@ -747,7 +747,7 @@ success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!
 ```yaml
 type: NormalExercise
 key: 18ef5dab58
-xp: 50
+xp: 25
 ```
 
 `@instructions`
@@ -782,4 +782,92 @@ success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsnieder
 #Wirft bei Check object die Lösung aus
 #ex() %>% check_object("report.weeksales[1,2]") %>% check_equal(8, fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
 #success_msg("Ja, genau - da war wohl jemand unaufmerksam. Gut, dass Sie es geändert haben, sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b152560300
+xp: 25
+```
+
+`@instructions`
+- 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie dem Report bitte die Information des Vektors hinzu, damit der Wochenreport vollständig ist und weisen Sie den neuen Report bitte der Variablen **report.final** zu.
+
+`@hint`
+Bitte einen weiteren Vektor average.byday der Matrix hinzufügen. Die Funktion rbind() hatten Sie bereits in Teil 1 dieser Aufgabe verwendet.
+
+`@sample_code`
+```{r}
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
+# Ausgabe + Änderung vornehmen
+print(report.weeksales)
+report.weeksales[1,2] <- 8
+# Vektor hinzufügen
+
+
+```
+
+`@solution`
+```{r}
+report.final <- rbind(sell.time, revenue.day, average.byday) 
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg= "Haben Sie den Vektor dem richtigen Teil der Tabelle zugewiesen? Verwenden Sie dazu bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - der final Report ist fast fertig!")
+
+#ex() %>% check_object("report.final") %>% check_equal(c("rbind(sell.time, revenue.day, average.byday)", "report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
+#success_msg("Richtig!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: ea9fe14e83
+xp: 25
+```
+
+`@instructions`
+Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
+
+- 4. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
+		- **Sales time in h, Revenue, Revenue per hour **
+        - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
+
+`@hint`
+Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Bennenungen Zeichenketten sind.
+
+`@sample_code`
+```{r}
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
+# Ausgabe + Änderung vornehmen
+print(report.weeksales)
+report.weeksales[1,2] <- 8
+# Vektor hinzufügen
+report.final <- rbind(sell.time, revenue.day, average.byday) 
+# Tabelle benennen
+
+
+```
+
+`@solution`
+```{r}
+# Zeilennamen benennen
+rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
+## Spaltennamen bennen
+#colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
+success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
+ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
+success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
