@@ -156,22 +156,25 @@ xp: 50
 ```
 
 `@instructions`
-
+- 2. Sie hatten im Quartal Q1 einen Umsatz von 848000€ zuerst ausgegeben. Aufgrund eines Forderungsausfalles von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
-
+Hier müssen Sie nur zwei Werte voneinander substrahieren.
 
 `@sample_code`
 ```{r}
+# Rückstellung berücksichtigen
 
 ```
 
 `@solution`
 ```{r}
 
+848000-42800
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(805200, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
+success_msg("Richtig! Wir haben nun einen Umsatz in Q1 von 805200€")
 ```
