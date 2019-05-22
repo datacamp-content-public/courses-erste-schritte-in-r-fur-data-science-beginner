@@ -912,7 +912,7 @@ xp: 100
 ```yaml
 type: NormalExercise
 key: 8df763ce8d
-xp: 100
+xp: 35
 ```
 
 `@instructions`
@@ -940,6 +940,64 @@ nrow(Kundendaten)
 ```{r}
 ex() %>% check_output(100, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheinen")
 success_msg("Hervorragend - so einfach bekommt man an ein Ergebnis!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 392db7ccef
+xp: 35
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: e2eb3130ac
+xp: 30
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
 
 ---
@@ -975,3 +1033,67 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matri
 - Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
 - Leider nicht richtig, dies ist für R kein Problem.
 - Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal
+
+---
+
+## Visualisierung
+
+```yaml
+type: NormalExercise
+key: c924dac6eb
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
+report.wochenverkaeufe <- rbind(sell.time, revenue.day, average.byday)
+rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
+colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
+report.final <- report.wochenverkaeufe
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Wrap Up
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 6b86170b0d
+xp: 50
+```
+
+
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
