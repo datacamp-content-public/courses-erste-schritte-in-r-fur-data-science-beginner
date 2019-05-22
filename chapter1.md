@@ -506,10 +506,10 @@ zu 3: Zeichenkette: "Hallo Herr Müller"
 zu 4: Kategorie: A
 
 `@possible_answers`
-- 1: Es ist ein boolescher Wert - logical.
-- 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
-- [3]: Es ist eine Zeichenkette - character.
-- 4: Es ist eine Kategorie - factor.
+- 1
+- 2
+- [3]
+- 4
 
 `@feedback`
 - Leider nicht richtig, überlegen Sie noch einmal!
