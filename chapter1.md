@@ -511,3 +511,66 @@ zu 4: Kategorie: A
 - Leider nicht richtig, überlegen Sie noch einmal!
 - Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist
 - Leider nicht richtig, überlegen Sie noch einmal!
+
+---
+
+## Vektoren
+
+```yaml
+type: TabExercise
+key: 72efcbb708
+xp: 100
+```
+
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
+
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
+```
+c(1,2,3) oder kürzer c(1:3)
+```
+
+Wichtige Befehle:
+
+**str()**: Typ eines Vektors bestimmen und Überblick verschaffen.
+
+**mean()**: Durchschnitt ausrechnen.
+
+`@pre_exercise_code`
+```{r}
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 22b76c6200
+xp: 100
+```
+
+`@instructions`
+Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese auf Profitabilität.
+
+- 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
+
+`@hint`
+Schauen Sie bitte in die Exercisebox dort sind Beispiele gegeben.
+
+`@sample_code`
+```{r}
+# Verkaufstage
+
+```
+
+`@solution`
+```{r}
+
+open.vec <- c(1:6)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau!")
+```
