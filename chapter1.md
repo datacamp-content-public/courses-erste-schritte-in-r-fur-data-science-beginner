@@ -378,7 +378,7 @@ Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 ```yaml
 type: NormalExercise
 key: 0d1ead9f62
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -410,7 +410,7 @@ success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die 
 ```yaml
 type: NormalExercise
 key: e8d49fb162
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -441,4 +441,41 @@ Anzahl_Mitarbeiter <- 17
 ```{r}
 ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: c5fa4ac3a0
+xp: 30
+```
+
+`@instructions`
+- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
+
+`@hint`
+Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine Zeichenkette/String ist.
+
+`@sample_code`
+```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
+#2.Ausgabe + Zuweisung
+print(Anzahl_Mitarbeiter)
+Anzahl_Mitarbeiter <- 17
+#3.Umbenennung Büro
+
+```
+
+`@solution`
+```{r}
+
+Office_33 <- "Nordwand"
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
