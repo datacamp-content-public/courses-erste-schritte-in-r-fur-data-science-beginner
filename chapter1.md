@@ -273,3 +273,79 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console 
 - Da liegen Sie nicht richtig
 - Da liegen Sie nicht richtig
 - Da liegen Sie nicht richtig
+
+---
+
+## Variablen
+
+```yaml
+type: NormalExercise
+key: 57b9e61b19
+xp: 100
+```
+
+Variablen zuweisen und vergleichen:
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. Eine Variable ermöglicht es einen Wert (z.B. 5) oder eine Zeichenkette (z.B. "Funktionsbeschreibung") in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018, S.45 & 86).
+- Beispiel: So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
+
+```
+Variablen vergleichen:
+x == y 		TRUE, wenn x exakt mit y übereinstimmt
+x != y 		TRUE, wenn x von y abweicht
+x > y  
+x >= y
+x & y 		x logisch-und y
+x | y  		x logisch-oder y
+!x    		nicht x
+xor(x, y) 	exklusiv x logisch-oder y
+
+```
+
+`@instructions`
+Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
+
+1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200€  und Q2: 859520.9€ den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
+2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
+3. Berechnen Sie die Differenz aus den zwei Quartalen Q2 (Prognosewert 2019) und Q1 (2019) und weisen Sie Ihre Rechnung der Variablen **d** zu.
+
+`@hint`
+Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
+
+`@pre_exercise_code`
+```{r}
+z <- 1655000
+```
+
+`@sample_code`
+```{r}
+# 1.Q1:
+
+# Q2
+
+# 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
+
+# 3.Verweisen Sie die Differenz aus Q2 (Prognosewert) und Q1 (2019) der Variable d zu:
+
+```
+
+`@solution`
+```{r}
+# Q1
+x <- 805200
+# Q2
+y <- 859520.9
+# 2.Vergleich der Umsätze
+z > (x+y)
+# 3.Verweisen Sie die Differenz aus Q2 und Q1 der Variable d zu:
+d <- (y-x)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("x") %>% check_equal(805200)
+ex() %>% check_object("y") %>% check_equal(859520.9)
+ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht direkt überprüft!")
+ex() %>% check_code(c("54320.9", "y-x", "859520.9-805200"), fixed=TRUE, missing_msg= "Da stimmt etwas bei Aufgabe 3. nicht!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für fundierte Aussagen und unternehmensrelevante Entscheidungen immer notwendig und wird in Zukunft weiter an Bedeutung zunehmen!")
+```
