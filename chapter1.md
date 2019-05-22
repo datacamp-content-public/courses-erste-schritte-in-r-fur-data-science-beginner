@@ -546,7 +546,7 @@ revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
 ```yaml
 type: NormalExercise
 key: 22b76c6200
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -580,7 +580,7 @@ success_msg("Ja, genau!")
 ```yaml
 type: NormalExercise
 key: d34d6e1231
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -605,4 +605,36 @@ str(sell.time)
 ```{r}
 ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Es ist nützlich, den Befehl immer im Hinterkopf zu behalten!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: cfddb579f1
+xp: 30
+```
+
+`@instructions`
+- 3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
+
+`@hint`
+Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein.
+
+`@sample_code`
+```{r}
+# Umsatz pro Stunde am Freitag:
+
+```
+
+`@solution`
+```{r}
+
+5103/9
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(567, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet!")
+success_msg("Richtig. Am Freitag wurden 567€ Umsatz pro Stunde erwirtschaftet!")
 ```
