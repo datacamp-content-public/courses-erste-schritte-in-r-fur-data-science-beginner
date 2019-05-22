@@ -895,17 +895,11 @@ cb4908d002dc674922f9c39837e608f1
 ## Data Frames
 
 ```yaml
-type: NormalExercise
-key: 28d20c2d78
+type: TabExercise
+key: 61afc92d00
 xp: 100
 ```
 
-
-
-`@instructions`
-
-
-`@hint`
 
 
 `@pre_exercise_code`
@@ -913,19 +907,39 @@ xp: 100
 
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 8df763ce8d
+xp: 100
+```
+
+`@instructions`
+Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
+Er wurde eingelesen und der Variable **Kundendaten** zugewiesen.
+
+1. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
+
+`@hint`
+
+
 `@sample_code`
 ```{r}
+# Anzahl Kunden
 
 ```
 
 `@solution`
 ```{r}
 
+nrow(Kundendaten)
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(100, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheinen")
+success_msg("Hervorragend - so einfach bekommt man an ein Ergebnis!")
 ```
 
 ---
