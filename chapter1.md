@@ -866,7 +866,7 @@ success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können 
 
 ---
 
-## Insert exercise title here
+## Listen
 
 ```yaml
 type: VideoExercise
@@ -1073,16 +1073,3 @@ report.final <- report.wochenverkaeufe
 ```{r}
 
 ```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: VideoExercise
-key: 98b0ffa5b6
-xp: 50
-```
-
-`@projector_key`
-197ea5c7969180e1f7ac9889f6f590f2
