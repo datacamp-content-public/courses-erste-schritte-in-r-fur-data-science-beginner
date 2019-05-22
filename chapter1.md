@@ -500,10 +500,10 @@ Was ist "53.Stock" für ein Basisdatentyp?
 `@hint`
 Beachten Sie die Anführungszeichen.
 
-zu 1: Boolesche Werte: TRUE, FALSE
-zu 2: Ganzzahlen: 1; 1.5
-zu 3: Zeichenkette: "Hallo Herr Müller"
-zu 4: Kategorie: A
+- zu 1: Boolesche Werte: TRUE, FALSE
+- zu 2: Ganzzahlen: 1; 1.5
+- zu 3: Zeichenkette: "Hallo Herr Müller"
+- zu 4: Kategorie: A
 
 `@possible_answers`
 - 1
@@ -876,3 +876,16 @@ success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können I
 ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: VideoExercise
+key: 339f6dfeac
+xp: 50
+```
+
+`@projector_key`
+cb4908d002dc674922f9c39837e608f1
