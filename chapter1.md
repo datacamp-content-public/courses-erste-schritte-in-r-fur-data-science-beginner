@@ -4,19 +4,6 @@ description: 'Mit kleinen Schritten zu den Basics in R'
 free_preview: true
 ---
 
-## Motivation | Einstieg | Was  ist Data Science
-
-```yaml
-type: VideoExercise
-key: bb50a6f713
-xp: 50
-```
-
-`@projector_key`
-6d51347f047bd021feea1f24da985a1e
-
----
-
 ## Wie R in Data Camp funktioniert
 
 ```yaml
@@ -1086,3 +1073,16 @@ report.final <- report.wochenverkaeufe
 ```{r}
 
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: VideoExercise
+key: 98b0ffa5b6
+xp: 50
+```
+
+`@projector_key`
+197ea5c7969180e1f7ac9889f6f590f2
