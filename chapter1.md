@@ -349,3 +349,26 @@ ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas fals
 ex() %>% check_code(c("54320.9", "y-x", "859520.9-805200"), fixed=TRUE, missing_msg= "Da stimmt etwas bei Aufgabe 3. nicht!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für fundierte Aussagen und unternehmensrelevante Entscheidungen immer notwendig und wird in Zukunft weiter an Bedeutung zunehmen!")
 ```
+
+---
+
+## Datentypen in R
+
+```yaml
+type: TabExercise
+key: b704b35535
+xp: 100
+```
+
+R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
+
+![Datentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
+
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+
+Von einer kleinen Tochtergesellschaft hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien. Deswegen müssen Sie sich damit beschäftigen, um dies zu überprüfen.
+
+`@pre_exercise_code`
+```{r}
+Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+```
