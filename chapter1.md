@@ -701,7 +701,7 @@ Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 ```yaml
 type: NormalExercise
 key: 8a0539fb5b
-xp: 100
+xp: 35
 ```
 
 `@instructions`
@@ -726,4 +726,80 @@ is.numeric(Anzahl_Mitarbeiter)
 ```{r}
 ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b1c42cae49
+xp: 35
+```
+
+`@instructions`
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. Klicken Sie zur Zwischenausgabe auf 'Run Code'.
+
+`@hint`
+Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
+
+`@sample_code`
+```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
+#class(Anzahl_Mitarbeiter) funktioniert auch, gibt direkt den Basisdatentyp aus. Dies können Sie an anderer Stelle verwenden.
+#2.Ausgabe + Zuweisung
+
+
+
+```
+
+`@solution`
+```{r}
+#2.1 Ausgabe und ggf. neue Zuweisung
+print(Anzahl_Mitarbeiter)
+
+Anzahl_Mitarbeiter <- 17
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
+success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 016ae2e13a
+xp: 30
+```
+
+`@instructions`
+- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
+
+`@hint`
+Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine Zeichenkette/String ist.
+
+`@sample_code`
+```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
+#2.Ausgabe + Zuweisung
+print(Anzahl_Mitarbeiter)
+Anzahl_Mitarbeiter <- 17
+#3.Umbenennung Büro
+
+```
+
+`@solution`
+```{r}
+
+Office_33 <- "Nordwand"
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
