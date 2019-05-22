@@ -73,3 +73,105 @@ print("Hello World!")
 ex() %>% check_output("Hello World!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("So ihr erstes Programm ist vollendet! ![Welt](https://assets.datacamp.com/production/repositories/4810/datasets/efdb2635ca5a59a67d67dedea62813ca4cf68a0d/hello_welt.jpg)")
 ```
+
+---
+
+## Rechnen mit R
+
+```yaml
+type: TabExercise
+key: c09b1c46a5
+xp: 100
+```
+
+R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende arithmetische Rechenoperatoren:	 
+
+```
+ Addition: + 
+ Subtraktion: - 
+ Multiplikation: *
+ Division: / 
+ Potenzierung: ^
+ Modulo: %%
+```
+ 
+Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
+
+Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachfolgenden Aufgaben, um die Übung erfolgreich abzuschließen.
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 20b1df54bc
+xp: 50
+```
+
+`@instructions`
+Im Editor auf der rechten Seite gibt es einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
+
+- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile, die Rechnung, hinzu und klicken Sie danach auf "Submit Answer".
+
+```
+Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
+```
+
+`@hint`
+Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+
+`@sample_code`
+```{r}
+# Beispielcode Addition 
+67+78
+#1.Quartalsumsatz Q1:
+
+```
+
+`@solution`
+```{r}
+# Beispielcode Addition 
+67+78
+# Quartalsumsatz Q1:
+234000 + 320000 + 294000
+```
+
+`@sct`
+```{r}
+#ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Sie müssen sich verrechnet haben!")
+ex() %>% check_output(848000, fixed=TRUE, missing_msg="Sie müssen sich verrechnet haben. Beachten Sie auch mögliche Tippfehler!")
+success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848000
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: def4e97e1b
+xp: 50
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
