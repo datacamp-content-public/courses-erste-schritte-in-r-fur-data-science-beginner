@@ -378,7 +378,7 @@ Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 ```yaml
 type: NormalExercise
 key: 0d1ead9f62
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -403,4 +403,42 @@ is.numeric(Anzahl_Mitarbeiter)
 ```{r}
 ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: e8d49fb162
+xp: 50
+```
+
+`@instructions`
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. Klicken Sie zur Zwischenausgabe auf 'Run Code'.
+
+`@hint`
+Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
+
+`@sample_code`
+```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
+#class(Anzahl_Mitarbeiter) funktioniert auch, gibt direkt den Basisdatentyp aus. Dies können Sie an anderer Stelle verwenden.
+#2.Ausgabe + Zuweisung
+
+
+```
+
+`@solution`
+```{r}
+#2.1 Ausgabe und ggf. neue Zuweisung
+print(Anzahl_Mitarbeiter)
+
+Anzahl_Mitarbeiter <- 17
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
+success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
