@@ -4,6 +4,19 @@ description: 'Mit kleinen Schritten zu den Basics in R'
 free_preview: true
 ---
 
+## Herzlich Willkommen beim Unternehmen Bamburga
+
+```yaml
+type: VideoExercise
+key: 274b833449
+xp: 50
+```
+
+`@projector_key`
+231561da729c4ce932d27b0eb36c90bb
+
+---
+
 ## Wie R in Data Camp funktioniert
 
 ```yaml
