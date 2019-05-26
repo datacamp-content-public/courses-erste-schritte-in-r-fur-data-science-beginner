@@ -312,7 +312,7 @@ z <- 1655000
 
 # 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
-# 3.Verweisen Sie die Differenz aus Q2 (Prognosewert) und Q1 (2019) der Variable d zu:
+# 3.Verweisen Sie die Differenz aus Q2 (Prognosewert 2019) und Q1 (2019) der Variable d zu:
 
 ```
 
