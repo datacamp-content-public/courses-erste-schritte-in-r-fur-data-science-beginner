@@ -73,6 +73,7 @@ xp: 100
 
 R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende arithmetische Rechenoperatoren:	 
 
+Nützliche Operatoren:
 ```
  Addition: + 
  Subtraktion: - 
