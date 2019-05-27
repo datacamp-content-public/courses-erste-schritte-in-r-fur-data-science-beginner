@@ -47,7 +47,7 @@ Sie sind unser/e neue/r MitarbeiterIn in der **Abteilung Business Intelligence &
 ![](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
 - Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten:
-	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
+	- Dafür schreiben Sie bitte:>  print("Hello World!") in das Skript und drücken auf 'Submit Answer'.
 
 `@hint`
 Keine Angst - einfach print("Hello World!") in das Skript schreiben und auf 'Submit Answer' drücken.
