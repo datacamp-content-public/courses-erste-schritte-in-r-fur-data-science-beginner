@@ -245,38 +245,6 @@ success_msg("Richtig und die nächste Aufgabe!")
 
 ---
 
-## Assessment Rechnen
-
-```yaml
-type: PureMultipleChoiceExercise
-key: 49b959ddb4
-xp: 50
-```
-
-- 6. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. 
-- An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
-
-**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
-
-`@hint`
-Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
-
-`@possible_answers`
-- 4
-- [5]
-- 6
-- 7
-- 18
-
-`@feedback`
-- Da liegen Sie nicht richtig
-- Richtig. Genau, der Modulooperator von 131%%7 ergibt einen Rest von 5 Tagen. Es ist also der 5 Tag in der Woche.
-- Da liegen Sie nicht richtig
-- Da liegen Sie nicht richtig
-- Da liegen Sie nicht richtig
-
----
-
 ## Variablen
 
 ```yaml
