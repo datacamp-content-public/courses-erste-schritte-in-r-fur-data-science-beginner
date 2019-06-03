@@ -661,6 +661,7 @@ report.final <- matrix(1:18, ncol=6)
 sell.time <- c(8,88,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
 average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
+report.final <- rbind(sell.time, revenue.day, average.byday) 
 ```
 
 ***
@@ -668,7 +669,7 @@ average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```yaml
 type: NormalExercise
 key: b49123677e
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -705,7 +706,7 @@ success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!
 ```yaml
 type: NormalExercise
 key: 18ef5dab58
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -748,51 +749,13 @@ success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsnieder
 
 ```yaml
 type: NormalExercise
-key: b152560300
-xp: 25
-```
-
-`@instructions`
-- 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie dem Report bitte die Information des Vektors hinzu, damit der Wochenreport vollständig ist und weisen Sie den neuen Report bitte der Variablen **report.final** zu.
-
-`@hint`
-Bitte einen weiteren Vektor average.byday der Matrix hinzufügen. Die Funktion rbind() hatten Sie bereits in Teil 1 dieser Aufgabe verwendet.
-
-`@sample_code`
-```{r}
-# report.weeksales
-report.weeksales <- rbind(sell.time, revenue.day)
-# Ausgabe + Änderung vornehmen
-print(report.weeksales)
-report.weeksales[1,2] <- 8
-# Vektor hinzufügen
-
-
-```
-
-`@solution`
-```{r}
-report.final <- rbind(sell.time, revenue.day, average.byday) 
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg= "Haben Sie den Vektor dem richtigen Teil der Tabelle zugewiesen? Verwenden Sie dazu bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau - der final Report ist fast fertig!")
-
-#ex() %>% check_object("report.final") %>% check_equal(c("rbind(sell.time, revenue.day, average.byday)", "report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
-#success_msg("Richtig!")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: ea9fe14e83
-xp: 25
+xp: 30
 ```
 
 `@instructions`
+Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
+
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
@@ -820,8 +783,8 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 ```{r}
 # Zeilennamen benennen
 rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
-## Spaltennamen bennen
-#colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+# Spaltennamen bennen
+colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 ```
 
 `@sct`
