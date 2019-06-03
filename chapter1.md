@@ -896,13 +896,13 @@ key: 31fb2bd622
 xp: 50
 ```
 
-Ist Ihnen etwas bei dem Sichten des Datensatzes aufgefallen?
+Ist Ihnen etwas bei den Werte des Datensatzes aufgefallen?
 
 `@possible_answers`
 
 
 `@hint`
-
+Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA Werte etc.
 
 `@pre_exercise_code`
 ```{r}
