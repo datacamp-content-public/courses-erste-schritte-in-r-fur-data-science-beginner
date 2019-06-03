@@ -865,7 +865,7 @@ xp: 35
 ```
 
 `@instructions`
-
+- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatzensatz:
 
 `@hint`
 
