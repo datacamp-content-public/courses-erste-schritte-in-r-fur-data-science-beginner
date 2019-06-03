@@ -865,10 +865,10 @@ xp: 35
 ```
 
 `@instructions`
-- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatzensatz:
+- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz
 
 `@hint`
-
+Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen anwenden, sind sehr hilfreich.
 
 `@sample_code`
 ```{r}
@@ -877,12 +877,13 @@ xp: 35
 
 `@solution`
 ```{r}
-
+summary(Kundendaten)
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("str(Kundendaten)", "summary(Kundendaten)", "head(Kundendaten)", "tail(Kundendaten)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen einen kompakten Überblick über den Kundendatensatz. Es ist nützlich, die Befehle immer im Hinterkopf zu behalten!")
 ```
 
 ***
