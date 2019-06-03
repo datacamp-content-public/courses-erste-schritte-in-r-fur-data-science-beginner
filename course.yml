@@ -1,5 +1,21 @@
 title: Erste Schritte in R für Data Science Beginner
-description: Course description goes here.
+description: >-
+  Die erfolgreichen Absolventen dieses Kurses wissen und beherrschen
+  grundlegendene Eigenschaften in R und bekommen einen kurzen Überblick anhand
+  von Anwendungen darüber: .
+
+  - wie R in Data Camp funkiontiert
+
+  - rechnen mit R
+
+  - Variablen
+
+  - Datentypen in R
+
+  - Vektoren
+
+  - Matrizen
+
+  - Data Frames
 programming_language: r
-from: "r-base-prod:v1.0.2"
-#from: "tidyverse-base-prod:v1.0.2"
+from: 'r-base-prod:v1.0.2'
