@@ -261,8 +261,9 @@ xor(x, y) 	exklusiv x logisch-oder y
 `@instructions`
 Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
 
-1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200€  und Q2: 859520.9€ den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
-2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
+1. Sie sollen nun die Quartalszahlen 2019 aus Q1: **805200€** und Q2: **859520.9€** den Variablen
+**x** und **y** zuordnen, um besser die Werte vergleichen zu können. 
+2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4** bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
@@ -376,7 +377,6 @@ Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variabl
 #1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
 #Den Befehl class(Anzahl_Mitarbeiter) können Sie auch verwenden. Durch ihn wird direkt der Datentyp ausgegeben.
-
 #2.Ausgabe + Zuweisung
 
 
@@ -758,9 +758,9 @@ Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerech
 
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
-- 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
-		- **Sales time in h, Revenue, Revenue per hour**
-        - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
+- 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- oder Spaltennamen:
+		
+    - **Sales time in h, Revenue, Revenue per hour**
 
 `@hint`
 Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Bennenungen Zeichenketten sind.
@@ -783,15 +783,15 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 ```{r}
 # Zeilennamen benennen
 rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
-# Spaltennamen bennen
-colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+## Spaltennamen bennen
+#colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 ```
 
 `@sct`
 ```{r}
 ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
 success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
-ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
+#ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
 
