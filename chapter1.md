@@ -4,19 +4,6 @@ description: 'Mit kleinen Schritten zu den Basics in R'
 free_preview: true
 ---
 
-## Herzlich Willkommen beim Unternehmen Bamburga
-
-```yaml
-type: VideoExercise
-key: 274b833449
-xp: 50
-```
-
-`@projector_key`
-231561da729c4ce932d27b0eb36c90bb
-
----
-
 ## Wie R in Data Camp funktioniert
 
 ```yaml
@@ -733,7 +720,9 @@ Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist 
 ```{r}
 # report.weeksales
 report.weeksales <- rbind(sell.time, revenue.day)
-#2.Ausgabe + Änderung vornehmen
+# Ausgabe
+print(report.weeksales)
+# 2.Änderung vornehmen
 
 ```
 
@@ -842,19 +831,6 @@ success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können I
 ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
-
----
-
-## Listen
-
-```yaml
-type: VideoExercise
-key: 339f6dfeac
-xp: 50
-```
-
-`@projector_key`
-cb4908d002dc674922f9c39837e608f1
 
 ---
 
@@ -1052,3 +1028,16 @@ report.final <- report.wochenverkaeufe
 ```{r}
 
 ```
+
+---
+
+## Listen
+
+```yaml
+type: VideoExercise
+key: 339f6dfeac
+xp: 50
+```
+
+`@projector_key`
+cb4908d002dc674922f9c39837e608f1
