@@ -818,7 +818,7 @@ Nützliche Funkionen:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/c19ed95828b6dea082798ff507af22277c3d2265/Kundendaten3.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/b9503a68c609d55d529cb98120ea2f1d52d25e09/Kundendaten3.csv")
 ```
 
 ***
