@@ -1015,7 +1015,7 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Werte des Datensatzes aufgefallen?
+Ist Ihnen etwas bei den Werte des Datensatzes aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT)
 
 `@hint`
 Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA Werte etc. 
