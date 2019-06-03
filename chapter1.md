@@ -826,7 +826,7 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/50
 ```yaml
 type: NormalExercise
 key: 8df763ce8d
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -861,7 +861,7 @@ success_msg("Hervorragend - so einfach bekommt man an ein Ergebnis!")
 ```yaml
 type: NormalExercise
 key: 392db7ccef
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -886,28 +886,27 @@ ex() %>% check_code(c("str(Kundendaten)", "summary(Kundendaten)", "head(Kundenda
 success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen einen kompakten Überblick über den Kundendatensatz. Es ist nützlich, die Befehle immer im Hinterkopf zu behalten!")
 ```
 
-***
+---
+
+## Data Frame - Kundendatensatz
 
 ```yaml
-type: NormalExercise
-key: e2eb3130ac
-xp: 30
+type: MultipleChoiceExercise
+key: 31fb2bd622
+xp: 50
 ```
 
-`@instructions`
+Ist Ihnen etwas bei dem Sichten des Datensatzes aufgefallen?
+
+`@possible_answers`
 
 
 `@hint`
 
 
-`@sample_code`
+`@pre_exercise_code`
 ```{r}
-
-```
-
-`@solution`
-```{r}
-
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/f54dfd57d7897d15486fb6bde4aaccc7924d40cf/Kundendaten3.csv")
 ```
 
 `@sct`
