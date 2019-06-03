@@ -720,7 +720,7 @@ Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist 
 ```{r}
 # report.weeksales
 report.weeksales <- rbind(sell.time, revenue.day)
-# Ausgabe
+# Ausgabe (Click 'Run Code')
 print(report.weeksales)
 # 2.Änderung vornehmen
 
@@ -793,10 +793,10 @@ xp: 25
 ```
 
 `@instructions`
-Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
+Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
-- 4. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
-		- **Sales time in h, Revenue, Revenue per hour **
+- 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
+		- **Sales time in h, Revenue, Revenue per hour**
         - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
@@ -804,14 +804,14 @@ Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige 
 
 `@sample_code`
 ```{r}
-# report.weeksales
+# 1.report.weeksales
 report.weeksales <- rbind(sell.time, revenue.day)
-# Ausgabe + Änderung vornehmen
+# 2.Ausgabe + Änderung vornehmen
 print(report.weeksales)
 report.weeksales[1,2] <- 8
 # Vektor hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
-# Tabelle benennen
+# 3.Tabelle benennen
 
 
 ```
