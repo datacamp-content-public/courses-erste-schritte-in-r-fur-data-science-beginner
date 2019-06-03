@@ -939,7 +939,7 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matri
 4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern.
 
 `@hint`
-
+Schauen Sie sich bitte die Tabelle und die Datentypen genau an.
 
 `@possible_answers`
 - [1]
