@@ -956,7 +956,7 @@ Schauen Sie sich bitte die Tabelle und die Datentypen genau an.
 
 ---
 
-## Visualisierung
+## (Visualisierung)
 
 ```yaml
 type: NormalExercise
