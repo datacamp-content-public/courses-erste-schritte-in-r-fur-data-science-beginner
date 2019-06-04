@@ -712,10 +712,10 @@ xp: 35
 `@instructions`
 - Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat.
 
-- 2. Lassen Sie sich die Matrix report.weeksales ausgeben und korrigieren Sie bitte den Report.
+- 2. Lassen Sie sich die Matrix **report.weeksales** ausgeben und korrigieren Sie bitte den Report.
 
 `@hint`
-Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - alles darüber ist natürlich falsch. report.weeksales[Zeile, Spalte] <- Wert
 
 `@sample_code`
 ```{r}
@@ -775,7 +775,6 @@ report.weeksales[1,2] <- 8
 # Vektor hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 # 3.Tabelle benennen
-
 
 ```
 
