@@ -865,7 +865,7 @@ xp: 50
 ```
 
 `@instructions`
-- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz
+- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz und beachten Sie die Umsatzdaten.
 
 `@hint`
 Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen anwenden, sind sehr hilfreich.
