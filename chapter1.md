@@ -763,7 +763,9 @@ Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noc
     - **Sales time in h, Revenue, Revenue per hour**
 
 `@hint`
-Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Benennungen Zeichenketten sind.
+Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Benennungen ```
+Zeichenketten
+``` sind.
 
 `@sample_code`
 ```{r}
