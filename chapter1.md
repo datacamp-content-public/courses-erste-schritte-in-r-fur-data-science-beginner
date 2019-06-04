@@ -21,7 +21,7 @@ Die linke Funktionsseite:
 
 Die rechte Funktionsseite:
 - 4) **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben.
-- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus.
+- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code und mit **Submit Answer** führen Sie ihn aus.
 - 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
@@ -996,16 +996,3 @@ report.final <- report.wochenverkaeufe
 ```{r}
 
 ```
-
----
-
-## Listen
-
-```yaml
-type: VideoExercise
-key: 339f6dfeac
-xp: 50
-```
-
-`@projector_key`
-cb4908d002dc674922f9c39837e608f1
