@@ -981,6 +981,7 @@ report.wochenverkaeufe <- rbind(sell.time, revenue.day, average.byday)
 rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
 colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 report.final <- report.wochenverkaeufe
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/f54dfd57d7897d15486fb6bde4aaccc7924d40cf/Kundendaten3.csv")
 ```
 
 `@sample_code`
