@@ -58,7 +58,7 @@ print("Hello World!")
 `@sct`
 ```{r}
 ex() %>% check_output("Hello World!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("So ihr erstes Programm ist vollendet! ![Welt](https://assets.datacamp.com/production/repositories/4810/datasets/efdb2635ca5a59a67d67dedea62813ca4cf68a0d/hello_welt.jpg)")
+success_msg("So ihr erstes Programm ist vollendet!")
 ```
 
 ---
