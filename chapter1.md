@@ -130,9 +130,9 @@ Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neu
 
 `@sct`
 ```{r}
-#ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Sie müssen sich verrechnet haben!")
 ex() %>% check_output(848000, fixed=TRUE, missing_msg="Sie müssen sich verrechnet haben. Beachten Sie auch mögliche Tippfehler!")
 success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848000€!")
+#ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Sie müssen sich verrechnet haben!")
 ```
 
 ***
