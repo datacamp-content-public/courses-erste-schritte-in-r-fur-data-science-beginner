@@ -46,6 +46,7 @@ Keine Angst - einfach print("Hello World!") in das Skript schreiben und auf 'Sub
 
 `@sample_code`
 ```{r}
+# Ihr erstes Programm:
 
 ```
 
