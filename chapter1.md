@@ -115,7 +115,7 @@ Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neu
 
 `@sample_code`
 ```{r}
-# Beispielcode Addition 
+# Beispielcode Addition:
 67+78
 #1.Quartalsumsatz Q1:
 
