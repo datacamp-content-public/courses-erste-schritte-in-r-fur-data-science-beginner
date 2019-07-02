@@ -110,7 +110,9 @@ Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
 ```
 
 `@hint`
-Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+Stellen Sie sicher, dass Sie die Summe aus ```
+234000 + 320000 + 294000
+``` in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@sample_code`
 ```{r}
@@ -144,7 +146,8 @@ xp: 25
 ```
 
 `@instructions`
-- 2. Sie hatten im Quartal Q1 einen Umsatz von 848000€ zuerst ausgegeben. Aufgrund eines Forderungsausfalles von 42800€ müssen diese am Umsatz berücksichtigt werden.
+- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles von
+**42800€** müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
 Hier müssen Sie nur zwei Werte voneinander substrahieren.
@@ -176,7 +179,7 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Geben Sie bitte das **Ergebnis in Prozent** aus!
+- 3. Es sind auf den Umsatz von **295005€** im Januar eine Umsatzsteuer in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Geben Sie bitte das **Ergebnis in Prozent** aus!
 
 `@hint`
 Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
@@ -207,10 +210,10 @@ xp: 25
 ```
 
 `@instructions`
-- 4. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200€ am Ende von Q1 an.
+- 4. Die Umsätze sollen in Q2 2019 um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **805200€** am Ende von Q1 an.
 
 `@hint`
-Beachten Sie, dass die Prozente jeweils im Monat steigen. Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
+Beachten Sie, dass die Prozente jeweils **im Monat** steigen. Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
 
 `@sample_code`
 ```{r}
