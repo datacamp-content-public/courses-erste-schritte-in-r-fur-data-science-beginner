@@ -266,7 +266,7 @@ Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Qu
 
 1. Sie sollen nun die Quartalszahlen 2019 aus Q1: **805200€** und Q2: **859520.9€** den Variablen
 **x** und **y** zuordnen, um besser die Werte vergleichen zu können. 
-2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4** bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
+2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
