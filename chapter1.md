@@ -50,7 +50,6 @@ print("Hello World!")
 ```{r}
 # Ihr erstes Programm:
 
-
 ```
 
 `@solution`
