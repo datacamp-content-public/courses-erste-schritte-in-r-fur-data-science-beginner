@@ -37,7 +37,9 @@ Sie sind unser/e neue/r MitarbeiterIn in der **Abteilung Business Intelligence &
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
 
 `@hint`
-Keine Angst - einfach print("Hello World!") in das Skript schreiben und auf 'Submit Answer' drücken.
+Keine Angst - einfach ```
+print("Hello World!")
+``` in das Skript schreiben und auf 'Submit Answer' drücken.
 
 `@pre_exercise_code`
 ```{r}
@@ -46,6 +48,8 @@ Keine Angst - einfach print("Hello World!") in das Skript schreiben und auf 'Sub
 
 `@sample_code`
 ```{r}
+# Ihr erstes Programm:
+
 
 ```
 
