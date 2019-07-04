@@ -219,7 +219,9 @@ xp: 25
 - 4. Die Umsätze sollen in Q2 2019 um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **805200€** am Ende von Q1 an.
 
 `@hint`
-Beachten Sie, dass die Prozente jeweils **im Monat** steigen. Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
+Beachten Sie, dass die Prozente jeweils **im Monat** steigen und ein Quartal aus drei Monaten beseteht. Hier kommt nun die Zinzeszinsrechnung zur Einsatz - ein exponentielles, kein lineares Wachstum!
+
+Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
 
 `@sample_code`
 ```{r}
