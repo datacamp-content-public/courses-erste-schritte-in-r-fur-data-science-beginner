@@ -21,8 +21,8 @@ Die linke Funktionsseite:
 
 Die rechte Funktionsseite:
 - 4) **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben.
-- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code und mit **Submit Answer** lassen Sie ihn aus.
-- 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
+- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code und mit **Submit Answer** lassen Sie ihn ausführen.
+- 6) Die **Console** ist in diesem Fall  in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
@@ -103,7 +103,7 @@ xp: 25
 `@instructions`
 Im Editor auf der rechten Seite gibt es einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
-- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile, die Rechnung, hinzu und klicken Sie danach auf "Submit Answer".
+- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 2019 erstellen. Fügen Sie bitte eine weitere Codezeile mit der Rechnung hinzu und klicken Sie danach auf "Submit Answer".
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
