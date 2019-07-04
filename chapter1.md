@@ -182,7 +182,9 @@ xp: 25
 - 3. Es ist auf den Umsatz von **295005€** im Januar eine Umsatzsteuer in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben!
 
 `@hint`
-Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. ![Anregung](https://assets.datacamp.com/production/repositories/5035/datasets/76cc29840b27bf2ee87f7eb9b766956be88da898/Hint_Dreisatz.PNG)
+Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. 
+
+![Anregung](https://assets.datacamp.com/production/repositories/5035/datasets/76cc29840b27bf2ee87f7eb9b766956be88da898/Hint_Dreisatz.PNG)
 
 Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
 
