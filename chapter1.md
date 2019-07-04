@@ -17,11 +17,11 @@ Die Hauptfunktionen:
 Die linke Funktionsseite:
 - 1) An dieser Stelle, dem **Exercisebereich** wird immer die grundlegende Theorie dargestellt sein, die dann direkt in den Übungen angewendet wird. 
 - 2) Im Bereich der **Instruktion** bekommen Sie die Erläuterung, was genau Ihre Aufgabe ist, die Sie anschließend lösen sollen. 
-- 3) Die **Hints** können Sie nutzen, wenn Sie nicht mehr weiter kommen und einen Hinweis benötigen.
+- 3) Die **Hints** können Sie nutzen, wenn Sie nicht weiter kommen und einen Hinweis benötigen.
 
 Die rechte Funktionsseite:
 - 4) **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben.
-- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code und mit **Submit Answer** führen Sie ihn aus.
+- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code und mit **Submit Answer** lassen Sie ihn aus.
 - 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
