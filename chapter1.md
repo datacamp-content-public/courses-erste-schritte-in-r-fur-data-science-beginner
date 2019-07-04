@@ -61,7 +61,7 @@ print("Hello World!")
 `@sct`
 ```{r}
 ex() %>% check_output("Hello World!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig. Beachten Sie Fehler im Code und auch mögliche Tippfehler. R ist eine case sensitive Programmiersprache!")
-success_msg("Ihr erstes Programm ist vollendet - gut! Weiter geht´s!")
+success_msg("Ihr erstes Programm ist vollendet - Glückwunsch! Weiter geht´s!")
 ```
 
 ---
