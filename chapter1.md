@@ -147,10 +147,10 @@ xp: 25
 
 `@instructions`
 - 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles von
-**42800€** müssen diese am Umsatz berücksichtigt werden.
+**42800€** müssen diese am Umsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
 
 `@hint`
-Hier müssen Sie nur zwei Werte voneinander substrahieren.
+Denken Sie nicht kompliziert. Hier müssen Sie nur zwei Werte voneinander subtrahieren!
 
 `@sample_code`
 ```{r}
@@ -167,7 +167,7 @@ Hier müssen Sie nur zwei Werte voneinander substrahieren.
 `@sct`
 ```{r}
 ex() %>% check_output(805200, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
-success_msg("Richtig! Wir haben nun einen Umsatz in Q1 von 805200€")
+success_msg("Richtig! Wir haben nun einen Umsatz in Q1 2019 von 805200€ zu verzeichnen")
 ```
 
 ***
