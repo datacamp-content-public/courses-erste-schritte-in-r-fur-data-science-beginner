@@ -4,7 +4,7 @@ description: 'Mit kleinen Schritten zu den Basics in R'
 free_preview: true
 ---
 
-## Wie R in Data Camp funktioniert
+## Herzlichen Willkommen!
 
 ```yaml
 type: NormalExercise
@@ -12,7 +12,7 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Hallo und herzlich Willkommen,
+Hallo,
 
 Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
 
