@@ -265,12 +265,14 @@ xor(x, y) 	exklusiv x logisch-oder y
 `@instructions`
 Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
 
-1. Sie sollen nun die Quartalszahlen 2019 aus Q1: **805200€** und Q2: **859520.9€** den Variablen
+1. Sie sollen nun die Quartalszahlen aus 2019 Q1: **805200€** und Q2: **859520.9€** den Variablen
 **x** und **y** zuordnen, um besser die Werte vergleichen zu können. 
 2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
 
 `@hint`
-Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
+Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits im System hinterlegt und der Variable z zugewiesen. 
+
+Gestalten Sie den Code so, dass einen booleschen Varialbe (TRUE oder FALSE) ausgibt.
 
 `@pre_exercise_code`
 ```{r}
