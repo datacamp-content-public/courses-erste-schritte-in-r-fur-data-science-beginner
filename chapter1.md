@@ -519,7 +519,7 @@ Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung e
 - 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
-Schauen Sie bitte in die Exercisebox dort sind Beispiele gegeben.
+Schauen Sie bitte in die Exercisebox dort sind konkrete Beispiele gegeben.
 
 `@sample_code`
 ```{r}
