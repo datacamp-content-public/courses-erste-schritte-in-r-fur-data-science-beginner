@@ -230,7 +230,7 @@ Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verw
 
 `@sct`
 ```{r}
-ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie das monatliche Umsatzwachstum berechnet und beachtet, dass es sich um 3 Monate handelt?")
+ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
 success_msg("Richtig - die Zinsen wachsen exponentiell an! Und nun zum nächsten Inhaltsblock - den Variablen!")
 ```
 
