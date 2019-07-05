@@ -594,7 +594,7 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der 
 `@solution`
 ```{r}
 
-5103/9
+52020/9
 ```
 
 `@sct`
