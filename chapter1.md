@@ -344,7 +344,7 @@ xp: 35
 - 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte.
 
 `@hint`
-Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter in der Zeile **Abfrage (Query)**
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter in der Zeile **Abfrage (Query)** nach.
 
 `@sample_code`
 ```{r}
