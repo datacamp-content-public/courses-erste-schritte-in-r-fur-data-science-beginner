@@ -585,7 +585,7 @@ xp: 25
 `@instructions`
 - 3. Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
 
-![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/63ab09d2630b69c14e8c192b352e71f3cfca31f0/Drohnen_Skizze.jpg)
+![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/7ede58abe5f7241798aaefb6b00478b95710a5ea/Drohnen_Skizze_klein.jpg)
 
 `@hint`
 Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
