@@ -272,7 +272,7 @@ Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Qu
 `@hint`
 Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits im System hinterlegt und der Variable z zugewiesen. 
 
-Gestalten Sie den Code so, dass einen booleschen Varialbe (TRUE oder FALSE) ausgibt.
+Entwickeln Sie den Code so, dass ein boolescher Wert (TRUE oder FALSE) ausgegeben wird.
 
 `@pre_exercise_code`
 ```{r}
