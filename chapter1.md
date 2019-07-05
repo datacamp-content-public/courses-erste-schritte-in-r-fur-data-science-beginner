@@ -12,7 +12,7 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics der Babmergus AirUber GmbH** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
+Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics der Bambergus AirUber GmbH** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
 
