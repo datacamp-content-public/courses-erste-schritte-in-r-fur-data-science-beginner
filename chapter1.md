@@ -615,7 +615,7 @@ xp: 25
 - 4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag in der Woche.
 
 `@hint`
-Benutzen Sie die Funktion aus der Exercisebox und verwenden Sie die richtige Variable.
+Benutzen Sie die Funktion aus der Exercisebox und verwenden Sie die passende Variable.
 
 `@sample_code`
 ```{r}
@@ -632,7 +632,7 @@ mean(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
-success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h!")
+success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen")
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
 ```
