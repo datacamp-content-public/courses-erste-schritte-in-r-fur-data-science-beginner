@@ -451,10 +451,10 @@ xp: 50
 
 Was ist "53.Stock" für ein Basisdatentyp?
 
-- 1: Es ist ein boolescher Wert - logical.
-- 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
-- 3: Es ist eine Zeichenkette - character.
-- 4: Es ist eine Kategorie - fact
+- 1: Es ist ein boolescher Wert (logical).
+- 2: Es ist eine Ganzzahl oder Fließkommazahl (numeric).
+- 3: Es ist eine Zeichenkette (character).
+- 4: Es ist eine Kategorie (fact).
 
 `@hint`
 Beachten Sie die Anführungszeichen.
