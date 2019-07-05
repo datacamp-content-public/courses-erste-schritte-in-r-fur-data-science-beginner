@@ -782,7 +782,7 @@ print(report.weeksales)
 report.weeksales[1,2] <- 8
 # Vektor hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
-# 3.Tabelle benennen
+# 3.Spalten- bzw. Zeilennamen benennen
 
 ```
 
