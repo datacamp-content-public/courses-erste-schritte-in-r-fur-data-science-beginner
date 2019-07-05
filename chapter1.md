@@ -473,7 +473,7 @@ Beachten Sie die Anführungszeichen.
 `@feedback`
 - Leider nicht richtig, überlegen Sie noch einmal!
 - Leider nicht richtig, überlegen Sie noch einmal!
-- Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist
+- Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist. Weiter gehts mit **Vektoren!**
 - Leider nicht richtig, überlegen Sie noch einmal!
 
 ---
