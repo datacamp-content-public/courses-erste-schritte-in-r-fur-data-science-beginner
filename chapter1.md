@@ -113,6 +113,7 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 67+78
 # 1.Quartalsumsatz Q1:
 
+
 ```
 
 `@solution`
