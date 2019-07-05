@@ -18,6 +18,12 @@ Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data
 
 ![IT Mitarbeiter](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
+Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie mithilfe auch von Hints lösen sollen
+**script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden.
+
+Lasst uns starten :)!
+
+
 `@instructions`
 - Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten:
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
