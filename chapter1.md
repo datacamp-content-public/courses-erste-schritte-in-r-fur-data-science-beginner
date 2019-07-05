@@ -580,10 +580,10 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
+- 3. Am längsten Arbeitstag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
 
 `@hint`
-Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein.
+Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
 
 `@sample_code`
 ```{r}
