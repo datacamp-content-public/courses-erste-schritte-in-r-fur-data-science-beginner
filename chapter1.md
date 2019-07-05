@@ -321,7 +321,7 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-![Datentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
+![Datentypen](https://assets.datacamp.com/production/repositories/5035/datasets/59f48e6fc89de1e52d5ba890fb952d8548b4dbad/Basisdatentypen_%C3%9Cbersicht_final.PNG)
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
