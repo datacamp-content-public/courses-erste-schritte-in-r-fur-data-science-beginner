@@ -587,7 +587,7 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein.
 
 `@sample_code`
 ```{r}
-# Umsatz pro Stunde am Freitag:
+# Umsatz pro Stunde am längsten Arbeitstag:
 
 ```
 
