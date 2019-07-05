@@ -890,7 +890,7 @@ summary(Kundendaten)
 `@sct`
 ```{r}
 ex() %>% check_code(c("str(Kundendaten)", "summary(Kundendaten)", "head(Kundendaten)", "tail(Kundendaten)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen einen kompakten Überblick über den Kundendatensatz. Es ist nützlich, die Befehle immer im Hinterkopf zu behalten!")
+success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen kompakten Überblick über den Kundendatensatz. Es ist nützlich, die Befehle immer im Hinterkopf zu behalten!")
 ```
 
 ---
