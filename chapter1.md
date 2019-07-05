@@ -599,8 +599,8 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der 
 
 `@sct`
 ```{r}
-ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet!")
-success_msg("Richtig. Am Freitag wurden 567€ Umsatz pro Stunde erwirtschaftet!")
+ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
+success_msg("Richtig. Am Freitag wurden 5780€ Umsatz pro Stunde erwirtschaftet!")
 ```
 
 ***
