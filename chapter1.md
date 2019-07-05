@@ -360,7 +360,7 @@ is.numeric(Anzahl_Mitarbeiter)
 
 `@sct`
 ```{r}
-ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Da stimmt etwas nicht. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
 ```
 
