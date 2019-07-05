@@ -17,7 +17,7 @@ xp: 100
 `@instructions`
 Hallo und herzlich Willkommen,
 
-Sie sind unser/e neue/r MitarbeiterIn in der **Abteilung Business Intelligence & Data Analytics** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
+Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
 
 ![IT Mitarbeiter](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
@@ -514,7 +514,7 @@ xp: 25
 ```
 
 `@instructions`
-Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese auf Profitabilität.
+Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese auf Profitabilität.
 
 - 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
@@ -580,7 +580,7 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Am längsten Arbeitstag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
+- 3. Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
 
 `@hint`
 Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
@@ -599,7 +599,7 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der 
 
 `@sct`
 ```{r}
-ex() %>% check_output(567, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet!")
+ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet!")
 success_msg("Richtig. Am Freitag wurden 567€ Umsatz pro Stunde erwirtschaftet!")
 ```
 
