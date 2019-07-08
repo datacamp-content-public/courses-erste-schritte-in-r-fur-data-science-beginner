@@ -78,8 +78,6 @@ Nützliche Operatoren:
  
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
 
-Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachfolgenden Aufgaben, um die Übung erfolgreich abzuschließen.
-
 `@pre_exercise_code`
 ```{r}
 
