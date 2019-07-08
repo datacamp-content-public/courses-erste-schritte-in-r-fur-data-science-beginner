@@ -95,7 +95,7 @@ xp: 25
 `@instructions`
 Im Editor auf der rechten Seite gibt es einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
-- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 2019 erstellen. Fügen Sie bitte eine weitere Codezeile mit der Rechnung hinzu und klicken Sie danach auf "Submit Answer".
+- 1) Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH zusammenrechnen und somit den Umsatz für das Quartal Q1 2019 erstellen, da eine kleine Firma für Paktet-Spezialdrohnen aufgekauft wurde. Fügen Sie bitte eine weitere Codezeile mit der Rechnung hinzu und klicken Sie danach auf "Submit Answer".
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
