@@ -490,9 +490,10 @@ key: 72efcbb708
 xp: 100
 ```
 
-Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
+
 ```
 c(1,2,3) oder kürzer c(1:3)
 ```
@@ -520,7 +521,7 @@ xp: 25
 `@instructions`
 Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam die Verkaufszeiten ihres Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag profitabel ist und sich die lange Öffnungszeit lohnt. 
 
-- 1. Erstellen Sie dazu einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
+- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen.
@@ -552,7 +553,7 @@ xp: 25
 ```
 
 `@instructions`
-Gehen wir zuerst die Kundenbeschwerde an, dass Samstag der kürzeste Servicetag wäre und Sie Montag geschlossen hätten:
+Gehen wir zuerst die Kundenbeschwerde an, wann der längste Servicetag ist:
 
 - 2. In dem Vektor **sell.time** ist die Verkaufszeit für jeden Servicetag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich längste ist.
 
