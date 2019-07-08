@@ -879,7 +879,7 @@ xp: 50
 ```
 
 `@instructions`
-Der Datensatz aus Ihrem Unternehmen Bambergus AirUber, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen. Die Kundeninformationen beziehen sich auf die Anzahl der mit Ihrer neuartigen Belieferungsdrohne angeflogenen Kunden. Er wurde eingelesen und der Variable **Kundendaten** zugewiesen. Um zu erfahren, wie die neuartige Belieferungsmethode angeommen wurde, sollen Sie die Daten analyieren.
+Der Datensatz aus Ihrem Unternehmen Bambergus AirUber, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen. Die Kundeninformationen beziehen sich auf die Anzahl, die Ihre neuartige Paketdrohne gekauft haben. Er wurde eingelesen und der Variable **Kundendaten** zugewiesen. Um zu erfahren, wie ihr neuartigstes Produkt angenommen wurde, sollen Sie die Daten analyieren.
 
 ![Drohne](https://assets.datacamp.com/production/repositories/5035/datasets/2e93b24ab11762e4a023c378ebd0861de122f99b/Bef%C3%B6rderungsdrohne_klein.jpg)
 
@@ -915,6 +915,7 @@ xp: 50
 ```
 
 `@instructions`
+Herr Müller möchte nun weitere Analysen der Daten vornehmen. Dazu sollen Sie den Datensatz begutachten und für die eigentliche Analyse vorbereiten.
 - 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz und beachten Sie die Umsatzdaten.
 
 `@hint`
