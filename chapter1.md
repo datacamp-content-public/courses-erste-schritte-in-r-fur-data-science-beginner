@@ -12,12 +12,9 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das kleine Segelflieger und nun auch ferngesteuerte Drohen verkauft. Sie befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
+Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger, Motorenflugzeuge und nun auch Paket-Drohnen verkauft. Sie befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, die Sie bearbeiten sollen. 
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
-
-Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie mithilfe auch von Hints lösen sollen
-**script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden.
 
 Lasst uns starten :)!
 
@@ -29,6 +26,9 @@ Lasst uns starten :)!
 Keine Angst - einfach ```
 print("Hello World!")
 ``` in das Skript schreiben und auf 'Submit Answer' drücken.
+
+Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie mithilfe auch von Hints lösen sollen
+**script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden.
 
 `@pre_exercise_code`
 ```{r}
