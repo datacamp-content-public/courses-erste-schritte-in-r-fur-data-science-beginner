@@ -413,7 +413,7 @@ xp: 30
 ```
 
 `@instructions`
-- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
+- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix, der extra für die neue Tochtergesellschaft der Bambergus Airuber Gmbh angworben wurde und mit Ihnen in Zukunft zusammenarbeiten soll, ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
 
 `@hint`
 Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine "Zeichenkette/ein String" ist.
