@@ -586,7 +586,7 @@ xp: 25
 `@instructions`
 - 3. Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich der Store noch als profitabel ansehen.
 
-![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/93f6f0ed41e97a066aaf27fdf06484fb1f3529b2/Bambergus_Airuber_Store.PNG)
+![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/285473a54662f9f7a7f2d86d910ace82d450c3df/Bambergus_Airuber_Store_klein.PNG)
 
 `@hint`
 Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
