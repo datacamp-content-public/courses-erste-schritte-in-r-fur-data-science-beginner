@@ -584,7 +584,9 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich der Store noch als profitabel ansehen.
+Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich der Store noch als profitabel ansehen. 
+
+- 3. Wie viel wurde pro Stunde umgesetzt? 
 
 ![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
 
