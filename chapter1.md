@@ -960,6 +960,6 @@ Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte m
 
 `@feedback`
 - Falsch - da haben Sie nicht genau mit den Daten befasst!
-- Ja, dies ist fast richitg, jedoch fehlt noch ein Teil! 
-- Ja, dies ist fast richtig, jedoch fehlt noch ein Teil!
+- Ja, dies ist fast richtig, jedoch fehlt noch ein Teil! Lesen Sie bitte noch einmal genauer! 
+- Ja, dies ist fast richtig, jedoch fehlt noch ein Teil! Lesen Sie bitte noch einmal genauer!
 - Richtig! [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
