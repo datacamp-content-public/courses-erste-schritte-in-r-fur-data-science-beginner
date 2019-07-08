@@ -635,7 +635,7 @@ mean(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
-success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen")
+success_msg("Richtig - die durchnittliche tägliche Verkaufszeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich")
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
 ```
