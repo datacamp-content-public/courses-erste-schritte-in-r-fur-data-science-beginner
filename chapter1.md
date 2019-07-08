@@ -12,7 +12,7 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics der Bambergus AirUber GmbH** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
+Sie sind unser/e neue/r MitarbeiterIn in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das sich der Branche und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir erst einmal leicht an. 
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
 
@@ -808,6 +808,40 @@ success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können I
 
 ---
 
+## Assessment Matrizen
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 174850fc0b
+xp: 50
+```
+
+Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
+
+![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
+
+1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
+2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
+3. weil der Datensatz zu groß ist und deswegen nicht geladen werden kann.
+4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern.
+
+`@hint`
+Schauen Sie sich bitte die Tabelle und die Datentypen genau an.
+
+`@possible_answers`
+- [1]
+- 2
+- 3
+- 4
+
+`@feedback`
+- Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein ![Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
+- Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
+- Leider nicht richtig, dies ist für R kein Problem.
+- Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal
+
+---
+
 ## Data Frames
 
 ```yaml
@@ -930,37 +964,3 @@ Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte m
 - falsch
 - falsch
 - richtig
-
----
-
-## Assessment Data Frames
-
-```yaml
-type: PureMultipleChoiceExercise
-key: 174850fc0b
-xp: 50
-```
-
-Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
-
-![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
-
-1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
-2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
-3. weil der Datensatz zu groß ist und deswegen nicht geladen werden kann.
-4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern.
-
-`@hint`
-Schauen Sie sich bitte die Tabelle und die Datentypen genau an.
-
-`@possible_answers`
-- [1]
-- 2
-- 3
-- 4
-
-`@feedback`
-- Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein ![Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
-- Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
-- Leider nicht richtig, dies ist für R kein Problem.
-- Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal
