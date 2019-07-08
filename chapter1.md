@@ -941,7 +941,7 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes etwas aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT)
+Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT - da nochmal eine Übersicht aufgeführt)
 
 - 1. Nichts auffälliges.
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
@@ -959,7 +959,7 @@ Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte m
 - [4]
 
 `@feedback`
-- falsch
-- falsch
-- falsch
-- richtig! [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
+- Falsch - da haben Sie nicht genau mit den Daten befasst!
+- Ja, dies ist fast richitg, jedoch fehlt noch ein Teil! 
+- Ja, dies ist fast richtig, jedoch fehlt noch ein Teil!
+- Richtig! [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
