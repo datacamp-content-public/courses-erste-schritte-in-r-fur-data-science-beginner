@@ -572,7 +572,7 @@ str(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Es ist nützlich, den Befehl immer im Hinterkopf zu behalten!")
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Dem Kunden wird mitgeteilt, dass Samstag kürzere Servicezeiten gelten würden, aber am Montag wäre das Servicecenter 8h geöffnet und immer sehr gut zu erreichen, er sollte es nochmals probieren.")
 ```
 
 ***
