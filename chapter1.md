@@ -962,4 +962,4 @@ Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte m
 - falsch
 - falsch
 - falsch
-- richtig
+- richtig! [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
