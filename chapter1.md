@@ -139,7 +139,7 @@ xp: 25
 ```
 
 `@instructions`
-- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles hinsichtlich des neuen Zukaufs und falschen Bewertung der Tochterfirma von **42800€** müssen diese am Umsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
+- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles hinsichtlich des neuen Zukaufs und falschen Bewertung der Tochterfirma von **42800€** müssen diese am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
 
 `@hint`
 Denken Sie nicht kompliziert. Hier müssen Sie nur zwei Werte voneinander subtrahieren!
