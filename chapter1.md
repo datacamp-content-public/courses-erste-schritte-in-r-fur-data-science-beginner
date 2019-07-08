@@ -22,7 +22,7 @@ Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie mithilfe auch vo
 Lasst uns starten :)!
 
 `@instructions`
-- Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten:
+- Wir fangen mit dem kleinen Testprogramm an mit dem fast alle Programmierbücher starten:
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
 
 `@hint`
