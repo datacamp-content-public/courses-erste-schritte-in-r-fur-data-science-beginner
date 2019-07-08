@@ -438,7 +438,7 @@ Office_33 <- "Nordwand"
 `@sct`
 ```{r}
 ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
-success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
+success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren! Sie haben schon einniges erledigt und lernen schnell (3/6 abgeschlossen)")
 ```
 
 ---
