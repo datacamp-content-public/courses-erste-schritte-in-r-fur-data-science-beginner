@@ -451,7 +451,9 @@ key: dbbb20e7e4
 xp: 50
 ```
 
-Was ist "53.Stock" für ein Basisdatentyp?
+Was ist ```
+"53.Stock"
+``` für ein Basisdatentyp?
 
 - 1: Es ist ein boolescher Wert (logical).
 - 2: Es ist eine Ganzzahl oder Fließkommazahl (numeric).
