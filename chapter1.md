@@ -452,7 +452,7 @@ xp: 50
 ```
 
 Was ist ```
-"53.Stock"
+"3.Stock"
 ``` für ein Basisdatentyp?
 
 - 1: Es ist ein boolescher Wert (logical).
