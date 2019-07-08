@@ -170,7 +170,7 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Es ist auf den Umsatz von **295005€** im Januar eine Umsatzsteuer in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben!
+- 3. Es ist auf den Umsatz von **295005€** im Januar eine Umsatzsteuer in Höhe von **56050.95€** für die neuen leistungsstärkeren Drohnenmotoren aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Kunden aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben:
 
 `@hint`
 Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. 
