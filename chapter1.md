@@ -254,8 +254,8 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. 
 Variablen vergleichen:
 x == y 		TRUE, wenn x exakt mit y übereinstimmt
 x != y 		TRUE, wenn x von y abweicht
-x > y  
-x >= y
+x > y  		TRUE, wenn x größer y
+x >= y		TRUE, wenn x größer gleich y
 x & y 		x logisch-und y
 x | y  		x logisch-oder y
 !x    		nicht x
