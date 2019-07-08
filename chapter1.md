@@ -518,8 +518,8 @@ xp: 25
 ```
 
 `@instructions`
-Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam die Verkaufszeiten ihres Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und Sie prüfen möchten, ob dieser noch profitabel ist. 
-Gehen wir zuerst die Kundenbeschwerde an, dass Samstag der kürzeste Tag wäre und Sie Montag geschlossen hätten:
+Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam die Verkaufszeiten ihres Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag profitabel ist und sich die lange Öffnungszeit lohnt. 
+
 - 1. Erstellen Sie dazu einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
@@ -552,6 +552,8 @@ xp: 25
 ```
 
 `@instructions`
+Gehen wir zuerst die Kundenbeschwerde an, dass Samstag der kürzeste Servicetag wäre und Sie Montag geschlossen hätten:
+
 - 2. In dem Vektor **sell.time** ist die Verkaufszeit für jeden Servicetag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich längste ist.
 
 `@hint`
