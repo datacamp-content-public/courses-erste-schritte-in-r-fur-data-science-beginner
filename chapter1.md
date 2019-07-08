@@ -12,7 +12,8 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger, Motorenflugzeuge und nun auch Paket-Drohnen produziert und verkauft. Sie befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, die Sie bearbeiten sollen. 
+Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger, Motorenflugzeuge und nun auch Paket-Drohnen produziert und verkauft. Die Firma möchte sich neue Geschäftsbereiche erschließen und sich dazu eine Firma, die sich auf die Herstellung von Paketdrohnen spezialiert hat, aufgekauft. Sie sollen im Zuge der Akquisition erste Umsatzzahlen analyisieren, Optimierungsmöglichkeiten finden und Reportstandards überüfen. Im Zuge dieser Anforderungen sollen Sie befassen mit der Programmiersprache R befassen, da sich diese für die statistische Auswertung von strukturierten und unstrukturierten Daten besonders gut eignet und in ihrem Team damit gearbeitet wird. 
+Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, die Sie schon mit einfachen R-Fähigkeiten bearbeiten können und die für das Unternehmen der Bambergus Airuber GmbH aktuell erledigt werden müssen. 
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
 
