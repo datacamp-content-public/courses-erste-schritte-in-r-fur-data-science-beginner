@@ -584,7 +584,7 @@ xp: 25
 ```
 
 `@instructions`
-Am längsten Arbeitstag wurden 52020€ Umsatz generiert. Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich der Store noch als profitabel ansehen. 
+Am längsten Arbeitstag im Kundencenter wurden 52020€ Umsatz mit Support und Verkauf generiert. Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich das Kundencenter als profitabel ansehen. 
 
 - 3. Wie viel wurde pro Stunde umgesetzt? 
 
@@ -595,7 +595,7 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der 
 
 `@sample_code`
 ```{r}
-# Umsatz pro Stunde am längsten Arbeitstag:
+# Umsatz pro Stunde am längsten Arbeitstag im Servicecenter:
 
 ```
 
