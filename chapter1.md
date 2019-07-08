@@ -527,7 +527,7 @@ Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die 
 
 `@sample_code`
 ```{r}
-# Verkaufstage
+# Servicetage
 
 ```
 
@@ -552,14 +552,14 @@ xp: 25
 ```
 
 `@instructions`
-- 2. In dem Vektor **sell.time** ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich längste ist.
+- 2. In dem Vektor **sell.time** ist die Verkaufszeit für jeden Servicetag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich längste ist.
 
 `@hint`
 Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
 
 `@sample_code`
 ```{r}
-#Verkaufszeit
+#Servicezeit
 
 ```
 
