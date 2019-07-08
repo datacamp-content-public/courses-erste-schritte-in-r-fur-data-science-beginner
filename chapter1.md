@@ -94,7 +94,7 @@ xp: 25
 `@instructions`
 Im Editor auf der rechten Seite gibt es einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
-- 1) Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH zusammenrechnen und somit den Umsatz für das Quartal Q1 2019 erstellen, da eine kleine Firma für Paket-Spezialdrohnen aufgekauft wurde und als Tochtergesellschaft in das Unternehmen eingegliedert wurde. Sie sollen nun analyisieren, ob sich dieser Zukauf schon auf den Umsatz ausgewirkt hat. 
+- 1) Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH zusammenrechnen und somit den Umsatz für das Quartal Q1 2019 erstellen, ob der Zukauf der Firma, die nun als Tochtergesellschaft in das Unternehmen eingegliedert wurde, sich schon auf die Umsätze ausgewirkt hat.
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
