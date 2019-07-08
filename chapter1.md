@@ -519,7 +519,7 @@ xp: 25
 
 `@instructions`
 Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam die Verkaufszeiten ihres Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und Sie prüfen möchten, ob dieser noch profitabel ist. 
-Gehen wir zuerst die Kundenbeschwerde an:
+Gehen wir zuerst die Kundenbeschwerde an, dass Samstag der kürzeste Tag wäre und Sie Montag geschlossen hätten:
 - 1. Erstellen Sie dazu einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
