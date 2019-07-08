@@ -518,9 +518,9 @@ xp: 25
 ```
 
 `@instructions`
-Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese auf Profitabilität.
-
-- 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
+Sie sollen als Mitarbeiter des Business Intelligence & Data Analyticsteam die Verkaufszeiten ihres einzigen Verkaufsstores analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und Sie prüfen möchten, ob dieser noch profitabel ist, da schon jetzt ihr Umsatz zu 93% über ihren Webstore generiert wird. 
+Gehen wir zuerst die Kundenbeschwerde an:
+- 1. Erstellen Sie dazu einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen.
