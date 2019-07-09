@@ -414,7 +414,11 @@ Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig **"Joe"** und n
 - 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann, der in einer Variable abgespeichert ist in Joe Flochtermann um.
 
 `@hint`
-Verweisen Sie auf die Variable Josef Flochtermann einfach den neuen Namen. Beachten Sie, dass Joe Flochtermann eine "Zeichenkette/ein String" ist.
+Verweisen Sie auf die Variable ```
+Josef Flochtermann
+``` einfach den neuen Namen. Beachten Sie, dass ```
+Joe Flochtermann
+``` eine "Zeichenkette/ein String" ist.
 
 `@sample_code`
 ```{r}
