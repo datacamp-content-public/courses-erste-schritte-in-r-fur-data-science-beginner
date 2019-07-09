@@ -24,7 +24,7 @@ Lassen Sie uns keine Zeit verlieren und mit den Aufgaben beginnen!
 
 `@instructions`
 - Wir fangen mit dem kleinen Testprogramm an mit dem fast alle Programmierbücher starten, sodass Sie mit den Eingabebereichen vertraut werden:
-	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
+	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken Sie auf 'Submit Answer'.
 
 `@hint`
 Keine Angst - einfach ```
