@@ -739,7 +739,7 @@ Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur
     - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
-Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Benennungen ```
+Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Bezeichnungen ```
 Zeichenketten
 ``` sind.
 
