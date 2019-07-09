@@ -735,8 +735,7 @@ Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerech
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- oder Spaltennamen:
-		
-    - **Sales time in h, Revenue, Revenue per hour**
+	- **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
 Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Benennungen ```
@@ -759,17 +758,17 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 `@solution`
 ```{r}
 # Zeilennamen benennen
-rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
-## Spaltennamen bennen
-#colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+#rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
+# Spaltennamen bennen
+colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
+#ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
+#success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen! Kommen wir nun zum letzten Inhaltsblock dieser Kurzeinführung - den in der stat. Programmierung sehr häufig verwendeten Data Frames.")
+ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
 success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen! Kommen wir nun zum letzten Inhaltsblock dieser Kurzeinführung - den in der stat. Programmierung sehr häufig verwendeten Data Frames.")
-#ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
-#success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
 
 ---
