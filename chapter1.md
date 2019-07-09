@@ -619,7 +619,7 @@ xp: 100
 
 Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, ähnlich wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix des gleichen Datentyps gespeichert werden (de Vries/Meys 2018).
 
-Vektoren in eine Matrix zusammenführen: 
+Vektoren in einer Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.   Matrix <- rbind(Vektor, Vektor)
 - **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
 
@@ -735,7 +735,8 @@ Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerech
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- oder Spaltennamen:
-	- **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
+	
+    - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
 Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Benennungen ```
