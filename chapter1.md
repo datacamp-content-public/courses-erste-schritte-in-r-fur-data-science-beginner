@@ -342,7 +342,7 @@ Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder
 
 `@sample_code`
 ```{r}
-#1.Überprüfung Datentyp Variable Anzahl_Mitarbeiter:
+#1.Überprüfung Datentyp Anzahl_Mitarbeiter:
 
 ```
 
