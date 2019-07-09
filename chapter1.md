@@ -20,7 +20,7 @@ Ihr Chef Herr Müller hat für Sie verschiedene Aufgaben, die für das Unternehm
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
 
-Lasst uns starten :)!
+Lasst Sie uns mit den Aufgaben starten :)!
 
 `@instructions`
 - Wir fangen mit dem kleinen Testprogramm an mit dem fast alle Programmierbücher starten, sodass Sie mit den Eingabebereichen vertraut werden:
