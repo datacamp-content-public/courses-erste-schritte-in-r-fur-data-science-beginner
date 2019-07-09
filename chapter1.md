@@ -380,6 +380,7 @@ is.numeric(Anzahl_Mitarbeiter)
 #Ausgabe
 print(Anzahl_Mitarbeiter)
 #2.Zuweisung:
+
 ```
 
 `@solution`
