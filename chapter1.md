@@ -402,7 +402,7 @@ success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 
 ---
 
-## Datentypen
+## Datentypen (Q)
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -774,7 +774,7 @@ success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können I
 
 ---
 
-## Assessment Matrizen
+## Matrizen (Q)
 
 ```yaml
 type: PureMultipleChoiceExercise
