@@ -95,7 +95,7 @@ xp: 25
 ```
 
 `@instructions`
-- 1) Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, ob der Zukauf von Airuber sich schon auf die Umsätze ausgewirkt hat.
+- 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, ob der Zukauf von Airuber sich schon auf die Umsätze ausgewirkt hat.
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
@@ -141,7 +141,7 @@ xp: 25
 ```
 
 `@instructions`
-- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles hinsichtlich des neuen Zukaufs und einer falschen Kapitalbewertung der Tochterfirma von **42800€** müssen diese negativ am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
+- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles und einer falschen Kapitalbewertung hinsichtlich des neuen Zukaufs von in Summe **42800€** müssen diese negativ am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
 
 `@hint`
 Denken Sie nicht kompliziert. Hier müssen Sie nur zwei Werte voneinander subtrahieren!
