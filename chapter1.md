@@ -368,7 +368,9 @@ xp: 35
 
 `@instructions`
 Da ist wohl bei der Datenintegration im System etwas mit der Zuordnung schief gelaufen.
-- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. Klicken Sie zur Zwischenausgabe auf 'Run Code'.
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. 
+
+Klicken Sie zur Zwischenausgabe auf 'Run Code'.
 
 `@hint`
 Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
