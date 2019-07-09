@@ -251,6 +251,8 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. 
 
 - Beispiel: So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
 
+![Variablen vergleichen](**https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG**)
+
 ```
 Variablen vergleichen:
 x == y 		TRUE, wenn x exakt mit y übereinstimmt
@@ -261,7 +263,6 @@ x & y 		x logisch-und y
 x | y  		x logisch-oder y
 !x    		nicht x
 xor(x, y) 	exklusiv x logisch-oder y
-
 ```
 
 `@instructions`
