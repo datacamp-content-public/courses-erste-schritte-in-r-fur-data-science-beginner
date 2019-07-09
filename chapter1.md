@@ -318,7 +318,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
-Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarbeiter angefordert, um einen Überblick über die hinzugewonnen Mitarbeiter und deren Personaldaten zu bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit dem neu integrierten ERP-System und Fehler bei den Datentypen, die im Zuge der Datenintegration wahrscheinlich passiert sind, schon aufgefallen seien. Deswegen sollen Sie sich nun mit den Personaldaten und den Datentypen beschäftigen, um dies zu überprüfen und ggf. zu beheben.
+Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarbeiter angefordert, um einen Überblick über die hinzugewonnen Mitarbeiter und deren Personaldaten zu bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit dem kürzlich eingeführten ERP-System seien und Fehler bei den Datentypen, die im Zuge der Datenintegration wahrscheinlich passiert sind, schon aufgefallen seien. Deswegen sollen Sie sich nun mit den Personaldaten und den Datentypen beschäftigen, um dies zu überprüfen und ggf. zu beheben.
 
 `@pre_exercise_code`
 ```{r}
