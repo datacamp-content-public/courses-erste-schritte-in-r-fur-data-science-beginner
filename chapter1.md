@@ -410,7 +410,7 @@ key: dbbb20e7e4
 xp: 50
 ```
 
-Sie sehen in den Personaldaten, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
+Sie sehen in den Personaldatenbank, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
 Air2/03.077
 ``` 
 verwenden?
@@ -461,7 +461,7 @@ c(1,2,3) oder kürzer c(1:3)
 
 Wichtige Befehle:
 
-**str()**: Typ eines Vektors bestimmen und Überblick verschaffen.
+**str()**: Typ eines Vektors bestimmen und einen Überblick verschaffen.
 
 **mean()**: Durchschnitt ausrechnen.
 
