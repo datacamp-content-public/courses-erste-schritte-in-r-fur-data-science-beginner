@@ -253,18 +253,6 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. 
 
 ![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
 
-```
-Variablen vergleichen:
-x == y 		TRUE, wenn x exakt mit y übereinstimmt
-x != y 		TRUE, wenn x von y abweicht
-x > y  		TRUE, wenn x größer y
-x >= y		TRUE, wenn x größer gleich y
-x & y 		x logisch-und y
-x | y  		x logisch-oder y
-!x    		nicht x
-xor(x, y) 	exklusiv x logisch-oder y
-```
-
 `@instructions`
 Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und der Forderungsausfall auch in die Quartalsbilanz fällt?
 
