@@ -909,7 +909,7 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT - da nochmal eine Übersicht aufgeführt)
+Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT - da wird nochmal eine Übersicht aufgeführt)
 
 - 1. Nichts auffälliges.
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
