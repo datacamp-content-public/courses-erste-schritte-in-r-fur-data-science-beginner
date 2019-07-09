@@ -334,7 +334,7 @@ xp: 35
 ```
 
 `@instructions`
-Schauen Sie sich bitte zuerst den Datentypen an.
+Schauen Sie sich bitte zuerst den Datentyp an.
 - 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da in letzter Zeit häufiger Fehler aufgetreten sind.
 
 `@hint`
