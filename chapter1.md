@@ -173,7 +173,7 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Es ist auf den Umsatz von **295005€** im Januar eine Umsatzsteuer in Höhe von **56050.95€** für die neuen leistungsstärkeren Drohnenmotoren aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Kunden aufgeschlagen, wenn die gesamte Steuer weitergegeben wurde? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben:
+- 3. Es ist auf den Einkaufspreis von **295005€** im Dezember 2018 für die neuen Drohnenmotoren eine zusätzliche Marge in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an zusätzlicher Mare wurde aufgeschlagen? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben:
 
 `@hint`
 Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. 
@@ -186,7 +186,7 @@ Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verw
 
 `@sample_code`
 ```{r}
-# Ausrechnen der Umsatzsteuer
+# Ausrechnen der zusätzlichen Marge
 
 ```
 
