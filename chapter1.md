@@ -12,11 +12,11 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Die Firma möchte sich neue Geschäftsbereiche erschließen und sich dazu eine Firma, die sich auf die Herstellung von Paketdrohnen spezialisiert hat, aufgekauft. Sie sollen im Zuge der Akquisition erste Umsatzzahlen analyisieren, der neuen Tochterfirma zuarbeiten und Reportstandards überprüfen. 
+Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Die Firma möchte sich neue Geschäftsbereiche erschließen und hat dazu die Firma Airuber, die sich nun auch im Firmennamen niederschlägt, akquiriert. Airuber hat sich auf die Entwicklung und die Produktion von Paketdrohnen spezialisiert und ist nun als eine Tochterfirma des vorherigen Stammunternehmens Bambergus GmbH zugehörig. Sie sollen im Zuge der Akquisitation erste Umsatzzahlen analyisieren, der neuen Tochterfirma bei Fragen und Problemen zur Systemintegration aushelfen und Reportstandards überprüfen. 
 
-Im Zuge dieser Anforderungen sollen Sie sich mit der Programmiersprache R befassen, da sich diese für die statistische Auswertung von strukturierten und unstrukturierten Daten besonders gut eignet und in ihrem Team damit gearbeitet wird. 
+Im Zuge dieser Anforderungen sollen Sie sich mit der Programmiersprache R befassen, da sich diese für die statistische Auswertung von strukturierten und unstrukturierten Daten besonders gut eignet, eine frei zugängliche Programmiersprache ist und in ihrem Team damit vorrangig gearbeitet wird. 
 
-Ihr Chef Herr Müller hat für Sie verschiedene Aufgaben, die für das Unternehmen der Bambergus Airuber GmbH aktuell erledigt werden müssen. 
+Ihr Chef Herr Müller ist mit der Akquisitation sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. 
 
 ![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
 
