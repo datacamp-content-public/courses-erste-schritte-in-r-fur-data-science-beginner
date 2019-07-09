@@ -257,10 +257,9 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. 
 `@instructions`
 Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und der Forderungsausfall auch in die Quartalsbilanz fällt?
 
-1. Sie sollen nun die Quartalszahlen aus 2019 Q1: **805200€** und Q2: **859520.9€** den Variablen
-**x** und **y** zuordnen, um besser die Werte vergleichen zu können. 
+1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus 2019 Q1: **805200€** und Q2: **859520.9€** den Variablen **x** und **y** zu.
 
-2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bitte einen booleschen Wert (TRUE oder FALSE) ausgeben:
+2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bzgl. der Aussage einen booleschen Wert (TRUE oder FALSE) ausgeben.
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits im System hinterlegt und der Variable z zugewiesen. 
