@@ -730,9 +730,9 @@ xp: 30
 ```
 
 `@instructions`
-Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
+Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Service- und Supportcenters ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
 
-Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
+Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management der Tochtergesellschaft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- oder Spaltennamen:
 	
