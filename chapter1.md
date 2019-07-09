@@ -461,6 +461,7 @@ verwenden?
 - 3: eine Zeichenkette (character).
 - 4: eine Kategorie (fact).
 
+
 `@hint`
 Beachten Sie die Anführungszeichen.
 
