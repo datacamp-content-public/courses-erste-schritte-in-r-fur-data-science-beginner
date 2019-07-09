@@ -456,10 +456,10 @@ Air2/03.077
 ``` 
 verwenden?
 
-- 1: Es ist ein boolescher Wert (logical).
-- 2: Es ist eine Ganzzahl oder Fließkommazahl (numeric).
-- 3: Es ist eine Zeichenkette (character).
-- 4: Es ist eine Kategorie (fact).
+- 1: Einen booleschen Datentyp (logical).
+- 2: Eine Ganz- oder Fließkommazahl (numeric).
+- 3: Eine Zeichenkette (character).
+- 4: Eine Kategorie (fact).
 
 `@hint`
 Beachten Sie die Anführungszeichen.
@@ -477,7 +477,7 @@ Beachten Sie die Anführungszeichen.
 
 `@feedback`
 - Leider nicht richtig, überlegen Sie noch einmal!
-- Leider nicht richtig, überlegen Sie noch einmal!
+- Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
 - Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist. Sie haben schon einiges erledigt und lernen schnell - die Hälfte haben Sie geschafft (3/6 abgeschlossen)! - Weiter geht es nun mit **Vektoren!**
 - Leider nicht richtig, überlegen Sie noch einmal!
 
