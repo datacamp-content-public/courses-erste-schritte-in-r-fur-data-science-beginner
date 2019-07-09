@@ -335,7 +335,7 @@ xp: 35
 
 `@instructions`
 Schauen Sie sich bitte zuerst den Datentyp an.
-- 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da in letzter Zeit häufiger Fehler aufgetreten sind.
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da in letzter Zeit häufiger dort Fehler aufgetreten sind.
 
 `@hint`
 Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Übersichtstabelle in der Zeile **Abfrage (Query)** nach.
