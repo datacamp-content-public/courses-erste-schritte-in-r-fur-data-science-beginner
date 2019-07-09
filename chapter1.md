@@ -658,7 +658,7 @@ Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zei
 
 `@sample_code`
 ```{r}
-# report.weeksales
+# Erstellen eines report.weeksales
 
 ```
 
