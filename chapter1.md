@@ -476,7 +476,7 @@ Beachten Sie die Anführungszeichen.
 - 4
 
 `@feedback`
-- Leider nicht richtig, überlegen Sie noch einmal!
+- Nicht richtig, da liegen Sie völlig falsch.
 - Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
 - Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist. Sie haben schon einiges erledigt und lernen schnell - die Hälfte haben Sie geschafft (3/6 abgeschlossen)! - Weiter geht es nun mit **Vektoren!**
 - Leider nicht richtig, überlegen Sie noch einmal!
