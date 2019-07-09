@@ -410,8 +410,8 @@ xp: 30
 ```
 
 `@instructions`
-Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig "Joe" und nicht "Josef" genannt und in den Daten so geführt werden möchte. 
-- 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann (Variable) in Joe Flochtermann um.
+Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig **"Joe"** und nicht **"Josef"** genannt und in den Daten so geführt werden möchte. 
+- 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann, der in einer Variable abgespeichert ist in Joe Flochtermann um.
 
 `@hint`
 Verweisen Sie auf die Variable Josef Flochtermann einfach den neuen Namen. Beachten Sie, dass Joe Flochtermann eine "Zeichenkette/ein String" ist.
