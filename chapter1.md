@@ -451,9 +451,10 @@ key: dbbb20e7e4
 xp: 50
 ```
 
-Was ist ```
-"3.Stock"
-``` für ein Basisdatentyp?
+Sie sehen in den Personaldaten, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
+Air2/03.077
+``` 
+verwenden?
 
 - 1: Es ist ein boolescher Wert (logical).
 - 2: Es ist eine Ganzzahl oder Fließkommazahl (numeric).
