@@ -686,9 +686,9 @@ xp: 35
 ```
 
 `@instructions`
-Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat.
+Sie haben den Report Herrn Müller übergeben. Er lässt Ihnen die Nachricht zukommen, ob Ihnen aufgefallen sei, dass sich ein Zahlenfehler eingeschlichen hat. Sie müssen das nächste Mal genauer die Werte kontrollieren. 
 
-- 2. Lassen Sie sich die Matrix **report.weeksales** ausgeben ('Run code') und korrigieren Sie bitte den Report.
+- 2. Naja, lassen Sie sich den erstellten Report (**report.weeksales**) noch einmal ausgeben und korrigieren Sie ihn bitte.
 
 `@hint`
 Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - alles darüber ist natürlich falsch. report.weeksales[Zeile, Spalte] <- Wert
