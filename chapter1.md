@@ -323,6 +323,7 @@ Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarb
 `@pre_exercise_code`
 ```{r}
 Anzahl_Mitarbeiter <- "Fabian Jung"
+Josef Flochtermann
 ```
 
 ***
