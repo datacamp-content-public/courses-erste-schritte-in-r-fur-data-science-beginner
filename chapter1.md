@@ -323,7 +323,6 @@ Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarb
 `@pre_exercise_code`
 ```{r}
 Anzahl_Mitarbeiter <- "Fabian Jung"
-Josef Flochtermann <- "Josef Flochtermann"
 ```
 
 ***
@@ -331,7 +330,7 @@ Josef Flochtermann <- "Josef Flochtermann"
 ```yaml
 type: NormalExercise
 key: 0d1ead9f62
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -364,7 +363,7 @@ success_msg("Super, es ist keine numerische Variable hinterlegt, da muss bei der
 ```yaml
 type: NormalExercise
 key: e8d49fb162
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -399,47 +398,6 @@ Anzahl_Mitarbeiter <- 17
 ```{r}
 ex() %>% check_code(c("Anzahl_Mitarbeiter<-17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: c5fa4ac3a0
-xp: 30
-```
-
-`@instructions`
-Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig **"Joe"** und nicht **"Josef"** genannt und in den Daten so geführt werden möchte. 
-- 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann in Joe Flochtermann um.
-
-`@hint`
-Verweisen Sie auf die Variable ```
-Josef Flochtermann
-``` einfach den neuen Namen. Beachten Sie, dass ```
-Joe Flochtermann
-``` eine "Zeichenkette/ein String" ist.
-
-`@sample_code`
-```{r}
-#1.numerische Variable?
-is.numeric(Anzahl_Mitarbeiter)
-#2.Ausgabe + Zuweisung
-print(Anzahl_Mitarbeiter)
-Anzahl_Mitarbeiter <- 17
-#3.Umbenennung Mitarbeiter
-
-```
-
-`@solution`
-```{r}
-Josef Flochtermann <- "Joe Flochtermann"
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("Josef Flochtermann <- "Joe Flochtermann"", ""Joe Flochtermann" -> Josef Flochtermann"), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewiesen. Verweisen Sie auf die Variable Josef Flochtermann den neuen Namen")
-success_msg("Super - weiter geht´s - Wir kommen gut voran, jedoch haben wir keine Zeit zu verlieren, da es noch etwas zu tun gibt!")
 ```
 
 ---
