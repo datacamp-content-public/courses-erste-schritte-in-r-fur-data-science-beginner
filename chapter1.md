@@ -409,10 +409,11 @@ xp: 30
 ```
 
 `@instructions`
-- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix, der extra für die neue Tochtergesellschaft der Bambergus Airuber Gmbh angworben wurde und mit Ihnen in Zukunft zusammenarbeiten soll, ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
+Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig "Joe" und nicht "Josef" genannt und in den Daten geführt werden möchte. 
+- 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann (Variable) in Joe Flochtermann um.
 
 `@hint`
-Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine "Zeichenkette/ein String" ist.
+Verweisen Sie auf die Variable Joseph einfach den neuen Namen. Beachten Sie, dass Nordwand eine "Zeichenkette/ein String" ist.
 
 `@sample_code`
 ```{r}
