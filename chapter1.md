@@ -410,7 +410,7 @@ key: dbbb20e7e4
 xp: 50
 ```
 
-Sie sehen in den Personaldatenbank, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
+Sie sehen in der Personaldatenbank, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
 Air2/03.077
 ``` 
 verwenden?
