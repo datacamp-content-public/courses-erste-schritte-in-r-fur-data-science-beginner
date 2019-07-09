@@ -409,7 +409,7 @@ xp: 30
 ```
 
 `@instructions`
-Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig "Joe" und nicht "Josef" genannt und in den Daten geführt werden möchte. 
+Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig "Joe" und nicht "Josef" genannt und in den Daten so geführt werden möchte. 
 - 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann (Variable) in Joe Flochtermann um.
 
 `@hint`
@@ -434,7 +434,7 @@ Josef Flochtermann <- "Joe Flochtermann"
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Josef Flochtermann <- "Joe Flochtermann", "Joe Flochtermann"-> Josef Flochtermann), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+ex() %>% check_code(c(Josef Flochtermann <- "Joe Flochtermann", "Joe Flochtermann"-> Josef Flochtermann), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewiesen. Verweisen Sie auf die Variable Josef Flochtermann den neuen Namen")
 success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
 
