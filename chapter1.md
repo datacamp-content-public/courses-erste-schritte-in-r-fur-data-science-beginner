@@ -582,7 +582,7 @@ xp: 25
 ```
 
 `@instructions`
-- 4. Berechnen Sie bitte die durchschnittliche Verkaufs- und Servicezeit pro Arbeitstag in der Woche.
+- 4. Berechnen Sie bitte die durchschnittliche wöchentliche Verkaufs- und Servicezeit
 
 `@hint`
 Benutzen Sie die Funktion aus der Exercisebox und verwenden Sie die passende Variable.
