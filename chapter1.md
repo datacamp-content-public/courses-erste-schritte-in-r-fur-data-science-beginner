@@ -463,11 +463,11 @@ verwenden?
 
 
 `@hint`
-Beachten Sie die Anführungszeichen.
+Hier haben Sie noch einmal eine Übersicht mit Beispielen. 
 
 - zu 1: Boolesche Werte: TRUE, FALSE
 - zu 2: Ganzzahlen: 1; 1.5
-- zu 3: Zeichenkette: "Hallo Herr Müller"
+- zu 3: Zeichenkette: "Hallo", "09:45 Uhr"
 - zu 4: Kategorie: A
 
 `@possible_answers`
