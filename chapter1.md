@@ -478,7 +478,7 @@ Beachten Sie die Anführungszeichen.
 `@feedback`
 - Nicht richtig, da liegen Sie völlig falsch.
 - Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
-- Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist. Sie haben schon einiges erledigt und lernen schnell - die Hälfte haben Sie geschafft (3/6 abgeschlossen)! - Weiter geht es nun mit **Vektoren!**
+- Richtig - eine Zeichenkette (character) eignet sich hier als Datentyp, da sowohl Zahlen als auch Buchstaben vorkommen. Sie haben schon einiges erledigt und lernen schnell - die Hälfte haben Sie geschafft (3/6 abgeschlossen)! - Weiter geht es nun mit **Vektoren!**
 - Leider nicht richtig, überlegen Sie noch einmal!
 
 ---
