@@ -443,7 +443,7 @@ success_msg("Super - weiter geht´s - Wir kommen gut voran, jedoch haben wir kei
 
 ---
 
-## Assessment Datentypen
+## Datentypen
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -456,10 +456,10 @@ Air2/03.077
 ``` 
 verwenden?
 
-- 1: Einen booleschen Datentyp (logical).
-- 2: Eine Ganz- oder Fließkommazahl (numeric).
-- 3: Eine Zeichenkette (character).
-- 4: Eine Kategorie (fact).
+- 1: einen booleschen Datentyp (logical).
+- 2: eine Ganz- oder Fließkommazahl (numeric).
+- 3: eine Zeichenkette (character).
+- 4: eine Kategorie (fact).
 
 `@hint`
 Beachten Sie die Anführungszeichen.
