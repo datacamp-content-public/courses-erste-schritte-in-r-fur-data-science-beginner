@@ -548,9 +548,7 @@ xp: 25
 ```
 
 `@instructions`
-Am längsten Arbeitstag im Kundencenter wurden in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Support und Verkauf generiert. Im ERP-System finden Sie in die Information, dass wenn der Benchmark von 5000€ durchschnittlicher Umsatz pro Stunde generiert wird, dass sich ein Kundencenter in ihrer Branche als profitabel ansehen lässt.
-
-- 3. Wie viel wurde pro Stunde umgesetzt? 
+-  3. Am längsten Arbeitstag im Kundencenter wurden in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, dass aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der letzten 12 Wochen, am Freitag, als profitabel anzusehen? 
 
 ![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
 
