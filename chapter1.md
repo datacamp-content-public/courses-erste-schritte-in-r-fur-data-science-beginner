@@ -649,7 +649,7 @@ xp: 35
 ```
 
 `@instructions`
-Herr Müller bittet Sie einen Report mit dem Namen **report.weeksales** für die Tochterfirma zu erstellen.
+Herr Müller bittet Sie einen Report mit dem Namen **report.weeksales** für das Service- und Supportcenter zu erstellen.
 
 - 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variable vom Typ Matrix **report.weeksales** zuzuordnen. Schauen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
