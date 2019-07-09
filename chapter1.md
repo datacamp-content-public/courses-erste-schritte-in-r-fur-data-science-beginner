@@ -428,7 +428,6 @@ Anzahl_Mitarbeiter <- 17
 
 `@solution`
 ```{r}
-
 Josef Flochtermann <- "Joe Flochtermann"
 ```
 
