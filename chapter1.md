@@ -413,7 +413,7 @@ Der Chef der Tochtergesellschaft hat angemerkt, dass er künftig "Joe" und nicht
 - 3. Bitte benennen Sie den Mitarbeiter Josef Flochtermann (Variable) in Joe Flochtermann um.
 
 `@hint`
-Verweisen Sie auf die Variable Joseph einfach den neuen Namen. Beachten Sie, dass Nordwand eine "Zeichenkette/ein String" ist.
+Verweisen Sie auf die Variable Josef Flcohtermann einfach den neuen Namen. Beachten Sie, dass Joe Flochtermann eine "Zeichenkette/ein String" ist.
 
 `@sample_code`
 ```{r}
@@ -429,12 +429,12 @@ Anzahl_Mitarbeiter <- 17
 `@solution`
 ```{r}
 
-Office_33 <- "Nordwand"
+Josef Flochtermann <- "Joe Flochtermann"
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+ex() %>% check_code(c(Josef Flochtermann <- "Joe Flochtermann", "Joe Flochtermann"-> Josef Flochtermann), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
 success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
 
