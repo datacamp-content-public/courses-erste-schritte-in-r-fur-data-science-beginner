@@ -480,7 +480,7 @@ xp: 25
 ```
 
 `@instructions`
-Nachdem Sie sich nun um die Personaldaten gekümmert haben und Fehler behoben haben, sollen Sie Verkaufs- und Servicezeiten des neu administrierten Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzahlen lohnt. 
+Nachdem Sie sich nun um die Personaldaten gekümmert haben und Fehler behoben haben, sollen Sie Verkaufs- und Servicezeiten des neu administrierten Kundencenters analyisieren, da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzzahlen lohnt. 
 
 - 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
