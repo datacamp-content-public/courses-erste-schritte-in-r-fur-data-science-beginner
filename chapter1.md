@@ -253,7 +253,6 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. 
 my_var <- 5
 ```
 
-
 ![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
 
 `@instructions`
@@ -319,7 +318,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
-Von der kleinen Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarbeiter angefordert, um einen Überblick über die neuen Mitarbeiter zu bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit dem neuen ERP-System seien und Fehler bei der Administration des Systems bzgl. der Datentypen schon aufgefallen sind. Deswegen sollen Sie sich nun damit beschäftigen, um dies zu überprüfen.
+Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarbeiter angefordert, um einen Überblick über die Personaldaten zu bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit dem neuen ERP-System seien und Fehler bei der Datenintegration bzgl. der Datentypen schon aufgefallen sind. Deswegen sollen Sie sich nun mit den Datentypen und den Personaldaten beschäftigen, um dies zu überprüfen.
 
 `@pre_exercise_code`
 ```{r}
