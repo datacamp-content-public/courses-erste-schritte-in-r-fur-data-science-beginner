@@ -841,7 +841,7 @@ xp: 50
 ```
 
 `@instructions`
-Der Datensatz aus Ihrem Unternehmen Bambergus AirUber, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen. Die Kundeninformationen beziehen sich auf die Anzahl, die Ihre neuartige Paketdrohne gekauft haben. Er wurde eingelesen und der Variable **Kundendaten** zugewiesen. Um zu erfahren, wie ihr neuartigstes Produkt angenommen wurde, sollen Sie die Daten analyieren.
+Der Datensatz aus dem Unternehmen Bambergus Airuber, der aus der zentralen ERP System und der darin enthaltenen Kundendatenbank stammt, enthält verschiedene Kundeninformationen. Die Kundeninformationen beziehen sich auf die Anzahl, die Ihre neuartige Paketdrohne gekauft haben. Er wurde eingelesen und der Variable **Kundendaten** zugewiesen. Um zu erfahren, wie ihr neues Produkt von den Kunden angenommen wurde, sollen Sie die Daten analyieren.
 
 ![Drohne](https://assets.datacamp.com/production/repositories/5035/datasets/2e93b24ab11762e4a023c378ebd0861de122f99b/Bef%C3%B6rderungsdrohne_klein.jpg)
 
