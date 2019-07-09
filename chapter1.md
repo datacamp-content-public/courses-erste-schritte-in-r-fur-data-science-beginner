@@ -438,7 +438,7 @@ Anzahl_Mitarbeiter <- 17
 `@sct`
 ```{r}
 ex() %>% check_code(c("Josef_Flochtermann" <- "Joe Flochtermann", "Joe Flochtermann" -> "Josef_Flochtermann"), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewiesen. Verweisen Sie auf die Variable Josef Flochtermann den neuen Namen")
-success_msg("Super - weiter geht´s - wir kommen gut voran, jedoch haben wir keine Zeit zu verlieren!")
+success_msg("Super - weiter geht´s - Wir kommen gut voran, jedoch haben wir keine Zeit zu verlieren, da es noch etwas zu tun gibt!")
 ```
 
 ---
