@@ -396,7 +396,7 @@ Anzahl_Mitarbeiter <- 17
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
+ex() %>% check_code(c("Anzahl_Mitarbeiter<-17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
 
@@ -422,7 +422,7 @@ is.numeric(Anzahl_Mitarbeiter)
 #2.Ausgabe + Zuweisung
 print(Anzahl_Mitarbeiter)
 Anzahl_Mitarbeiter <- 17
-#3.Umbenennung Büro
+#3.Umbenennung Mitarbeiter
 
 ```
 
