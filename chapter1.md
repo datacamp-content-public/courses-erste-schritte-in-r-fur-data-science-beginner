@@ -548,7 +548,7 @@ xp: 25
 ```
 
 `@instructions`
-Am längsten Arbeitstag im Kundencenter wurden 52020€ Umsatz mit Support und Verkauf generiert. Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich das Kundencenter als profitabel in dieser Branche ansehen. 
+Am längsten Arbeitstag im Kundencenter wurden in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Support und Verkauf generiert. Wenn über 5000€ pro Umsatz pro Stunde generiert wird, lässt sich das Kundencenter als profitabel in dieser Branche ansehen. 
 
 - 3. Wie viel wurde pro Stunde umgesetzt? 
 
