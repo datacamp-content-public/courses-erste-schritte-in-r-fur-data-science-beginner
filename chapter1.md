@@ -249,7 +249,9 @@ xp: 100
 
 Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. Eine Variable ermöglicht es einen Wert (z.B. 5) oder eine Zeichenkette (z.B. "Funktionsbeschreibung") in R zu speichern. Später können Sie den Namen der Variablen nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018).
 
-- Beispiel: So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
+- Beispiel: So können Sie der Variable my_var den Wert 5 zuweisen: ```
+my_var <- 5
+```
 
 
 ![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
