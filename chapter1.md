@@ -735,7 +735,7 @@ Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Servi
 
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analyisiert worden ist. 
 
-- 3. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- oder Spaltennamen:
+- 3. Bitte benennen Sie den erstellten report.final
 	
     - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
