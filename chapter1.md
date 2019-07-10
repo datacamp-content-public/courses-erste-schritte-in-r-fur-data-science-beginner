@@ -932,6 +932,6 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 
 `@feedback`
 - Nein, diese Aussage trifft zu. Der Median repräsentiert in diesem Fall den durchschnittlichen Umsatz besser als der Mean, da Fehlerwerte den Mean verfälschen. 
-- Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht. [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jp)
+- Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht.
 - Nein, diese Aussage ist richtig. Der Maximalwert kommt sehr unrealistisch vor, wenn man ihn mit dem Median vergleicht und auch die Quartile als Maßstab heranzieht. Es wird sich um einen Fehler in den Daten handeln. 
 - Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
