@@ -481,7 +481,7 @@ key: d114af75ea
 `@instructions`
 Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
-Aufgrund von Kundenbeschwerden, die sich wegen der Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. Verschaffen Sie sich einen Überblick über die Anzahl und den Umsatz des Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
+Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. Verschaffen Sie sich einen Überblick über die Anzahl und den Umsatz des Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
 
 `@hint`
 
