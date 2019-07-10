@@ -452,7 +452,7 @@ xp: 100
 
 Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
-Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:
 
 ```
 c(1,2,3) oder kürzer c(1:3)
@@ -479,7 +479,7 @@ xp: 25
 ```
 
 `@instructions`
-Nachdem Sie sich nun um die Personaldaten gekümmert haben und Fehler behoben haben, sollen Sie Verkaufs- und Servicezeiten des neu administrierten Kundencenters analyisieren. Da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzzahlen lohnt. 
+Nachdem Sie sich nun um die Personaldaten analyisiert und Fehler behoben haben, sollen Sie die Verkaufs- und Servicezeiten des neu administrierten Kundencenters analyisieren. Da verschiedene Kunden sich über die Öffnungszeiten beschwert haben und wissen möchten, wann der längste Servicetag ist. Des Weiteren sollen Sie prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzzahlen lohnt. 
 
 - 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
