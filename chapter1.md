@@ -938,7 +938,7 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 
 ---
 
-## Glückwunsch! 
+## Glückwunsch! Ihr verdienter Badge zum erfolgreich absolvierten Kurzeinstieg in R :)
 
 ```yaml
 type: PureMultipleChoiceExercise
