@@ -821,12 +821,12 @@ Nach den Vektoren und Martrizen, kommen wir nun zur Spezialform von Listen, den 
 Data Frames sind Listen mit Vektoren gleicher Länge, die bei der Datenanalyse in R sehr häufig Anwendung finden, da in einem Data Frame unterschiedliche Datentypen gespeichert werden können  (Grolemund 2019, S.55).
 
 Nützliche Funktionen: 
-- **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten
-- **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts
-- **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objektes
-- **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Datenobjektes
-- **str()**: Erstellt eine kompakte Darstellung der internen Struktur
-- **summary()**: Generische Funktion für Ergebniszusammenfassungen
+- **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten.
+- **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
+- **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objektes.
+- **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Datenobjektes.
+- **str()**: Erstellt eine kompakte Darstellung der internen Struktur.
+- **summary()**: Generische Funktion für Ergebniszusammenfassungen.
 
 `@pre_exercise_code`
 ```{r}
