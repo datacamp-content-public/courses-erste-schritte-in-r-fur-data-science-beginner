@@ -878,7 +878,7 @@ xp: 50
 ```
 
 `@instructions`
-Herr Müller möchte nun weitere Analysen der Kundendaten vornehmen lassen. Dazu sollen Sie den Datensatz begutachten und für die eigentliche Analyse vorbereiten.
+Herr Müller möchte nun weitere Analysen der Kundendaten vornehmen lassen. Dazu sollen Sie den Datensatz im Gesamten analyiseren und mögliche Auswertungen vorschlagen.
 - 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz und beachten Sie die Umsatzdaten.
 
 `@hint`
