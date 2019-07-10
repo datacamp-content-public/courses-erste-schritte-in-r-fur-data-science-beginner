@@ -911,7 +911,7 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt es Ihnen nun auf?! 
+Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt Ihnen nun etwas auf?! 
 
 ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
