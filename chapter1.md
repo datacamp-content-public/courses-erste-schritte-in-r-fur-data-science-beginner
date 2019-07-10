@@ -915,11 +915,11 @@ Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt Ihnen
 
 ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
-Welche Aussagen stimmen nicht:
-- 1. 
-- 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
-- 3. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen werden.
-- 4. 
+Welche Aussage stimmt nicht:
+- 1. Der durchschnittliche Umsatzwert vom ersten Halbjahr 2019 wird in der Nähe des Medians liegen
+- 2. Der durchschnittliche Umsatzwert vom ersten Halbjahr 2019 wird in der Nähe des Means liegen
+- 3. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
+- 4. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen werden. 
 
 `@hint`
 Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA (fehlende) Werte etc.
