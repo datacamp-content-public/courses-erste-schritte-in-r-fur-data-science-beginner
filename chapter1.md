@@ -888,6 +888,7 @@ Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen an
 
 `@sample_code`
 ```{r}
+# Überblick Neukundendaten
 
 ```
 
