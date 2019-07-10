@@ -475,6 +475,37 @@ revenue.friday <- c(36900, 38088, 36981, 39888, 43200, 53766, 51966, 48627, 5585
 
 ```yaml
 type: NormalExercise
+key: d114af75ea
+```
+
+`@instructions`
+Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
+Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. 
+- 2) Was ist der durchschnittliche Umsatz an einem Freitag?
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Überlick über Freitagsumsätze verschaffen
+
+```
+
+`@solution`
+```{r}
+mean(revenue.friday)
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
 key: 22b76c6200
 xp: 25
 ```
@@ -579,37 +610,6 @@ success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit be
 
 ```yaml
 type: NormalExercise
-key: d114af75ea
-```
-
-`@instructions`
-Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
-Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. 
-- 2) Was ist der durchschnittliche Umsatz an einem Freitag?
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Überlick über Freitagsumsätze verschaffen
-
-```
-
-`@solution`
-```{r}
-mean(revenue.friday)
-```
-
-`@sct`
-```{r}
-
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: d34d6e1231
 xp: 25
 ```
@@ -637,7 +637,7 @@ str(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor.")
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor un die darin enthaltenen Servicezeiten.")
 ```
 
 ---
