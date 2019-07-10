@@ -733,7 +733,7 @@ xp: 30
 `@instructions`
 Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Service- und Supportcenters ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
 
-Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analyisiert worden ist. 
+Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analyisiert worden ist. Herr Müller lobt Sie, da sie zugügig vorankommen und das Ende ihres Arbeitstages in naher Sicht ist.
 
 - 3. Bitte benennen Sie den erstellten report.final
 	
