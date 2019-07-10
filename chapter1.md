@@ -475,6 +475,40 @@ revenue.friday <- c(36900, 38088, 36981, 39888, 43200, 53766, 51966, 48627, 5585
 
 ```yaml
 type: NormalExercise
+key: d34d6e1231
+xp: 25
+```
+
+`@instructions`
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
+
+- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
+
+`@hint`
+Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
+`@sample_code`
+```{r}
+#Überblick über Servicezeit
+
+```
+
+`@solution`
+```{r}
+
+str(sell.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor un die darin enthaltenen Servicezeiten.")
+```
+
+***
+
+```yaml
+type: NormalExercise
 key: d114af75ea
 ```
 
@@ -604,40 +638,6 @@ ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
 success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich (4/6)")
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: d34d6e1231
-xp: 25
-```
-
-`@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
-
-- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
-
-`@hint`
-Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
-
-`@sample_code`
-```{r}
-#Überblick über Servicezeit
-
-```
-
-`@solution`
-```{r}
-
-str(sell.time)
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor un die darin enthaltenen Servicezeiten.")
 ```
 
 ---
