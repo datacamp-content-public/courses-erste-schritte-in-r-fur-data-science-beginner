@@ -893,7 +893,7 @@ Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen an
 
 `@solution`
 ```{r}
-summary(Kundendaten)
+summary(Neukundendaten)
 ```
 
 `@sct`
