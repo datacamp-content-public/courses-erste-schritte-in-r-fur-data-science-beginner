@@ -468,6 +468,7 @@ Wichtige Befehle:
 ```{r}
 sell.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+revenue.friday <- c(4100, 4232, 4109, 4432, 4800, 5974, 5774, 5403, 6206)
 ```
 
 ***
@@ -510,34 +511,30 @@ success_msg("Ja, genau!")
 
 ```yaml
 type: NormalExercise
-key: d34d6e1231
-xp: 25
+key: d114af75ea
 ```
 
 `@instructions`
-Gehen Sie bitte zuerst die Kundenbeschwerde an, wann der längste Servicetag ist:
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
-- 2. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Prüfen Sie bitte, ob dieser Tag nur numerische Werte enthält und welcher Servicetag der zeitlich längste ist.
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, wird nun am Freitag eine Stunde länger das Kundencenter besetzt. da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist.
 
 `@hint`
-Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
 
 `@sample_code`
 ```{r}
-#Servicezeit
 
 ```
 
 `@solution`
 ```{r}
 
-str(sell.time)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Dem Kunden wird mitgeteilt, dass Samstag kürzere Servicezeiten gelten würden, aber am Montag wäre das Servicecenter 8h geöffnet und immer sehr gut zu erreichen, er sollte es nochmals probieren.")
+
 ```
 
 ***
@@ -606,6 +603,40 @@ ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
 success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich")
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d34d6e1231
+xp: 25
+```
+
+`@instructions`
+Gehen Sie bitte zuerst die Kundenbeschwerde an, wann der längste Servicetag ist:
+
+- 2. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors **sell.time** ausgeben. Prüfen Sie bitte, ob dieser Tag nur numerische Werte enthält und welcher Servicetag der zeitlich längste ist.
+
+`@hint`
+Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
+`@sample_code`
+```{r}
+#Servicezeit
+
+```
+
+`@solution`
+```{r}
+
+str(sell.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Dem Kunden wird mitgeteilt, dass Samstag kürzere Servicezeiten gelten würden, aber am Montag wäre das Servicecenter 8h geöffnet und immer sehr gut zu erreichen, er sollte es nochmals probieren.")
 ```
 
 ---
