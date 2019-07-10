@@ -878,7 +878,7 @@ xp: 50
 ```
 
 `@instructions`
-Herr Müller möchte nun weitere Analysen der Kundendaten vornehmen lassen. Dazu sollen Sie den Datensatz im Gesamten analyiseren und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
+Herr Müller möchte nun weitere Analysen der Kundendaten vornehmen lassen. Dazu sollen Sie den Datensatz im Gesamten analyisieren und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
 
 - 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz und beachten Sie die Umsatzdaten.
 
