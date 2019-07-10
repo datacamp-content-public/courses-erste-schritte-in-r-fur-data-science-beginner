@@ -830,7 +830,7 @@ Nützliche Funktionen:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/1d77d5e1370affba0512be4d17291ad649d6b86a/Kundendaten4.csv")
+Neukundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/1d77d5e1370affba0512be4d17291ad649d6b86a/Kundendaten4.csv")
 ```
 
 ***
@@ -842,7 +842,8 @@ xp: 50
 ```
 
 `@instructions`
-Der Datensatz aus dem Unternehmen Bambergus Airuber, der aus dem zentralen ERP-System stammt, enthält verschiedene Kundeninformationen. Die Anzahl der Kunden bezieht sich auf die Anzahl der Verkäufe, die ihre innovative Paketdrohne gekauft haben. Er wurde eingelesen und der Variable **Kundendaten** zugewiesen. Um zu erfahren, wie ihr neues Produkt von den Kunden angenommen wurde, sollen Sie die Daten analyisieren.
+Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Kundencenter im Quartal Q1 und Q2 2019 in Anspruch genommen haben. 
+Im Datensatz sind alle Neukunden vermerkt, wobei jeder Kunde einzeln vermerkt wurde. Er wurde eingelesen und der Variable **Neukundendaten** zugewiesen. Um zu erfahren, wie ihr neues Produkt von den Kunden angenommen wurde, sollen Sie die Daten analyisieren.
 
 ![Drohne](https://assets.datacamp.com/production/repositories/5035/datasets/2e93b24ab11762e4a023c378ebd0861de122f99b/Bef%C3%B6rderungsdrohne_klein.jpg)
 
@@ -853,14 +854,14 @@ Der Datensatz aus dem Unternehmen Bambergus Airuber, der aus dem zentralen ERP-S
 
 `@sample_code`
 ```{r}
-# Anzahl Kunden
+# Anzahl Neukunden
 
 ```
 
 `@solution`
 ```{r}
 
-nrow(Kundendaten)
+nrow(Neukundendaten)
 ```
 
 `@sct`
@@ -878,9 +879,9 @@ xp: 50
 ```
 
 `@instructions`
-Herr Müller möchte nun weitere Analysen der Kundendaten vornehmen lassen. Dazu sollen Sie den Datensatz im Gesamten analyisieren und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
+Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Supportcenters analyisieren lassen. Dazu sollen Sie über den Datensatz  und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
 
-- 2. Verschaffen Sie sich bitte einen Überblick über den Kundendatensatz und beachten Sie die Umsatzdaten.
+- 2. Verschaffen Sie sich bitte mithilfe einer Funktion einen Überblick den Serviceumsatz:
 
 `@hint`
 Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen anwenden, sind sehr hilfreich.
