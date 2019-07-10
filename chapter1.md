@@ -879,7 +879,7 @@ xp: 50
 ```
 
 `@instructions`
-Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Supportcenters analyisieren lassen. Dazu sollen Sie über den Datensatz  und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
+Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Supportcenters analyisieren lassen. Dazu sollen Sie sich über die Werte im Datensatz einen Überblick verschaffen und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
 
 - 2. Verschaffen Sie sich bitte mithilfe einer Funktion einen Überblick den Serviceumsatz:
 
