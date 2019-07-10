@@ -475,49 +475,13 @@ revenue.friday <- c(4100, 4232, 4109, 4432, 4800, 5974, 5774, 5403, 6206)
 
 ```yaml
 type: NormalExercise
-key: 22b76c6200
-xp: 25
-```
-
-`@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
-
-Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
-
-- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
-
-`@hint`
-Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen!
-
-`@sample_code`
-```{r}
-# Servicetage
-
-```
-
-`@solution`
-```{r}
-
-open.vec <- c(1:6)
-```
-
-`@sct`
-```{r}
-ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
-success_msg("Ja, genau!")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: d114af75ea
 ```
 
 `@instructions`
 Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
-Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, wird nun am Freitag eine Stunde länger das Kundencenter besetzt. da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist.
+Aufgrund von Kundenbeschwerden, die sich wegen der Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. Verschaffen Sie sich einen Überblick über die Anzahl und den Umsatz des Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
 
 `@hint`
 
@@ -535,40 +499,6 @@ Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit be
 `@sct`
 ```{r}
 
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: cfddb579f1
-xp: 25
-```
-
-`@instructions`
--  3. Am längsten Arbeitstag wurden im Kundencenter in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der Daten der letzten 12 Wochen, am Freitag, als profitabel anzusehen? 
-
-![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
-
-`@hint`
-Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
-
-`@sample_code`
-```{r}
-# Umsatz pro Stunde am längsten Arbeitstag im Servicecenter:
-
-```
-
-`@solution`
-```{r}
-
-52020/9
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
-success_msg("Richtig. Am Freitag wurden 5780€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als profitabel anzusehen!")
 ```
 
 ***
@@ -637,6 +567,76 @@ str(sell.time)
 ```{r}
 ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Dem Kunden wird mitgeteilt, dass Samstag kürzere Servicezeiten gelten würden, aber am Montag wäre das Servicecenter 8h geöffnet und immer sehr gut zu erreichen, er sollte es nochmals probieren.")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: cfddb579f1
+xp: 25
+```
+
+`@instructions`
+-  3. Am längsten Arbeitstag wurden im Kundencenter in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der Daten der letzten 12 Wochen, am Freitag, als profitabel anzusehen? 
+
+![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
+
+`@hint`
+Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
+
+`@sample_code`
+```{r}
+# Umsatz pro Stunde am längsten Arbeitstag im Servicecenter:
+
+```
+
+`@solution`
+```{r}
+
+52020/9
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
+success_msg("Richtig. Am Freitag wurden 5780€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als profitabel anzusehen!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 22b76c6200
+xp: 25
+```
+
+`@instructions`
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
+
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
+
+- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
+
+`@hint`
+Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen!
+
+`@sample_code`
+```{r}
+# Servicetage
+
+```
+
+`@solution`
+```{r}
+
+open.vec <- c(1:6)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau!")
 ```
 
 ---
