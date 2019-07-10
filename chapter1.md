@@ -911,7 +911,8 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? (Wenn Sie es nicht mehr im Kopf haben, wählen Sie bitte HINT - da wird nochmal eine Übersicht aufgeführt)
+Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? 
+![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/486423d2cc1f9d82fc4f39f8a4d69722d3505961/summary(Kundendaten).PNG)
 
 - 1. Nichts auffälliges.
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
@@ -919,8 +920,7 @@ Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? (Wenn Si
 - 4. Es kommen sowohl NA Werte als auch zu hohe Ausreißerwerte im der Spalte des Kundendatensatzes vor.
 
 `@hint`
-Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA (fehlende) Werte etc. 
-![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/486423d2cc1f9d82fc4f39f8a4d69722d3505961/summary(Kundendaten).PNG)
+Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA (fehlende) Werte etc.
 
 `@possible_answers`
 - 1
