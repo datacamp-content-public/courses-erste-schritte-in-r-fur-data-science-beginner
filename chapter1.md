@@ -488,7 +488,8 @@ Aufgrund von Kundenbeschwerden, die sich wegen der Wartezeit am Freitag beschwer
 
 `@sample_code`
 ```{r}
-# Überlick über Umsätze am Freitag
+# Überlick über Freitagsumsätze verschaffen
+
 ```
 
 `@solution`
