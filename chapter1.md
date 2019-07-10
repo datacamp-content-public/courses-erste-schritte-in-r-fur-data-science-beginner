@@ -468,7 +468,7 @@ Wichtige Befehle:
 ```{r}
 sell.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
-revenue.friday <- c(4100, 4232, 4109, 4432, 4800, 5974, 5774, 5403, 6206)
+revenue.friday <- c(36900, 38088, 36981, 39888, 43200, 53766, 51966, 48627, 55854)
 ```
 
 ***
@@ -513,7 +513,9 @@ key: d114af75ea
 ```
 
 `@instructions`
-Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt.  Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
+Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
+Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. 
+- 2) Was ist der durchschnittliche Umsatz an einem Freitag?
 
 `@hint`
 
@@ -526,7 +528,7 @@ Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeit am Freitag b
 
 `@solution`
 ```{r}
-str(revenue.friday)
+mean(revenue.friday)
 ```
 
 `@sct`
@@ -543,7 +545,7 @@ xp: 25
 ```
 
 `@instructions`
--  3. Am längsten Arbeitstag wurden im Kundencenter in den letzten 12 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der Daten der letzten 12 Wochen, am Freitag, als profitabel anzusehen? 
+-  3. Am Freitag wurden im Kundencenter in den letzten 10 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der Daten der letzten 12 Wochen, am Freitag, als profitabel anzusehen? 
 
 ![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
 
