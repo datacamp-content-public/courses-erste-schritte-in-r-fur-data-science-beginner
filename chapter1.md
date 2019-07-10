@@ -935,3 +935,23 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 - Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht.
 - Nein, diese Aussage ist richtig. Der Maximalwert kommt sehr unrealistisch vor, wenn man ihn mit dem Median vergleicht und auch die Quartile als Maßstab heranzieht. Es wird sich um einen Fehler in den Daten handeln. 
 - Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
+
+---
+
+## Glückwunsch! 
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 60e18923e3
+xp: 50
+```
+
+![Badge]()
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
