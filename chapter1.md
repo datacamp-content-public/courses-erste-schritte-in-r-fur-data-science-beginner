@@ -420,7 +420,6 @@ verwenden?
 - 3: eine Zeichenkette (character).
 - 4: eine Kategorie (fact).
 
-
 `@hint`
 Hier haben Sie noch einmal eine Übersicht mit Beispielen. 
 
