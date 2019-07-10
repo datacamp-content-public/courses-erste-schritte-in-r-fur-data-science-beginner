@@ -482,14 +482,14 @@ xp: 25
 `@instructions`
 Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
-- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist (1 = "Montag"):
+- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
 
 `@hint`
 Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
 
 `@sample_code`
 ```{r}
-#Servicezeit
+#Überblick über Servicezeit
 
 ```
 
@@ -502,7 +502,7 @@ str(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Dem Kunden wird mitgeteilt, dass Samstag kürzere Servicezeiten gelten würden, aber am Montag wäre das Servicecenter 8h geöffnet und immer sehr gut zu erreichen, er sollte es nochmals probieren.")
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Freitag ist der längste Servicetag.")
 ```
 
 ***
