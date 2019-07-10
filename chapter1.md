@@ -916,8 +916,8 @@ Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt Ihnen
 ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
 Welche Aussage stimmt nicht:
-- 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
-- 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
+- 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
+- 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
 - 3. Der Maximalwert des Serviceumsatz ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Fehler in den Daten.
 - 4. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere stat. Methoden ersetzt werden.
 
@@ -926,9 +926,9 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 
 `@possible_answers`
 - 1
-- 2
+- [2]
 - 3
-- [4]
+- 4
 
 `@feedback`
 - Falsch - da haben Sie nicht genau mit den Daten befasst!
