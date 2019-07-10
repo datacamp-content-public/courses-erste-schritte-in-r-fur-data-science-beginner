@@ -918,7 +918,7 @@ Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt Ihnen
 Welche Aussage stimmt **nicht**:
 - 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
 - 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
-- 3. Der Maximalwert des Serviceumsatz ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Fehler in den Daten.
+- 3. Der Maximalwert des Serviceumsatz ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Datenfehler.
 - 4. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere stat. Methoden ersetzt werden.
 
 `@hint`
@@ -933,5 +933,5 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 `@feedback`
 - Nein, diese Aussage trifft zu. Der Median repräsentiert in diesem Fall den durchschnittlichen Umsatz besser als der Mean, da Fehlerwerte den Mean verfälschen. 
 - Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht. Deswegen muss der Datensatz vor der Analyse immer von Fehlerwerten bereinigt und aufbereitet werden. [Glückwunsch](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
-- 
-- Nein, die gewählte Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
+- Nein, diese Aussage ist richtig. 
+- Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
