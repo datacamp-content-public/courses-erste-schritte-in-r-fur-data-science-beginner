@@ -830,7 +830,7 @@ Nützliche Funktionen:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/f54dfd57d7897d15486fb6bde4aaccc7924d40cf/Kundendaten3.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/1d77d5e1370affba0512be4d17291ad649d6b86a/Kundendaten4.csv")
 ```
 
 ***
@@ -912,7 +912,8 @@ xp: 50
 ```
 
 Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen? 
-![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/486423d2cc1f9d82fc4f39f8a4d69722d3505961/summary(Kundendaten).PNG)
+
+- ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
 - 1. Nichts auffälliges.
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
