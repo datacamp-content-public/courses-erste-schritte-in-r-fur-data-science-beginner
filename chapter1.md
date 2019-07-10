@@ -502,7 +502,7 @@ str(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über den Vektor. Freitag ist der längste Servicetag.")
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor.")
 ```
 
 ***
@@ -513,7 +513,7 @@ key: d114af75ea
 ```
 
 `@instructions`
-Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. Verschaffen Sie sich einen Überblick über die Anzahl und den Umsatz des Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
+Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeit am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt.  Freitags. Sie haben zuvor die Daten aus dem CRM-System heruntergeladen und in die Variable **revenue.friday** abgelegt.
 
 `@hint`
 
