@@ -475,65 +475,36 @@ revenue.friday <- c(36900, 38088, 36981, 39888, 43200, 53766, 51966, 48627, 5585
 
 ```yaml
 type: NormalExercise
-key: d34d6e1231
+key: 22b76c6200
 xp: 25
 ```
 
 `@instructions`
 Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
-- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
+
+- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
 
 `@hint`
-Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen!
 
 `@sample_code`
 ```{r}
-#Überblick über Servicezeit
+# Servicetage
 
 ```
 
 `@solution`
 ```{r}
 
-str(sell.time)
+open.vec <- c(1:6)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor.")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: d114af75ea
-```
-
-`@instructions`
-Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
-Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. 
-- 2) Was ist der durchschnittliche Umsatz an einem Freitag?
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Überlick über Freitagsumsätze verschaffen
-
-```
-
-`@solution`
-```{r}
-mean(revenue.friday)
-```
-
-`@sct`
-```{r}
-
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau!")
 ```
 
 ***
@@ -574,42 +545,6 @@ success_msg("Richtig. Am Freitag wurden 5780€ Umsatz pro Stunde erwirtschaftet
 
 ```yaml
 type: NormalExercise
-key: 22b76c6200
-xp: 25
-```
-
-`@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
-
-Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
-
-- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
-
-`@hint`
-Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen!
-
-`@sample_code`
-```{r}
-# Servicetage
-
-```
-
-`@solution`
-```{r}
-
-open.vec <- c(1:6)
-```
-
-`@sct`
-```{r}
-ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
-success_msg("Ja, genau!")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: 3a78346b6f
 xp: 25
 ```
@@ -635,9 +570,74 @@ mean(sell.time)
 `@sct`
 ```{r}
 ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
-success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich")
+success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich (4/6)")
 #ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d114af75ea
+```
+
+`@instructions`
+Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
+Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. 
+- 2) Was ist der durchschnittliche Umsatz an einem Freitag?
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Überlick über Freitagsumsätze verschaffen
+
+```
+
+`@solution`
+```{r}
+mean(revenue.friday)
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d34d6e1231
+xp: 25
+```
+
+`@instructions`
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
+
+- 1. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
+
+`@hint`
+Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
+`@sample_code`
+```{r}
+#Überblick über Servicezeit
+
+```
+
+`@solution`
+```{r}
+
+str(sell.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("str(sell.time)", "sell.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor.")
 ```
 
 ---
