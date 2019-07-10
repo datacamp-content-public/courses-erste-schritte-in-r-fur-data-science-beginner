@@ -845,8 +845,6 @@ xp: 50
 Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Kundencenter im Quartal Q1 und Q2 2019 in Anspruch genommen haben. 
 Im Datensatz sind alle Neukunden vermerkt, wobei jeder Kunde einzeln vermerkt wurde. Er wurde eingelesen und der Variable **Neukundendaten** zugewiesen. Um zu erfahren, wie ihr neues Produkt von den Kunden angenommen wurde, sollen Sie die Daten analyisieren.
 
-![Drohne](https://assets.datacamp.com/production/repositories/5035/datasets/2e93b24ab11762e4a023c378ebd0861de122f99b/Bef%C3%B6rderungsdrohne_klein.jpg)
-
 1. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
 `@hint`
