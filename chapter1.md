@@ -481,7 +481,7 @@ xp: 25
 `@instructions`
 Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter, dass für die Service- und Supportaktivitäten des Unternehmen zuständig ist, widmen.
 
-Da verschiedene Kunden sich über die Öffnungszeiten und die lange Wartezeit beschwert haben und suchen Sie ihnen bitte den längsten Servicetag aus, da dieser erst neu eingeführt worden ist. Sie entnehmen ihrem System, dass an diesem Tag die Auslastungsrate noch am Niedrigsten ist. Des Weiteren sollen Sie prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzzahlen lohnt. 
+Da verschiedene Kunden sich über die Öffnungszeiten und die lange Wartezeit beschwert haben und suchen Sie ihnen bitte den längsten Servicetag aus, da dieser erst neu eingeführt worden ist. Sie entnehmen ihrem System, dass an diesem Tag die Auslastungsrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag anhand von Kennzahlen profitabel ist und sich die lange Öffnungszeit auf Grundlage der letzten Umsatzzahlen lohnt. 
 
 - 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
