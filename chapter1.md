@@ -948,10 +948,18 @@ xp: 50
 
 ![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
 
-`@hint`
 
+Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der folgenden Umfrage teil, die essentieller Bestandteil meiner Masterarbeit ist.
+**Link**
+
+`@hint`
+- Nehmen Sie nun bitte an der Umfrage teil - die essentieller Bestandteil meiner Masterarbeit ist: ```
+**Link**
+```****
 
 `@possible_answers`
-
+- 1
+- [2]
 
 `@feedback`
+- Richtig
