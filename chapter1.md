@@ -479,7 +479,7 @@ xp: 25
 ```
 
 `@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neue eingegliederte Tochtergesellschaft Airuber, zuständig ist.
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Das Kundencenter ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
 
 Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach den Informationen ihres Chefs dort die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
 
