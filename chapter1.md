@@ -918,7 +918,7 @@ Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen?
 - 1. Nichts auffälliges.
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
 - 3. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen werden.
-- 4. Es kommen sowohl NA Werte als auch zu hohe Ausreißerwerte im der Spalte des Kundendatensatzes vor.
+- 4. Es kommen sowohl NA Werte als auch zu hohe Ausreißerwerte in der Spalte des Kundendatensatzes vor.
 
 `@hint`
 Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA (fehlende) Werte etc.
