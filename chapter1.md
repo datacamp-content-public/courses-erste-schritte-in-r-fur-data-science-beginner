@@ -911,15 +911,15 @@ key: b09f6d3720
 xp: 50
 ```
 
-Ist Ihnen etwas bei den Umsatzwerten des Kundendatensatzes aufgefallen?! 
+Ist Ihnen etwas bei den Werten des Serviceumsatzes aufgefallen oder fällt es Ihnen nun auf?! 
 
 ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
 Welche Aussagen stimmen nicht:
-- 1. Nichts auffälliges.
+- 1. 
 - 2. Die Maximalwerte des Kundendatensatzes sind sehr unrealistisch im Vergleich zu den anderen Werten.
 - 3. Es kommen NA (fehlende) Werte vor - zur Vollständigkeit müssten diese noch nachgetragen werden.
-- 4. Es kommen sowohl NA Werte als auch zu hohe Ausreißerwerte in der Spalte des Kundendatensatzes vor.
+- 4. 
 
 `@hint`
 Schauen Sie sich die summary() des Kundendatensatzes an und beachten Sie bitte mögliche Ausreißer, NA (fehlende) Werte etc.
