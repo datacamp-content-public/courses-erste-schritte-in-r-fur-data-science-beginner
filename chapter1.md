@@ -483,7 +483,7 @@ Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben
 
 Da verschiedene Kunden sich über die Öffnungszeiten und die lange Wartezeit beschwert haben und suchen Sie ihnen bitte den längsten Servicetag heraus, da dieser erst neu eingeführt worden ist und nach ihrem Informationen die Auslastungrate noch am Niedrigsten ist. Des Weiteren sollen Sie anschließend prüfen, ob dieser Tag auf Grundlage der letzten Umsatzzahlen als profitabel anzusehen ist. 
 
-- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
+- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag").
 
 `@hint`
 Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen.
