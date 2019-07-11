@@ -110,7 +110,6 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 
 `@sample_code`
 ```{r}
-
 # 1.Quartalsumsatz Q1:
 
 
