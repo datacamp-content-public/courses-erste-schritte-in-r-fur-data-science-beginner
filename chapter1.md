@@ -98,14 +98,14 @@ xp: 35
 - 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, wie sich der Umsatz durch den Zukauf entwickelt hat.
 
 ```
-Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
+Umsatz in €: Jannuar 2340000 | Februar 3200000 | März 2940000
 ```
 
 Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
 `@hint`
 Stellen Sie sicher, dass Sie die Summe aus ```
-234000 + 320000 + 294000
+2340000 + 3200000 + 2940000
 ``` in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@sample_code`
@@ -119,13 +119,13 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 `@solution`
 ```{r}
 # Quartalsumsatz Q1:
-234000 + 320000 + 294000
+2340000 + 3200000 + 29400000
 ```
 
 `@sct`
 ```{r}
 #ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Sie müssen sich verrechnet haben!")
-ex() %>% check_output(848000, fixed=TRUE, missing_msg="Sie müssen sich verrechnet haben. Beachten Sie auch mögliche Tippfehler!")
+ex() %>% check_output(8480000, fixed=TRUE, missing_msg="Sie müssen sich verrechnet haben. Beachten Sie auch mögliche Tippfehler!")
 success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848000€!")
 ```
 
