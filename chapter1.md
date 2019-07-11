@@ -20,8 +20,6 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
-
-
 `@instructions`
 - Wir fangen mit dem kleinen Testprogramm an, sodass Sie mit den Eingabebereichen vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken Sie auf 'Submit Answer'.
