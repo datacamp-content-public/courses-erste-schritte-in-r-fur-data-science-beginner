@@ -516,7 +516,7 @@ xp: 25
 ```
 
 `@instructions`
-- 2. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist:
+- 2. In dem Vektor **sell.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist.
 
 `@hint`
 Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
