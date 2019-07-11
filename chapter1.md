@@ -12,7 +12,7 @@ key: 5d0fa43d72
 xp: 100
 ```
 
-Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Die Firma möchte sich neue Geschäftsbereiche erschließen und hat dazu die Firma Airuber akquiriert. Airuber hat sich auf die Entwicklung und die Produktion von Paketdrohnen spezialisiert und ist nun als eine Tochterfirma des vorherigen Stammunternehmens Bambergus GmbH der neuen GmbH zugehörig. Sie sollen im Zuge der Akquisitation erste Umsatzzahlen analyisieren, der neuen Tochterfirma bei Fragen und Problemen zur Systemintegration aushelfen und Reportstandards überprüfen. 
+Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Um neue Geschäftsfelder zu erschließen wurde die Firma Airuber GmbH akquiriert, die Paketdrohen entwickelt und produziert und nun ins Stammunternehmen als Tochtergesellschaft eingegliedert wird. Sie sollen im Zuge der Akquisitation erste Umsatzzahlen analyisieren, der neuen Tochterfirma bei Fragen und Problemen zur Systemintegration aushelfen und Reportstandards überprüfen. 
 
 Im Zuge dieser Anforderungen sollen Sie sich mit der Programmiersprache R befassen, da sich diese für die statistische Auswertung von strukturierten und unstrukturierten Daten besonders gut eignet, R eine frei zugängliche Programmiersprache ist und in ihrem Team damit vorrangig gearbeitet wird. 
 
@@ -23,7 +23,7 @@ Ihr Chef Herr Müller ist mit der Akquisitation sehr beschäftigt und hat für S
 Lassen Sie uns keine Zeit verlieren und mit den Aufgaben beginnen!
 
 `@instructions`
-- Wir fangen mit dem kleinen Testprogramm an mit dem fast alle Programmierbücher starten, sodass Sie mit den Eingabebereichen vertraut werden:
+- Wir fangen mit dem kleinen Testprogramm an, sodass Sie mit den Eingabebereichen vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken Sie auf 'Submit Answer'.
 
 `@hint`
