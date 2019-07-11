@@ -805,7 +805,7 @@ Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Suppo
 - 2. Verschaffen Sie sich bitte mithilfe einer Funktion einen Überblick über den Serviceumsatz:
 
 `@hint`
-Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen anwenden, sind sehr hilfreich.****
+Schauen Sie in die Exercisebox - die Befehle, die ** zusammenfassende** Funktionen anwenden, sind sehr hilfreich.
 
 `@sample_code`
 ```{r}
