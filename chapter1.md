@@ -138,7 +138,7 @@ xp: 25
 ```
 
 `@instructions`
-- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles und einer falschen Kapitalbewertung hinsichtlich des neuen Zukaufs von in Summe **42800€** müssen diese negativ am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019:
+- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles und einer falschen Kapitalbewertung hinsichtlich des neuen Zukaufs von in Summe **42800€** müssen diese negativ am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019.
 
 `@hint`
 Denken Sie nicht kompliziert. Hier müssen Sie nur zwei Werte voneinander subtrahieren!
