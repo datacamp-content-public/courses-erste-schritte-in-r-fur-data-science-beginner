@@ -466,7 +466,7 @@ Wichtige Befehle:
 
 `@pre_exercise_code`
 ```{r}
-sell.time <- c(8,8,8,8,9,6)
+service.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
 revenue.friday <- c(36900, 38087, 36980, 39888, 43200, 53766, 51966, 48626, 55854)
 ```
