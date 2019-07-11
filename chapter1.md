@@ -125,7 +125,7 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 ```{r}
 #ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Sie müssen sich verrechnet haben!")
 ex() %>% check_output(8480000, fixed=TRUE, missing_msg="Sie müssen sich verrechnet haben. Beachten Sie auch mögliche Tippfehler!")
-success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848000€!")
+success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 8480000€!")
 ```
 
 ***
