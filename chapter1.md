@@ -28,7 +28,7 @@ Lassen Sie uns keine Zeit verlieren und mit den Aufgaben beginnen!
 
 `@hint`
 Keine Angst - einfach ```
-print("Hello World!")
+print("Start!")
 ``` in das Skript schreiben und auf 'Submit Answer' drücken.
 
 Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie auch mit Unterstützung von Hints lösen sollen.
@@ -47,13 +47,13 @@ Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie auch mit Unterst
 
 `@solution`
 ```{r}
-# Ihr erstes Programm: "Hello World!"
-print("Hello World!")
+# Ihr erstes Programm: "Start!"
+print("Start!")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output("Hello World!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig. Beachten Sie Fehler im Code und auch mögliche Tippfehler. R ist eine case sensitive Programmiersprache!")
+ex() %>% check_output("Start!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig. Beachten Sie Fehler im Code und auch mögliche Tippfehler. R ist eine case sensitive Programmiersprache!")
 success_msg("Ihr erstes Programm ist vollendet - Gut gemacht! Nun geht es richtig los!")
 ```
 
