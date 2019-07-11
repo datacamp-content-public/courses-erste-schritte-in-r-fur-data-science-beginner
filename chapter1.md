@@ -144,9 +144,7 @@ xp: 35
 
 ![Anregung](https://assets.datacamp.com/production/repositories/5035/datasets/76cc29840b27bf2ee87f7eb9b766956be88da898/Hint_Dreisatz.PNG)
 
-Den nächsten Gedanken- und Rechenschritt schaffen Sie nun zur Lösung der Aufgabe selbst!
-
-Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
+Den nächsten Gedanken- und Rechenschritt schaffen Sie nun zur Lösung der Aufgabe selbst! Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
 
 `@sample_code`
 ```{r}
