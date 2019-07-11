@@ -603,8 +603,8 @@ Zeilen- und Spaltennamen verändern:
 report.weeksales <- matrix(1:18, ncol=6)
 report.final <- matrix(1:18, ncol=6)
 sell.time <- c(8,88,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
-average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5110, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5110/9, 3300/6)
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 ```
 
