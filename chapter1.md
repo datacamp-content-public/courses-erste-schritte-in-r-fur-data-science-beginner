@@ -550,12 +550,12 @@ key: d114af75ea
 Am Freitag bietet das Servicecenter seit einigen Wochen 9h anstatt 8h ihre Leistungen zur besseren Erreichbarkeit und um den Kundennachfragen gerecht zu werden an. Die neuen Drohen erwirtschaften eine höhere Marge, jedoch benötigen Sie aufrund der fragilen Bauteile erherblich mehr Service und Support.
 Sie haben die Umsatzdaten der nun neunstündigen Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
 
-- 3. Welchen stündlichen Umsatz erwirtschaftet das Service- und Supportcenter seit der Umstellung auf den neunstündigen Freitag? Lassen Sie bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
+- 3. Welchen stündlichen Umsatz erwirtschaftet das Service- und Supportcenter seit der Umstellung auf den neunstündigen Freitag? Lassen Sie sich bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
 
 ![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
 
 `@hint`
-
+Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt und dann müssen Sie noch eine einfach Division durchführen, um auf den stündlichen Umsatz zu kommen - dies bitte alles in einer Codezeile.
 
 `@sample_code`
 ```{r}
