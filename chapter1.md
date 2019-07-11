@@ -173,7 +173,7 @@ xp: 25
 ```
 
 `@instructions`
-- 3. Es ist auf den Einkaufspreis von **295005€** im Dezember 2018 für die neuen Drohnenmotoren eine zusätzliche Marge in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an zusätzlicher Mare wurde aufgeschlagen? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben:
+- 3. Es ist auf den Einkaufspreis von **295005€** im Dezember 2018 für die neuen Drohnenmotoren eine zusätzliche Marge in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an zusätzlicher Marge wurde aufgeschlagen? Lassen Sie bitte das **Ergebnis in Prozent** ausgeben:
 
 `@hint`
 Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. 
