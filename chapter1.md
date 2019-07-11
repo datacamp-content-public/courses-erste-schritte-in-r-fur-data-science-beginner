@@ -110,8 +110,7 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 
 `@sample_code`
 ```{r}
-# Beispielcode Addition:
-67+78
+
 # 1.Quartalsumsatz Q1:
 
 
@@ -119,8 +118,6 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 
 `@solution`
 ```{r}
-# Beispielcode Addition 
-67+78
 # Quartalsumsatz Q1:
 234000 + 320000 + 294000
 ```
