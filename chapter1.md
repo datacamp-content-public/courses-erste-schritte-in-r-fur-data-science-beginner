@@ -476,7 +476,7 @@ revenue.friday <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 4980
 ```yaml
 type: NormalExercise
 key: 22b76c6200
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -512,7 +512,7 @@ success_msg("Ja, genau!")
 ```yaml
 type: NormalExercise
 key: d34d6e1231
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -544,7 +544,7 @@ success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihn
 ```yaml
 type: NormalExercise
 key: d114af75ea
-xp: 25
+xp: 30
 ```
 
 `@instructions`
@@ -573,40 +573,6 @@ mean(revenue.friday)/9
 ```{r}
 ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
 success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als gerade so profitabel anzusehen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich (4/6 abgeschlossen)")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 3a78346b6f
-xp: 25
-```
-
-`@instructions`
-- 4. Berechnen Sie bitte die durchschnittliche wöchentliche Service- und Supportzeit.
-
-`@hint`
-Benutzen Sie die Funktion aus der Exercisebox und verwenden Sie die passende Variable.
-
-`@sample_code`
-```{r}
-# Durchschnittliche Tagesöffnungszeit im Kundencenter:
-
-```
-
-`@solution`
-```{r}
-
-mean(sell.time)
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(7.833333, fixed=TRUE, missing_msg="Nicht ganz richtig!")
-success_msg("Richtig - die durchnittliche tägliche Verkaufs- und Servicezeit beträgt 7,83 h! Kommen wir zu dem nächsten Aufgabenblock, den Matrizen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich (4/6)")
-#ex() %>% check_code(c("47/6","mean(sell.time)", "(8+8+8+8+9+6)/6)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
-#success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h!")
 ```
 
 ---
