@@ -440,7 +440,7 @@ xp: 35
 ```
 
 `@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Dieses Center ist für alle Service- und Supportaktivitäten des Unternehmen, vorrangig für die neu eingegliederte Tochtergesellschaft Airuber, zuständig.
+Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Dieses Center ist für alle Service- und Supportaktivitäten des Unternehmen zuständig.
 
 Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst eine Stunde verlängert wurde und die Auslastungrate gering ist. 
 
@@ -542,7 +542,7 @@ key: b0d2909445
 xp: 100
 ```
 
-Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, ähnlich wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix des gleichen Datentyps gespeichert werden (de Freys/Meys 2018).
+Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, ähnlich wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix des gleichen Datentyps gespeichert werden (de Vries/Meys 2018).
 
 Vektoren in einer Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.   Matrix <- rbind(Vektor, Vektor)
@@ -826,7 +826,7 @@ success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und
 
 ---
 
-## Data Frame - Kundendatensatz
+## Data Frame - Kundendatensatz (Q)
 
 ```yaml
 type: PureMultipleChoiceExercise
