@@ -766,7 +766,7 @@ xp: 50
 ```
 
 `@instructions`
-Die Neukundengewinnung war eines der Hauptziele bzgl. der Akquisition. Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Kundencenter im Quartal Q1 und Q2 2019 in Anspruch genommen haben. Im Datensatz sind alle Neukunden vermerkt, wobei jeder Kunde einzeln vermerkt wurde. Er wurde eingelesen und der Variable **Neukundendaten** zugewiesen. 
+Die Neukundengewinnung ist eines ihrer Hauptziele mit der neuen Akquisition. Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Quartal Q1 & Q2 2019 in Anspruch genommen haben. Im Datensatz sind alle Neukunden vermerkt. Er wurde eingelesen und der Variablen **Neukundendaten** zugewiesen. 
 
 1. Wie viele Kunden sind im Neukundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
