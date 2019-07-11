@@ -569,7 +569,8 @@ mean(revenue.friday)/9
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
+success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als gerade so profitabel anzusehen!")
 ```
 
 ***
