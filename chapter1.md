@@ -508,7 +508,7 @@ xp: 30
 ```
 
 `@instructions`
-Am Freitag bietet das Servicecenter seit einigen Wochen 9h anstatt 8h ihre Leistungen zur besseren Erreichbarkeit und um den Kundennachfragen gerecht zu werden an. Sie haben die Umsatzdaten der nun neunstündigen Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
+Am Freitag bietet das Servicecenter seit einigen Wochen 9h anstatt 8h ihre Leistungen zur besseren Erreichbarkeit und um den Kundennachfragen gerecht zu werden an. Sie haben die Umsatzdaten der nun neunstündigen Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Kundencenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
 
 - 3. Welchen stündlichen Umsatz erwirtschaftet das Center seit der Umstellung auf den neunstündigen Freitag? Lassen Sie sich bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
 
