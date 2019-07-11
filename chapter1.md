@@ -223,7 +223,7 @@ my_var <- 5
 `@instructions`
 Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und ein Forderungsausfall sich in Q1 2019 auch negativ auf den Umsatz auswirkt?
 
-1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 848000€** und **Q2: 859520.9€** den Variablen **x** und **y** zu.
+1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000€** und **Q2: 8595200.9€** den Variablen **x** und **y** zu.
 
 2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bzgl. der Aussage einen booleschen Wert (TRUE oder FALSE) ausgeben.
 
@@ -234,7 +234,7 @@ Entwickeln Sie den Code so, dass ein boolescher Wert (TRUE oder FALSE) ausgegebe
 
 `@pre_exercise_code`
 ```{r}
-z <- 1555000
+z <- 15550000
 ```
 
 `@sample_code`
@@ -251,17 +251,17 @@ z <- 1555000
 `@solution`
 ```{r}
 # Q1
-x <- 848000
+x <- 8480000
 # Q2
-y <- 859520.9
+y <- 8595200.9
 # 2.Vergleich der Umsätze
 z > (x+y)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("x") %>% check_equal(848000)
-ex() %>% check_object("y") %>% check_equal(859520.9)
+ex() %>% check_object("x") %>% check_equal(8480000)
+ex() %>% check_object("y") %>% check_equal(8595200.9)
 ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
 success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Eine Überpüfung anhand von Daten für fundierte Aussagen und unternehmensrelevante Entscheidungen ist deswegen immer hilfreich und notwendig! Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
 ```
