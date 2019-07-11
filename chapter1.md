@@ -547,16 +547,17 @@ key: d114af75ea
 ```
 
 `@instructions`
-Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde am Freitag länger besetzt. 
-Sie haben die Umsatzdaten der letzten Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage als profitabel anzusehen? 
-- 3. Berechnen Sie bitte den
+Genau am Freitag bietet das Servicecenter seit einigen Wochen 9h ihre Leistungen, anstatt 8h, zur besseren Erreichbarkeit und um den Kundennachfragen gerecht zu werden, an. 
+Sie haben die Umsatzdaten der letzten Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
+
+- 3. Welchen stündlichen Umsatz erwirtschaftet das Service- und Supportcenter seit der Umstellung auf den neunstündigen Freitag? Lassen Sie bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt über in das ERP-System eingetragen wird.
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
-# Überlick über Freitagsumsätze verschaffen
+# Stündlicher Freitagsumsatz
 
 ```
 
