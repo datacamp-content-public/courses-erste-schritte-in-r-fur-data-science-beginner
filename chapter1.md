@@ -523,14 +523,14 @@ Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
 
 `@sample_code`
 ```{r}
-#Überblick über Servicezeit
+#Servicezeit
 
 ```
 
 `@solution`
 ```{r}
 
-str(sell.time)
+str(service.time)
 ```
 
 `@sct`
