@@ -771,7 +771,7 @@ Die Neukundengewinnung ist eines ihrer Hauptziele mit der neuen Akquisition. Der
 1. Wie viele Kunden sind im Neukundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
 `@hint`
-In jeder Zeile ist ein Neukunden gelistet, lassen Sie sich einfach die Anzahl der Zeilen ausgeben.
+In jeder Zeile ist ein Neukunde gelistet. Lassen Sie sich einfach die Anzahl der Zeilen ausgeben.
 
 `@sample_code`
 ```{r}
