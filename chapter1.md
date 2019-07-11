@@ -118,7 +118,7 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 `@solution`
 ```{r}
 # Quartalsumsatz Q1:
-2340000 + 3200000 + 29400000
+2500000 + 3200000 + 2780000
 ```
 
 `@sct`
