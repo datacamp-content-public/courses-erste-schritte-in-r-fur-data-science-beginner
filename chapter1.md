@@ -544,6 +544,7 @@ success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihn
 ```yaml
 type: NormalExercise
 key: d114af75ea
+xp: 25
 ```
 
 `@instructions`
@@ -571,39 +572,7 @@ mean(revenue.friday)/9
 `@sct`
 ```{r}
 ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
-success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als gerade so profitabel anzusehen!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: cfddb579f1
-xp: 25
-```
-
-`@instructions`
--  3. Am Freitag wurden im Kundencenter in den letzten 10 Wochen durchschnittlich 52020€ Umsatz mit Service- und Support generiert. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe 5000€ durchschnittlichen Umsatz pro Stunde erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage der Daten der letzten 12 Wochen, am Freitag, als profitabel anzusehen?
-
-`@hint`
-Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein. Der längste Arbeitstag ist der Freitag, der fünfte Tag in der Woche.
-
-`@sample_code`
-```{r}
-# Umsatz pro Stunde am längsten Arbeitstag im Servicecenter:
-
-```
-
-`@solution`
-```{r}
-
-52020/9
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(5780, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code!")
-success_msg("Richtig. Am Freitag wurden 5780€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als profitabel anzusehen!")
+success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist verglichen mit dem Wert von 5000€ als gerade so profitabel anzusehen! Ein dickes Lob an Sie, Sie lernen schnell. Sie haben nur noch 2 Einheiten vor sich (4/6 abgeschlossen)")
 ```
 
 ***
