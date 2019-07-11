@@ -95,7 +95,7 @@ xp: 35
 ```
 
 `@instructions`
-- 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, ob der Zukauf von Airuber sich schon auf die Umsätze ausgewirkt hat.
+- 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, wie sich der Umsatz durch den Zukauf entwickelt hat.
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
