@@ -193,12 +193,12 @@ Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verw
 `@solution`
 ```{r}
 
-805200*(1.022^3)
+848000*(1.022^3)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
+ex() %>% check_output(905208.3, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
 success_msg("Richtig - die Zinsen wachsen exponentiell an! Und nun zum nächsten Inhaltsblock - den Variablen! Den ersten von fünf Lerneinheiten haben Sie abgeschlossen")
 ```
 
