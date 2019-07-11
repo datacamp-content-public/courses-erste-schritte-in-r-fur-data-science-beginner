@@ -19,7 +19,7 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
 
-![Unternehmen](https://assets.datacamp.com/production/repositories/5035/datasets/fe857b8590bc5004a77f37284f572e0876cc3c69/Unternehmen_Bambergus_AirUber.PNG)
+![Unternehmen+Übersicht](https://assets.datacamp.com/production/repositories/5035/datasets/cc906c27d1847c6005658eed0b4d2f54a01345dc/Bambergus+Inhalt.PNG)
 
 `@instructions`
 - Wir fangen mit dem kleinen Testprogramm an, sodass Sie mit den Eingabebereichen vertraut werden:
