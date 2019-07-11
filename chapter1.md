@@ -548,7 +548,8 @@ key: d114af75ea
 
 `@instructions`
 Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde am Freitag länger besetzt. 
-Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt.
+Sie haben die Umsatzdaten der letzten Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. Ist das Service- und Supportcenter auf Grundlage als profitabel anzusehen? 
+- 3. Berechnen Sie bitte den
 
 `@hint`
 
