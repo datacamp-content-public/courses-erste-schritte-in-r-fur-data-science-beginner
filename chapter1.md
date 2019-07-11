@@ -574,7 +574,7 @@ xp: 35
 ```
 
 `@instructions`
-Herr Müller bittet Sie einen Wochenreport mit dem Variablennamen **report.weeksales** für das neue Service- und Supportcenter zu erstellen.
+Herr Müller bittet Sie einen Wochenreport mit dem Variablennamen **report.weeksales** für das Kundencenter zu erstellen.
 
 - 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen vom Typ Matrix **report.weeksales** zuzuordnen.
 
