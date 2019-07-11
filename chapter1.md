@@ -547,7 +547,7 @@ key: d114af75ea
 ```
 
 `@instructions`
-Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde länger besetzt. 
+Genau am Freitag hat das Servicecenter 9h offen. Aufgrund von Kundenbeschwerden, die sich wegen der langen Wartezeiten am Freitag beschwert haben, wird das Kundencenter seit mehreren Wochen eine Stunde am Freitag länger besetzt. 
 Sie haben die Umsatzdaten der letzten zehn Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt.
 
 `@hint`
