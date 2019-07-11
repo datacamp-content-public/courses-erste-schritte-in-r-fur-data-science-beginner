@@ -804,9 +804,9 @@ xp: 50
 ```
 
 `@instructions`
-Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Supportcenters analyisieren lassen. Dazu sollen Sie sich über die Werte im Datensatz einen Überblick verschaffen und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
+Herr Müller möchte nun weitere Analysen bzgl. der Daten des Service- und Supportcenters analyisieren lassen. Dazu sollen Sie sich über den Datensatz einen Überblick verschaffen und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
 
-- 2. Verschaffen Sie sich bitte mithilfe einer Funktion einen Überblick den Serviceumsatz:
+- 2. Verschaffen Sie sich bitte mithilfe einer Funktion einen Überblick über den Serviceumsatz:
 
 `@hint`
 Schauen Sie in die Exercisebox - die Befehle, die zusammenfassende Funktionen anwenden, sind sehr hilfreich.****
