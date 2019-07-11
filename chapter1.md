@@ -561,7 +561,6 @@ Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt un
 ```{r}
 # Durchschnittlicher stündlicher Freitagsumsatz
 
-
 ```
 
 `@solution`
