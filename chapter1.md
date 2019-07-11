@@ -175,7 +175,7 @@ xp: 30
 ```
 
 `@instructions`
-- 3. Die Umsätze sollen in Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **848000** am Ende von Q1 an.
+- 3. Die Umsätze sollen in Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **8480000** am Ende von Q1 an.
 
 `@hint`
 Beachten Sie, dass das Wachstum von 2.2% **im Monat** stattfindet und ein Quartal aus drei Monaten besteht. Hier kommt die Zinzeszinsrechnung zur Einsatz - ein exponentielles, kein lineares Wachstum! Achten Sie auch auf die richtige Umrechnung der Prozentzahl.
@@ -193,12 +193,12 @@ Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verw
 `@solution`
 ```{r}
 
-848000*(1.022^3)
+8480000*(1.022^3)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(905208.3, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
+ex() %>% check_output(9052083, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
 success_msg("Richtig - die Zinsen wachsen exponentiell an! Und nun zum nächsten Inhaltsblock - den Variablen! (1/6 abgeschlossen)")
 ```
 
