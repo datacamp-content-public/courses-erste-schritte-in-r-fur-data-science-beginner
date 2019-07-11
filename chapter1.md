@@ -550,7 +550,7 @@ key: d114af75ea
 Genau am Freitag bietet das Servicecenter seit einigen Wochen 9h anstatt 8h ihre Leistungen zur besseren Erreichbarkeit und um den Kundennachfragen gerecht nach den neuen Helikopterdrohnen gerecht zu werden an. 
 Sie haben die Umsatzdaten der letzten Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Service- und Supportcenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
 
-- 3. Welchen stündlichen Umsatz erwirtschaftet das Service- und Supportcenter seit der Umstellung auf den neunstündigen Freitag? Lassen Sie bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt in das Management des Kundencenters übermittelt wird.
+- 3. Welchen stündlichen Umsatz erwirtschaftet das Service- und Supportcenter seit der Umstellung auf den neunstündigen Freitag? Lassen Sie bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
 
 ![Drohen-Skizze](https://assets.datacamp.com/production/repositories/5035/datasets/e707fc623a846134f554b9fce7ce20cef528e6cb/Bambergus_Airuber_Store_kl.PNG.png)
 
