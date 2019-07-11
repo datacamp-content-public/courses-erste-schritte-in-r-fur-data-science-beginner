@@ -91,7 +91,7 @@ Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die
 ```yaml
 type: NormalExercise
 key: 20b1df54bc
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -133,40 +133,8 @@ success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848000€!")
 
 ```yaml
 type: NormalExercise
-key: def4e97e1b
-xp: 25
-```
-
-`@instructions`
-- 2. Sie hatten im Quartal Q1 2019 einen Umsatz von **848000€** zuerst ausgegeben. Aufgrund eines Forderungsausfalles und einer falschen Kapitalbewertung hinsichtlich des neuen Zukaufs von in Summe **42800€** müssen diese negativ am Quartalsumsatz berücksichtigt werden. Wie lautet der aktualisierte Quartalsumsatz Q1 2019.
-
-`@hint`
-Denken Sie nicht kompliziert. Hier müssen Sie nur zwei Werte voneinander subtrahieren!
-
-`@sample_code`
-```{r}
-# Rückstellung berücksichtigen
-
-```
-
-`@solution`
-```{r}
-
-848000-42800
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(805200, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
-success_msg("Richtig! Wir haben nun einen Umsatz in Q1 2019 von 805200€ zu verzeichnen")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: 21601bbeab
-xp: 25
+xp: 35
 ```
 
 `@instructions`
@@ -203,7 +171,7 @@ success_msg("Richtig und die nächste Aufgabe!")
 ```yaml
 type: NormalExercise
 key: c6b8ec88ac
-xp: 25
+xp: 30
 ```
 
 `@instructions`
