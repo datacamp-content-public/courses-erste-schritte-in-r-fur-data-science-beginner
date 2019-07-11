@@ -770,13 +770,12 @@ xp: 50
 ```
 
 `@instructions`
-Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Kundencenter im Quartal Q1 und Q2 2019 in Anspruch genommen haben. 
-Im Datensatz sind alle Neukunden vermerkt, wobei jeder Kunde einzeln vermerkt wurde. Er wurde eingelesen und der Variable **Neukundendaten** zugewiesen. Um zu erfahren, wie ihr neues Produkt angenommen wurde, sollen Sie die Daten analyisieren.
+Die Neukundengewinnung war eines der Hauptziele bzgl. der Akquisition. Der Datensatz Neukundendaten, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Kundencenter im Quartal Q1 und Q2 2019 in Anspruch genommen haben. Im Datensatz sind alle Neukunden vermerkt, wobei jeder Kunde einzeln vermerkt wurde. Er wurde eingelesen und der Variable **Neukundendaten** zugewiesen. 
 
 1. Wie viele Kunden sind im Neukundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
 `@hint`
-
+In jeder Zeile ist ein Neukunden gelistet, lassen Sie sich einfach die Anzahl der Zeilen ausgeben.
 
 `@sample_code`
 ```{r}
