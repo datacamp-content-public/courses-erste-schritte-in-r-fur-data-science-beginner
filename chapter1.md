@@ -557,8 +557,7 @@ Sie haben die Umsatzdaten der letzten Freitage aus dem ERP-System aufbereitet un
 
 `@sample_code`
 ```{r}
-# Stündlicher Freitagsumsatz
-
+# Durchschnittlicher Freitagsumsatz  
 ```
 
 `@solution`
