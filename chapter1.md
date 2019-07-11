@@ -98,14 +98,14 @@ xp: 35
 - 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, wie sich der Umsatz durch den Zukauf entwickelt hat.
 
 ```
-Umsatz in €: Jannuar 2340000 | Februar 3200000 | März 2940000
+Umsatz in €: Jannuar 2500000 | Februar 3200000 | März 2780000
 ```
 
 Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
 `@hint`
 Stellen Sie sicher, dass Sie die Summe aus ```
-2340000 + 3200000 + 2940000
+2500000 + 3200000 + 2780000
 ``` in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@sample_code`
