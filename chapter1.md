@@ -77,12 +77,10 @@ Nützliche Operatoren:
  Potenzierung: ^
  Modulo: %%
 ```
- 
-Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
 
 `@pre_exercise_code`
 ```{r}
-
+Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
 ```
 
 ***
