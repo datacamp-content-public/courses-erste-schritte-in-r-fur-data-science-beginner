@@ -299,12 +299,18 @@ Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr
 
 `@sample_code`
 ```{r}
+# Q1
+
+# Q2
 
 ```
 
 `@solution`
 ```{r}
-
+# Q1
+x <- 8480000
+# Q2
+y <- 9052083
 ```
 
 `@sct`
