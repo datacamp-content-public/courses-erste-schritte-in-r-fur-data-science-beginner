@@ -18,6 +18,8 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
+![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/8418840c347267ddd6386b647fb0f72336aa910a/Inhalts%C3%BCbersicht.PNG)
+
 
 `@instructions`
 - Wir fangen einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
