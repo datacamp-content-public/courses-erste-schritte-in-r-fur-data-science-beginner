@@ -574,7 +574,7 @@ xp: 35
 `@instructions`
 Sie haben den Report Herrn Müller übergeben. Er lässt Ihnen die Nachricht zukommen, ob Ihnen aufgefallen sei, dass sich ein Zahlenfehler eingeschlichen hat. Sie müssen das nächste Mal genauer die Werte kontrollieren. 
 
-- 2. Naja, lassen Sie sich den erstellten Report (**report.weeksales**) einmal in der Console ausgeben und korrigieren Sie ihn anschließend bitte.
+- 2. Lassen Sie sich den erstellten Report (**report.weeksales**) einmal in der Console ausgeben und korrigieren Sie ihn anschließend bitte.
 
 `@hint`
 Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist natürlich falsch. report.weeksales[Zeile, Spalte] <- Wert
