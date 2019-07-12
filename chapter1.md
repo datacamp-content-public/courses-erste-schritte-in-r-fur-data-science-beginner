@@ -215,8 +215,6 @@ my_var <- 5
 ![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
 
 `@instructions`
-Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und ein Forderungsausfall sich in Q1 2019 auch negativ auf den Umsatz auswirkt?
-
 1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000€** und **Q2: 9052083** den Variablen **x** und **y** zu.
 
 2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bzgl. der Aussage einen booleschen Wert (TRUE oder FALSE) ausgeben.
