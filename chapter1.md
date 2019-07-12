@@ -79,8 +79,6 @@ Nützliche Operatoren:
  
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
 
-![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/cfe9c26df74febc1e25b3af813331d4225fc7a70/Bambergus+Inhalt_klein.PNG))
-
 `@pre_exercise_code`
 ```{r}
 
