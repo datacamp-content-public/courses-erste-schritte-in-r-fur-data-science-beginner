@@ -400,9 +400,9 @@ xp: 35
 ```
 
 `@instructions`
-Nachdem Sie nun die Personaldaten analyisiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Dieses Center ist für alle Service- und Supportaktivitäten des Unternehmen zuständig.
+Nachdem Sie nun die Personaldaten analysiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Dieses Center ist für alle Service- und Supportaktivitäten des Unternehmens zuständig.
 
-Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst eine Stunde verlängert wurde und die Auslastungrate gering ist. 
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst eine Stunde verlängert wurde und die Auslastungsrate gering ist. 
 
 - 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
 
@@ -617,9 +617,9 @@ xp: 30
 `@instructions`
 Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Kundencenters ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
 
-Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analyisiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende ihres Arbeitstages in naher Sicht ist.
+Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analysiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende ihres Arbeitstages in naher Sicht ist.
 
-- 3. Bitte benennen Sie den erstellten Report, an der Stelle, wo noch eine eindeutige Benennuung fehlt
+- 3. Bitte benennen Sie den erstellten Report, an der Stelle, wo noch eine eindeutige Benennung fehlt
 	
     - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
