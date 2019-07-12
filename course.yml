@@ -4,18 +4,16 @@ description: >-
   grundlegendene Eigenschaften in R und bekommen einen kurzen Überblick anhand
   von Anwendungen darüber:
 
-  - Wie R in Data Camp funkiontiert
+  1. Rechnen mit R
 
-  - Rechnen mit R
+  2. Variablen
 
-  - Variablen
+  3. Datentypen in R
 
-  - Datentypen in R
+  4. Vektoren
 
-  - Vektoren
+  5. Matrizen
 
-  - Matrizen
-
-  - Data Frames
+  6. Data Frames
 programming_language: r
 from: 'r-base-prod:v1.0.2'
