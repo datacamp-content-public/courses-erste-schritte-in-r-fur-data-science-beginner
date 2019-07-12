@@ -14,14 +14,14 @@ xp: 100
 
 Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Um neue Geschäftsfelder zu erschließen wurde die Firma Airuber GmbH Anfang Q1 2019 akquiriert. Die Firma entwickelt Paketdrohnen und wird ins Stammunternehmen eingegliedert. Sie sollen im Zuge der Akquisition erste Umsatzzahlen analyisieren, bei Fragen und Problemen zur Datenintegration aushelfen und einen Report erstellen. 
 
-Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da sich diese für die statistische Auswertung besonders gut eignet, frei zugängliche ist und in ihrem Team damit vorrangig gearbeitet wird. 
+Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da sich diese für die statistische Auswertung besonders gut eignet, frei zugänglich ist und in Ihrem Team damit vorrangig gearbeitet wird. 
 
 ![Inhalt_l](https://assets.datacamp.com/production/repositories/5035/datasets/85c15e1bd4babd4fceb2be3825e291fc99348dc9/Inhalt_l%C3%A4ngs.PNG)
 
 `@instructions`
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
-- Wir fangen einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
+- Wir fangen mit einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
 
 `@hint`
@@ -91,10 +91,10 @@ xp: 50
 ```
 
 `@instructions`
-- 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analyisieren, wie sich der Umsatz durch den Zukauf entwickelt hat.
+- 1. Sie sollen die Umsätze der letzten drei Monate der Bambergus Airuber GmbH errechnen und somit den Umsatz für das Quartal Q1 2019 erstellen und analysieren, wie sich der Umsatz durch den Zukauf entwickelt hat.
 
 ```
-Umsatz in €: Jannuar 2500000 | Februar 2780000 | März 3200000
+Umsatz in €: Januar 2500000 | Februar 2780000 | März 3200000
 ```
 
 Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
