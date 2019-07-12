@@ -286,7 +286,7 @@ z <- 15550000
 ```yaml
 type: NormalExercise
 key: 46656ff6c5
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -295,7 +295,7 @@ Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr
 1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000€** und **Q2: 9052083** den Variablen **x** und **y** zu.
 
 `@hint`
-
+Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits im System hinterlegt und der Variable z zugewiesen.
 
 `@sample_code`
 ```{r}
@@ -315,7 +315,39 @@ y <- 9052083
 
 `@sct`
 ```{r}
+ex() %>% check_object("x") %>% check_equal(8480000)
+ex() %>% check_object("y") %>% check_equal(9052083)
+success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden.")
+```
 
+***
+
+```yaml
+type: NormalExercise
+key: 071d0b7bf7
+xp: 50
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
+success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
 ```
 
 ---
