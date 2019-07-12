@@ -29,7 +29,8 @@ Keine Angst - einfach ```
 print("Start!")
 ``` in das Skript schreiben und auf 'Submit Answer' drücken.
 
-Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie auch mit Unterstützung von Hints lösen sollen.
+Im Bereich **Instruktionen** bekommen Sie ihre Aufgabe, die Sie auch mit Unterstützung dieser Hints lösen sollen.
+
 **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden.
 
 `@pre_exercise_code`
