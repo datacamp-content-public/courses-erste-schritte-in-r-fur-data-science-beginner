@@ -802,7 +802,7 @@ Welche Aussage bzgl. des Überblicks der Kundendaten stimmt **nicht**:
 - 4. Es kommen NA (fehlende Werte) vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere stat. Methoden ersetzt werden.
 
 `@hint`
-Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mögliche Ausreißerwerte, NA (fehlende) Werte, den Mean (der Durchschnitt aller Werte) und den Median (Messwert oder Lageparameter, der genau in der Mitte liegt 50% darunter, 50% darüber).
+Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mögliche Ausreißerwerte, NA (fehlende Werte), den Mean (der Durchschnitt aller Werte) und den Median (Messwert oder Lageparameter, der genau in der Mitte liegt 50% darunter, 50% darüber).
 
 `@possible_answers`
 - 1
