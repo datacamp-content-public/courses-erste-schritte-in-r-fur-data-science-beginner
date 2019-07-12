@@ -656,7 +656,7 @@ Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Kunde
 
 Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analyisiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende ihres Arbeitstages in naher Sicht ist.
 
-- 3. Bitte benennen Sie den erstellten Report
+- 3. Bitte benennen Sie den erstellten Report, an der Stelle, wo noch eine eindeutige Benennuung fehlt
 	
     - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
