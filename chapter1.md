@@ -19,7 +19,7 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
 `@instructions`
-![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/cc906c27d1847c6005658eed0b4d2f54a01345dc/Bambergus+Inhalt.PNG.png)
+![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/cfe9c26df74febc1e25b3af813331d4225fc7a70/Bambergus+Inhalt_klein.PNG)
 
 - Wir fangen einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
