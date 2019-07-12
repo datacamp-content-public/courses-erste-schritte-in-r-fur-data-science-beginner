@@ -540,7 +540,7 @@ Herr Müller bittet Sie einen Wochenreport mit dem Variablennamen **report.weeks
 - 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen vom Typ Matrix **report.weeksales** zuzuordnen.
 
 `@hint`
-Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen und verweisen (<-) Sie diese auf report.weeksales.
+Schauen Sie bitte in die Exercisebox und verwenden Sie bitte eine Funktion, um Zeilenvektoren zusammen zu führen und verweisen (<-) Sie diese auf report.weeksales.
 
 `@sample_code`
 ```{r}
