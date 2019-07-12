@@ -133,7 +133,7 @@ xp: 50
 ```
 
 `@instructions`
-- 2. Die Umsätze steigen laut Prognose im Quartal Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat**. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **8480000** am Ende von Q1 an.
+- 2. Die Umsätze steigen laut Prognose im Quartal Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat**. Welche Prognose geben Sie für die Umsatzzahl am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **8480000** am Ende von Q1 2019 an.
 
 `@hint`
 Beachten Sie, dass das Wachstum von 2.2% **im Monat** stattfindet und ein Quartal aus drei Monaten besteht. Hier kommt die Zinzeszinsrechnung zur Einsatz - ein exponentielles, kein lineares Wachstum! Achten Sie auch auf die richtige Umrechnung der Prozentzahl.
