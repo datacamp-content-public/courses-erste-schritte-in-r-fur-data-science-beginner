@@ -826,7 +826,7 @@ key: 60e18923e3
 xp: 50
 ```
 
-Ihr verdienter Badge zum erfolgreich absolvierten Kurzeinstieg in R :)
+Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R :)
 ![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/9194e649dcb1fcbcdef15b71e344f1be3883fd18/Kurs%20Badge%202.jpg)
 
 Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die essentieller Bestandteil meiner Masterarbeit ist und nur auf diese Daten ich Zugriff habe und die in die Auswertung einfließen.
