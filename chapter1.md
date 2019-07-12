@@ -612,11 +612,11 @@ xp: 30
 ```
 
 `@instructions`
-Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde des Kundencenters ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
+In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
 
-Nun ist der finale Report für die Tochtergesellschaft fast fertig. Es fehlt nur noch eine eindeutige Benennung, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analysiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende ihres Arbeitstages in Sicht ist.
+Es fehlt nur noch eine eindeutige Benennung für den finalen Report, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analysiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende Ihres Arbeitstages in Sicht ist.
 
-- 3. Bitte benennen Sie den erstellten Report, an der Stelle, wo noch eine eindeutige Benennung fehlt
+- 3. Bitte benennen Sie den erstellten Report an der Stelle, an der eine eindeutige Benennung fehlt.
 	
     - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
