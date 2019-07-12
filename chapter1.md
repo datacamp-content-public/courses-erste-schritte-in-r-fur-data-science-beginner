@@ -87,7 +87,7 @@ Nützliche Operatoren:
 ```yaml
 type: NormalExercise
 key: 20b1df54bc
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -127,48 +127,12 @@ success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 8480000€!")
 
 ```yaml
 type: NormalExercise
-key: 21601bbeab
-xp: 35
-```
-
-`@instructions`
-- 2. Es ist auf den Einkaufspreis von **295005€** im Dezember 2018 für die neuen Drohnenmotoren eine zusätzliche Marge in Höhe von **56050.95€** aufgeschlagen worden. Wie viel Prozent an zusätzlicher Marge wurde aufgeschlagen? Lassen Sie sich bitte das **Ergebnis als Prozentzahl** ausgeben.
-Tipp: Lassen Sie sich nicht abschrecken und verwenden Sie sonst einfach den Tip (HINT)!
-
-`@hint`
-Überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken. 
-
-![Anregung](https://assets.datacamp.com/production/repositories/5035/datasets/76cc29840b27bf2ee87f7eb9b766956be88da898/Hint_Dreisatz.PNG)
-
-Den nächsten Gedanken- und Rechenschritt schaffen Sie nun zur Lösung der Aufgabe selbst! Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
-
-`@sample_code`
-```{r}
-# Ausrechnen der zusätzlichen Marge
-
-```
-
-`@solution`
-```{r}
-56050.95/(295005/100)
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(19, fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe!")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: c6b8ec88ac
-xp: 30
+xp: 50
 ```
 
 `@instructions`
-- 3. Die Umsätze sollen in Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **8480000** am Ende von Q1 an.
+- 2. Die Umsätze sollen in Q2 2019 aufgrund der verzögerten, aber positiven Marktresonanz der Drohnen um **2.2% im Monat** steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 2019 ab? Nehmen Sie den Ausgangswert von **8480000** am Ende von Q1 an.
 
 `@hint`
 Beachten Sie, dass das Wachstum von 2.2% **im Monat** stattfindet und ein Quartal aus drei Monaten besteht. Hier kommt die Zinzeszinsrechnung zur Einsatz - ein exponentielles, kein lineares Wachstum! Achten Sie auch auf die richtige Umrechnung der Prozentzahl.
