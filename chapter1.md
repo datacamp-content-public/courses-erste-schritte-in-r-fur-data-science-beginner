@@ -239,7 +239,6 @@ z <- 15550000
 
 # 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
-
 ```
 
 `@solution`
