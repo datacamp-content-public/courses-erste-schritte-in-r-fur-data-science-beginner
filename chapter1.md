@@ -336,17 +336,19 @@ Entwickeln Sie den Code so, dass ein boolescher Wert (TRUE oder FALSE) ausgegebe
 
 `@sample_code`
 ```{r}
+# 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
 ```
 
 `@solution`
 ```{r}
-
+# 2.Vergleich der Umsätze
+z > (x+y)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
+ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
 success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
 ```
 
