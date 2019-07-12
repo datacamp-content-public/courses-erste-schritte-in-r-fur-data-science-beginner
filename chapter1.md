@@ -260,6 +260,60 @@ success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung v
 
 ---
 
+## Variablen 1
+
+```yaml
+type: TabExercise
+key: fca217ec99
+xp: 100
+```
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. Eine Variable ermöglicht es einen Wert (z.B. 5) oder eine Zeichenkette (z.B. "Funktionsbeschreibung") in R zu speichern. Später können Sie den Namen der Variablen nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018).
+
+- Beispiel: So können Sie der Variable my_var den Wert 5 zuweisen: ```
+my_var <- 5
+```
+
+![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
+
+`@pre_exercise_code`
+```{r}
+z <- 15550000
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 46656ff6c5
+xp: 100
+```
+
+`@instructions`
+Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und ein Forderungsausfall sich in Q1 2019 auch negativ auf den Umsatz auswirkt?
+
+1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000€** und **Q2: 9052083** den Variablen **x** und **y** zu.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Datentypen in R
 
 ```yaml
