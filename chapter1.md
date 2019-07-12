@@ -317,6 +317,7 @@ y <- 9052083
 ```{r}
 ex() %>% check_object("x") %>% check_equal(8480000)
 ex() %>% check_object("y") %>% check_equal(9052083)
+fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
 success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden.")
 ```
 
