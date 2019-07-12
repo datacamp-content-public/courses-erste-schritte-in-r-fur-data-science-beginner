@@ -180,7 +180,7 @@ my_var <- 5
 `@instructions`
 Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und ein Forderungsausfall sich in Q1 2019 auch negativ auf den Umsatz auswirkt?
 
-1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000€** und **Q2: 9052083** den Variablen **x** und **y** zu.
+1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000** und **Q2: 9052083** den Variablen **x** und **y** zu.
 
 2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bzgl. der Aussage einen booleschen Wert (TRUE oder FALSE) ausgeben.
 
@@ -255,7 +255,7 @@ xp: 50
 
 `@instructions`
 Schauen Sie sich bitte zuerst den Datentyp an.
-- 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da in letzter Zeit häufiger dort Fehler aufgetreten sind.
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da dort in letzter Zeit häufig Fehler aufgetreten sind.
 
 `@hint`
 Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Übersichtstabelle in der Zeile **Abfrage (Query)** nach.
@@ -372,7 +372,7 @@ xp: 100
 
 Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
-Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen, gehen Sie wie folgt vor:
 
 ```
 c(1,2,3) oder kürzer c(1:3)
