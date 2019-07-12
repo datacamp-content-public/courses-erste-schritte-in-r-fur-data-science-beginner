@@ -474,7 +474,7 @@ Am Freitag bietet das Kundencentercenter seit einigen Wochen 9h anstatt 8h ihre 
 - 3. Welchen stündlichen Umsatz erwirtschaftet das Center seit der Umstellung auf den neunstündigen Freitag? Lassen Sie sich bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
 
 `@hint`
-Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt und dann müssen Sie noch eine einfache Division durchführen, um auf den stündlichen Umsatz zu kommen - tun Sie dies bitte alles in einem Codekommando.
+Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt und dann müssen Sie noch eine einfache Division durch 9h durchführen, um auf den stündlichen Umsatz zu kommen - tun Sie dies bitte alles in einem Codekommando.
 
 `@sample_code`
 ```{r}
