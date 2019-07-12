@@ -16,12 +16,12 @@ Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Dat
 
 Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da sich diese für die statistische Auswertung besonders gut eignet, frei zugängliche ist und in ihrem Team damit vorrangig gearbeitet wird. 
 
-Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
-
 ![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/8418840c347267ddd6386b647fb0f72336aa910a/Inhalts%C3%BCbersicht.PNG)
 
 
 `@instructions`
+Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
+
 - Wir fangen einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
 
