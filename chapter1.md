@@ -80,7 +80,7 @@ Nützliche Operatoren:
 
 `@pre_exercise_code`
 ```{r}
-Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl. Z.B.: 7 %% 2 ist 1.
+
 ```
 
 ***
@@ -108,7 +108,6 @@ Stellen Sie sicher, dass Sie die Summe aus ```
 `@sample_code`
 ```{r}
 # 1.Quartalsumsatz Q1:
-
 
 ```
 
