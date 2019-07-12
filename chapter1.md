@@ -14,11 +14,11 @@ xp: 100
 
 Sie sind unser/e neue/r Mitarbeiter/in in dem **Team Business Intelligence & Data Analytics der Bambergus Airuber GmbH**, einem Unternehmen das Segelflieger und Motorenflugzeuge produziert und verkauft. Um neue Geschäftsfelder zu erschließen wurde die Firma Airuber GmbH Anfang Q1 2019 akquiriert. Die Firma entwickelt Paketdrohnen und wird ins Stammunternehmen eingegliedert. Sie sollen im Zuge der Akquisition erste Umsatzzahlen analyisieren, bei Fragen und Problemen zur Datenintegration aushelfen und einen Report erstellen. 
 
-Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da sich diese für die statistische Auswertung besonders gut eignet, frei zugängliche ist und in ihrem Team damit vorrangig gearbeitet wird. 
-
-![Hallo](https://assets.datacamp.com/production/repositories/5035/datasets/cc906c27d1847c6005658eed0b4d2f54a01345dc/Bambergus+Inhalt.PNG.png)
+![Inhalt](https://assets.datacamp.com/production/repositories/5035/datasets/cc906c27d1847c6005658eed0b4d2f54a01345dc/Bambergus+Inhalt.PNG.png)
 
 `@instructions`
+Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da sich diese für die statistische Auswertung besonders gut eignet, frei zugängliche ist und in ihrem Team damit vorrangig gearbeitet wird. 
+
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
 - Wir fangen einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
