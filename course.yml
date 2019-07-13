@@ -4,15 +4,21 @@ description: >-
   grundlegendene Eigenschaften in R und bekommen einen kurzen Überblick anhand
   von Anwendungen darüber:
 
+
   1. Rechnen mit R
+
 
   2. Variablen
 
+
   3. Datentypen in R
+
 
   4. Vektoren
 
+
   5. Matrizen
+
 
   6. Data Frames
 programming_language: r
