@@ -389,7 +389,7 @@ Wichtige Befehle:
 ```{r}
 service.time <- c(8,8,8,8,9,6)
 revenue.day <- c(21600, 28000, 33600, 37600, 45990, 19800)
-revenue.friday <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 49800, 55900)
+revenue.tenfridays <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 49800, 55900)
 ```
 
 ***
@@ -469,7 +469,7 @@ xp: 30
 ```
 
 `@instructions`
-Am Freitag bietet das Kundencentercenter seit einigen Wochen 9h anstatt 8h ihre Leistungen an, um den Kundennachfragen gerecht zu werden. Sie haben die Umsatzdaten der nun neunstündigen Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.friday** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Kundencenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
+Am Freitag bietet das Kundencentercenter seit einigen Wochen 9h anstatt 8h ihre Leistungen an, um den Kundennachfragen gerecht zu werden. Sie haben die Umsatzdaten der nun neunstündigen Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.tenfridays** abgelegt. Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Kundencenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
 
 - 3. Welchen stündlichen Umsatz erwirtschaftet das Center seit der Umstellung auf den neunstündigen Freitag? Lassen Sie sich bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
 
@@ -484,7 +484,7 @@ Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt un
 
 `@solution`
 ```{r}
-mean(revenue.friday)/9
+mean(revenue.tenfridays)/9
 ```
 
 `@sct`
