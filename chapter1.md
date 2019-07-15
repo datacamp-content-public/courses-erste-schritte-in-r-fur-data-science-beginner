@@ -672,7 +672,7 @@ Da Sie nun mit Matrizen arbeiten können, hat ihnen Herr Müller einen großen D
 1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
 2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
 3. weil der Datensatz zu groß ist und deswegen nicht geladen werden kann.
-4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern.
+4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern, da es keine Probleme geben wird.
 
 `@hint`
 Schauen Sie sich bitte die Tabelle und **die verschiedenen Datentypen** genau an.
