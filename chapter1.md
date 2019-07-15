@@ -664,7 +664,8 @@ key: 174850fc0b
 xp: 50
 ```
 
-Warum ist es **nicht** möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
+Da Sie nun mit Matrizen arbeiten können, hat ihnen Herr Müller einen großen Datensatz zukommen lassen - Sie sehen aber auf den ersten Blick, dass es damit Probleme zu geben scheint
+- Warum ist es **nicht** möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
 
 ![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
 
