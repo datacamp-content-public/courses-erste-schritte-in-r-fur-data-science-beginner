@@ -531,7 +531,7 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 ```yaml
 type: NormalExercise
 key: b49123677e
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -568,7 +568,7 @@ success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!
 ```yaml
 type: NormalExercise
 key: 18ef5dab58
-xp: 35
+xp: 50
 ```
 
 `@instructions`
@@ -603,57 +603,6 @@ ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]")
 success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
 
-***
-
-```yaml
-type: NormalExercise
-key: ea9fe14e83
-xp: 30
-```
-
-`@instructions`
-In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Servicetage errechnet und dem Report hinzugefügt. Der neue Report wurde der Variablen **report.final** zugeordnet. 
-
-Es fehlt nur noch eine eindeutige Benennung für den finalen Report, damit dem Management auf einen schnellen Blick ersichtlich wird, was dargestellt und analysiert worden ist. Herr Müller lobt Sie, da sie zügig vorankommen und das Ende Ihres Arbeitstages in Sicht ist.
-
-- 3. Bitte benennen Sie den erstellten Report an der Stelle, an der eine eindeutige Benennung fehlt.
-	
-    - **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
-
-`@hint`
-Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Bezeichnungen ```
-Zeichenketten
-``` sind.
-
-`@sample_code`
-```{r}
-# 1.report.weeksales
-report.weeksales <- rbind(sell.time, revenue.day)
-# 2.Ausgabe + Änderung vornehmen
-print(report.weeksales)
-report.weeksales[1,2] <- 8
-# Vektor hinzufügen
-report.final <- rbind(sell.time, revenue.day, average.byday) 
-# 3.Spalten- oder Zeilennamen benennen
-
-```
-
-`@solution`
-```{r}
-# Zeilennamen benennen
-#rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
-# Spaltennamen bennen
-colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
-success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen! Kommen wir nun zum letzten Inhaltsblock dieser Kurzeinführung - den in der stat. Programmierung sehr häufig verwendeten Data Frames.")
-#ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
-#success_msg("Ja, genau! So behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen! Kommen wir nun zum letzten Inhaltsblock dieser Kurzeinführung - den in der stat. Programmierung sehr häufig verwendeten Data Frames.")
-```
-
 ---
 
 ## Matrizen (Q)
@@ -664,8 +613,8 @@ key: 174850fc0b
 xp: 50
 ```
 
-Da Sie nun mit Matrizen arbeiten können, hat ihnen Herr Müller einen großen Datensatz zukommen lassen - Sie sehen aber auf den ersten Blick, dass es damit Probleme zu geben scheint
-- Warum ist es **nicht** möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
+Da Sie nun mit Matrizen arbeiten können, hat Ihnen Herr Müller einen großen Datensatz zukommen lassen - Sie sehen aber auf den ersten Blick, dass es damit Probleme zu geben scheint oder täuschen Sie sich?
+- 3. Warum ist es möglich oder **nicht** möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
 
 ![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
 
