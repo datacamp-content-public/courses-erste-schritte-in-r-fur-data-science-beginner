@@ -296,7 +296,7 @@ xp: 50
 
 `@instructions`
 Da ist wohl bei der Datenintegration im System etwas mit der Zuordnung schief gelaufen.
-- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben. Wenn nicht die Anzahl von **17** hinterlegt ist, tun Sie dies bitte. 
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben. Wenn nicht die Anzahl von **17** hinterlegt ist, sorgen Sie bitte dafür, dass diese Zahl ausgegeben wird. 
 
 Klicken Sie zur Zwischenausgabe auf 'Run Code'.
 
