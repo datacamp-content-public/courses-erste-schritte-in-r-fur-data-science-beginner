@@ -516,7 +516,7 @@ key: b0d2909445
 xp: 100
 ```
 
-Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, ähnlich wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können im Gegensatz zu Vektoren nun **mehrere Zeilen** in ein und derselben Matrix **des gleichen Datentyps** gespeichert werden (de Vries/Meys 2018).
+Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, ähnlich wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können im Gegensatz zu Vektoren nun **mehrere Zeilen** in ein und derselben Matrix **des gleichen Datentyps** gespeichert werden (de Vries und Meys 2018).
 
 Vektoren in einer Matrix (my.matrix) zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.   
