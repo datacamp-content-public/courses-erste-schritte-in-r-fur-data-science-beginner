@@ -516,11 +516,17 @@ Vektoren in einer Matrix zusammenführen:
 - **cbind():** Funktion mit der Vektoren als Spalten zu einer Matrix zusammengefügt werden.
 
 Werte einer Matrix ersetzen:
-- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix zu 5 zu ändern: my.matrix[3,2] <- 8
+- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix zu 5 zu ändern: ```
+my.matrix[3,2] <- 8
+```
 
 Zeilen- und Spaltennamen verändern: 
-- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
-- Spaltennamen verändern: Bsp. **colnames(Matrix)** <- c("Januar", "Februar")
+
+- Zeilennamen verändern: Bsp. ```rownames(Matrix) <- c("Region", "Umsätze")```
+
+- Spaltennamen verändern: Bsp. ```
+colnames(Matrix) <- c("Januar", "Februar")
+```
 
 `@pre_exercise_code`
 ```{r}
