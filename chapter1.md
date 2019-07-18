@@ -394,7 +394,7 @@ str(): Typ eines Vektors bestimmen u. Überblick verschaffen.
 
 mean(): Durchschnitt ausrechnen.
 
-max(): Maximaler Wert.
+max(): Ausgabe maximaler Wert.
 ```
 
 `@pre_exercise_code`
