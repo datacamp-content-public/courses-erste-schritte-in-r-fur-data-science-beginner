@@ -645,7 +645,7 @@ Schauen Sie sich bitte die Tabelle und **die verschiedenen Datentypen** genau an
 `@feedback`
 - Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein! --fast fertig, auf geht es zur letzten Einheit! - 
 - Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
-- Leider nicht richtig, dies ist für R kein Problem.
+- Leider nicht richtig, dies ist in R kein Problem.
 - Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal
 
 ---
