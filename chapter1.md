@@ -406,7 +406,7 @@ xp: 35
 `@instructions`
 Nachdem Sie nun die Personaldaten analysiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen.
 
-Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst eine Stunde verlängert wurde und die Auslastungsrate gering ist. 
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst um eine Stunde verlängert wurde und die Auslastungsrate zurzeit noch gering ist. 
 
 - 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
 
