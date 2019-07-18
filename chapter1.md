@@ -379,13 +379,13 @@ Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen, gehen Sie wi
 
 ```
 c(1,2,3) oder kürzer c(1:3)
-```
 
 Wichtige Befehle:
 
-**str()**: Typ eines Vektors bestimmen und einen Überblick verschaffen.
+**str()**: Typ eines Vektors bestimmen u. Überblick verschaffen.
 
 **mean()**: Durchschnitt ausrechnen.
+```
 
 `@pre_exercise_code`
 ```{r}
