@@ -18,7 +18,7 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 
 ![Inhalt_l](https://assets.datacamp.com/production/repositories/5035/datasets/85c15e1bd4babd4fceb2be3825e291fc99348dc9/Inhalt_l%C3%A4ngs.PNG)
 
-- # diesem Zeichen werden Kommentare gekennzeichnet.
+- **#** diesem Zeichen werden Kommentare gekennzeichnet.
 - **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden. Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus. 
 
 
