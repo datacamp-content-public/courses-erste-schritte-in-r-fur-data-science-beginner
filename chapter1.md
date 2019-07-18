@@ -466,7 +466,7 @@ str(service.time)
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("str(service.time)", "service.time"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(c("str(service.time)", "service.time", "max(service.time)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor und die darin enthaltenen Servicezeiten.")
 ```
 
