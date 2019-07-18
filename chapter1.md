@@ -18,15 +18,15 @@ Im Zuge dieser Anforderungen befassen Sie sich mit der Programmiersprache R, da 
 
 ![Inhalt_l](https://assets.datacamp.com/production/repositories/5035/datasets/85c15e1bd4babd4fceb2be3825e291fc99348dc9/Inhalt_l%C3%A4ngs.PNG)
 
-- **#** Mit diesem Zeichen werden Kommentare gekennzeichnet.
-- **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden. Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code; mit **Submit Answer** führen Sie ihn aus. 
-
-
 `@instructions`
 Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie direkt verschiedene Aufgaben, die zeitnah erledigt werden müssen. Lassen Sie uns beginnen!
 
 - Wir fangen mit einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
+    
+ 
+- **#** Mit diesem Zeichen werden Kommentare gekennzeichnet.
+- **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden. Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code; mit **Submit Answer** führen Sie ihn aus.
 
 `@hint`
 Keine Angst - einfach ```
