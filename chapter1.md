@@ -77,12 +77,7 @@ Nützliche Operatoren:
  Potenzierung: ^
  Modulo: %%
 
- Wichtig: Der Kommaseperator ist in R der Punkt ```
-.
-``` und nicht das Komma ```
-,
-```!
-```
+ Wichtig: Der Kommaseperator ist in R der Punkt . und nicht das Komma ,!
 
 
 `@pre_exercise_code`
