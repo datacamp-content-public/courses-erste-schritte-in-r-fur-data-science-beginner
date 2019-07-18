@@ -515,9 +515,9 @@ Vektoren in einer Matrix zusammenführen:
   ```
 - **cbind():** Funktion mit der Vektoren als Spalten zu einer Matrix zusammengefügt werden.
 
-Werte einer Matrix ersetzen:
+Werte einer Matrix (my.nr) ersetzen:
 - Um den Wert in der dritten Zeile und zweiten Spalte der Matrix zu 8 zu ändern: ```
-matrix[3,2] <- 8
+my.nr[3,2] <- 8
 ```
 
 Zeilen- und Spaltennamen verändern: 
