@@ -493,7 +493,7 @@ mean(revenue.tenfridays)/9
 
 `@sct`
 ```{r}
-ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code! Haben Sie den stündlichen Umsatz berechnet oder den durchschnittlichen Umsatz der neunstündigen Freitage?")
+ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code! Haben Sie den stündlichen Freitagsumsatz berechnen wollen oder den durchschnittlichen Umsatz der neunstündigen Freitage? Beachten Sie zusätzlich, dass Die Umsatzdaten in einem Vektor abgelegt sind.")
 success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist als gerade so profitabel anzusehen! Ein dickes Lob an Sie, Sie lernen schnell - nur noch 2 kurze Einheiten (4/6 abgeschlossen)")
 ```
 
