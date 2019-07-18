@@ -626,7 +626,7 @@ xp: 50
 Da Sie nun mit Matrizen arbeiten können, hat Ihnen Herr Müller einen großen Datensatz zukommen lassen - Sie sehen aber auf den ersten Blick, dass es damit Probleme zu geben scheint oder täuschen Sie sich?
 - 3. Warum ist es möglich oder nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
 
-![Beispiel]()
+![Beispiel](https://assets.datacamp.com/production/repositories/5035/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG)
 
 1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
 2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
