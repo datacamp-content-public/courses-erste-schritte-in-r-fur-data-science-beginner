@@ -380,11 +380,12 @@ Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen, gehen Sie wi
 ```
 c(1,2,3) oder kürzer c(1:3)
 
+
 Wichtige Befehle:
 
-**str()**: Typ eines Vektors bestimmen u. Überblick verschaffen.
+str(): Typ eines Vektors bestimmen u. Überblick verschaffen.
 
-**mean()**: Durchschnitt ausrechnen.
+mean(): Durchschnitt ausrechnen.
 ```
 
 `@pre_exercise_code`
@@ -403,7 +404,7 @@ xp: 35
 ```
 
 `@instructions`
-Nachdem Sie nun die Personaldaten analysiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen. Dieses Center ist für alle Service- und Supportaktivitäten des Unternehmens zuständig.
+Nachdem Sie nun die Personaldaten analysiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen.
 
 Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus, da dieser Tag erst eine Stunde verlängert wurde und die Auslastungsrate gering ist. 
 
