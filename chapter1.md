@@ -522,11 +522,9 @@ my.matrix[3,2] <- 8
 
 Zeilen- und Spaltennamen verändern: 
 
-- Zeilennamen verändern: Bsp. ```rownames(Matrix) <- c("Region", "Umsätze")```
+- Zeilennamen verändern: Bsp. rownames(Matrix) <- c("Region", "Umsätze")
 
-- Spaltennamen verändern: Bsp. ```
-colnames(Matrix) <- c("Januar", "Februar")
-```
+- Spaltennamen verändern: Bsp. colnames(Matrix) <- c("Januar", "Februar")
 
 `@pre_exercise_code`
 ```{r}
