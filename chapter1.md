@@ -393,6 +393,8 @@ Wichtige Befehle:
 str(): Typ eines Vektors bestimmen u. Überblick verschaffen.
 
 mean(): Durchschnitt ausrechnen.
+
+max(): Maximaler Wert.
 ```
 
 `@pre_exercise_code`
