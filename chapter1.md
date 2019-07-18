@@ -748,7 +748,7 @@ summary(Neukundendaten)
 `@sct`
 ```{r}
 ex() %>% check_code(c("str(Neukundendaten)", "summary(Neukundendaten)", "head(Neukundendaten)", "tail(Neukundendaten)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen kompakten Überblick über den Datensatz. Sie haben Ihren Arbeitstag so gut wie geschafft und alle Aufgaben mit höchster Genauigkeit und hohem Engagement absolivert (5.5/6)")
+success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen kompakten Überblick über den Datensatz. Sie haben Ihren Arbeitstag so gut wie geschafft und alle Aufgaben mit höchster Genauigkeit und hohem Engagement absolviert (5.5/6)")
 ```
 
 ---
