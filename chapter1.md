@@ -704,7 +704,7 @@ nrow(Neukundendaten)
 
 `@sct`
 ```{r}
-ex() %>% check_output(98, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheinen")
+ex() %>% check_output(98, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheint")
 success_msg("Hervorragend - so einfach kommt man zu einem Ergebnis!")
 ```
 
