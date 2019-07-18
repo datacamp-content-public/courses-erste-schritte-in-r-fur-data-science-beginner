@@ -767,7 +767,7 @@ Fällt Ihnen bei den **Werten des Servicesumsatzes** etwas auf? Welche Aussage b
 - 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
 - 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
 - 3. Der Maximalwert des Serviceumsatzes ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Fehler in den Daten.
-- 4. Es kommen NA (fehlende Werte) vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere stat. Methoden ersetzt werden.
+- 4. Es kommen NA (fehlende Werte) vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere statistische Methoden ersetzt werden.
 
 `@hint`
 Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mögliche Ausreißerwerte, NA (fehlende Werte), den Mean (der Durchschnitt aller Werte) und den Median (Messwert oder Lageparameter, der genau in der Mitte liegt 50% darunter, 50% darüber).
