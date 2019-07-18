@@ -779,8 +779,8 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 - 4
 
 `@feedback`
-- Nein, diese Aussage trifft zu. Der Median repräsentiert in diesem Fall den durchschnittlichen Umsatz besser als der Mean, da Fehlerwerte den Mean verfälschen. **(6/6 abgeschlossen)**
-- Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht.
+- Nein, diese Aussage trifft zu. Der Median repräsentiert in diesem Fall den durchschnittlichen Umsatz besser als der Mean, da Fehlerwerte den Mean verfälschen. 
+- Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht. **(6/6 abgeschlossen)**
 - Nein, diese Aussage ist richtig. Der Maximalwert kommt sehr unrealistisch vor, wenn man ihn mit dem Median vergleicht und auch die Quartile als Maßstab heranzieht. Es wird sich um einen Fehler in den Daten handeln. 
 - Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
 
