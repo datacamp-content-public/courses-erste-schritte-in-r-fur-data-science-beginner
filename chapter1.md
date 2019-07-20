@@ -794,7 +794,7 @@ xp: 50
 ```
 
 Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R :)
-	![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/b86b311037ba3f52b0e2ab6e8300456057cd1222/Badge_Link3.jpg)
+	![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/ae9c1c52dd42ea23b5294ad7a3ea2f44353ef3de/Badge_Link4.jpg)
 
 Herzlichen Dank für Ihre Teilnahme! 
 
