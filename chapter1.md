@@ -800,7 +800,7 @@ Herzlichen Dank für Ihre Teilnahme!
 
 Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten habe ich Zugriff und auch nur diese fließen in die Auswertung ein. 
 
-					**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
 
 `@hint`
 - Nehmen Sie nun bitte an der Umfrage teil - die Hauptbestandteil meiner Masterarbeit ist: ```
