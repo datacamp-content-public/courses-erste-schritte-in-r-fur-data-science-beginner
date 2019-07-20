@@ -802,7 +802,7 @@ Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebn
 
 `@hint`
 - Nehmen Sie nun bitte an der Umfrage teil - die Hauptbestandteil meiner Masterarbeit ist: ```
-**Link**
+**https://klassikopenair.nuernberg.de/open-air-info/wichtige-hinweise/**
 ```****
 
 `@possible_answers`
