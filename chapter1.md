@@ -794,7 +794,7 @@ xp: 50
 ```
 
 Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R :)
-	![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/27ca6031d1c84e381f7427876d057c28ed01416a/Badge_Link.jpg)
+	![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/ad59b2d940dbd796550b5f5d6debf2fe8d3e0846/Badge_Link2.jpg)
 
 Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten habe ich Zugriff und auch nur diese fließen in die Auswertung ein. 
 
