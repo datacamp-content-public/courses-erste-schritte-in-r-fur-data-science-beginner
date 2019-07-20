@@ -762,7 +762,7 @@ xp: 50
 
 ![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
 
-Fällt Ihnen bei den **Werten des Servicesumsatzes** etwas auf? Welche Aussage bzgl. der Werte der Neukundendaten stimmt **nicht**:
+Fällt Ihnen bei den **Werten des Servicesumsatzes** etwas auf? Welche Aussage bzgl. der tatsächlichen Werte der Neukundendaten stimmt **nicht**:
 - 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
 - 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
 - 3. Der Maximalwert des Serviceumsatzes ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Fehler in den Daten.
