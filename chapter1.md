@@ -798,11 +798,11 @@ Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R 
 
 Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten habe ich Zugriff und auch nur diese fließen in die Auswertung ein. 
 
-**Link**
+**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
 
 `@hint`
 - Nehmen Sie nun bitte an der Umfrage teil - die Hauptbestandteil meiner Masterarbeit ist: ```
-**Link**
+**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
 ```****
 
 `@possible_answers`
@@ -811,6 +811,6 @@ Herzlichen Dank für Ihre Teilnahme - ich hoffe, Sie hatten ein gutes Lernerlebn
 - [3]
 
 `@feedback`
-- Link
-- Link
-- Link
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
